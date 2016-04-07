@@ -1,0 +1,39 @@
+<!DocTypE hTmL>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Demo App for require-handlebars-plugin</title>
+</head>
+<body>
+<div id="demo-app-container"></div>
+
+<!-- If you set the require variable to an object, it automatically is the config :D -->
+<script>require = {
+  locale : "en_ca",
+  hbs : {
+    // default plugin settings, listing here just as a reference
+    templateExtension : 'hbs',
+    helperDirectory : 'template/helpers/',
+
+    // specifies what module the compiled template functions should ask for
+    // in their define() dependency list. It could be hbs/handlebars or
+    // hbs/handlebars.runtime or your own handlebars
+    handlebarsPath: 'handlebars'
+  },
+  paths  : {
+    // I change the path as to not duplicate the hbs.js and handlebars plugin.
+    // Normally, just drop it in the same place as require.js and it'll work fine.
+    // Essentially just ignore this.
+    'hbs' : '../hbs',
+
+    // Compiled templates will be loading 'handlebars' because of the handlebarsPath
+    // set above so point that to the runtime handlebars. It could be hbs/handlebars
+    // but that is really only needed by hbs.js, plus requirejs makes you only have
+    // one reference to an anonymous module
+    'handlebars': '../hbs/handlebars.runtime'
+  }
+};</script>
+<!-- use a common require.js and app injection method. -->
+<script src="demo/require.js" data-main="demo/main.js"></script>
+</body>
+</html>
