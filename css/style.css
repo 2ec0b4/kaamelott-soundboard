@@ -1,0 +1,213 @@
+/**
+ * GLOBAL
+ * TEXT SELECT
+ * CLEARFIX
+ * FONT FACES
+ * ELEMENTS
+ * USEFUL CLASSES
+ * HEADER
+ * NAVIGATION
+ * FOOTER
+ * GENERAL
+ * MEDIA QUERIES
+ */
+
+
+/**
+ * GLOBAL
+ * -----------------------------------------------------------------------------
+ */
+ * {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+ html {
+     font-size: 16px;
+     overflow-x: hidden;
+ }
+ body {
+     background: #fff;
+     color: #131313;
+     font-family: 'Helvetica Neue', Helvetica, sans-serif;
+     font-size: 100%;
+     font-weight: 300;
+     line-height: 1.3;
+     overflow-x: hidden;
+     position: relative;
+     /**/
+     -webkit-font-smoothing: antialiased;
+ }
+ /**
+  * TEXT SELECT
+  * -----------------------------------------------------------------------------
+  */
+ ::-moz-selection {
+     background: red;
+     color: #fff;
+     text-shadow: none;
+ }
+ ::selection {
+     background: red;
+     color: #fff;
+     text-shadow: none;
+ }
+ ::-moz-selection {
+     background: red;
+     color: #fff;
+     text-shadow: none;
+ }
+ /**
+  * CLEARFIX
+  * -----------------------------------------------------------------------------
+  */
+ .clearfix:after {
+     clear: both;
+     content: " ";
+     display: block;
+     font-size: 0;
+     height: 0;
+     visibility: hidden;
+ }
+ .clearfix {
+     display: inline-block;
+ }
+ * html .clearfix {
+     height: 1%;
+ }
+ .clearfix {
+     display: block;
+ }
+ /**
+  * FONT FACES
+  * -----------------------------------------------------------------------------
+  */
+ /**
+  * ELEMENTS
+  * -----------------------------------------------------------------------------
+  */
+ p {
+ 	margin: 0 0 15px;
+ }
+ ul {
+ 	list-style: disc outside;
+ 	margin: 0 0 15px;
+ 	padding: 0 0 0 15px;
+ }
+ ol {
+ 	list-style: outside decimal;
+ 	margin: 0 0 15px 20px;
+ 	padding: 0;
+ }
+ img {
+ 	height: auto;
+ 	max-width: 100%;
+ }
+ em {
+ 	font-style: italic;
+ }
+ strong {
+ 	font-weight: bold;
+ }
+ a:link {
+ 	color: red;
+ 	font-weight: 600;
+ 	text-decoration: underline;
+ }
+ a:visited {
+ 	color: red;
+ 	font-weight: 300;
+ }
+ a:hover,a:active,a:focus {
+ 	text-decoration: none;
+ }
+ ::-webkit-input-placeholder {
+ opacity:1;
+ }
+ :-moz-placeholder {
+ opacity:1;
+ }
+ ::-moz-placeholder {
+ opacity:1;
+ }
+ :-ms-input-placeholder {
+ opacity:1;
+ }
+ td {
+     vertical-align: top;
+ }
+ /**
+  * USEFUL CLASSES
+  * -----------------------------------------------------------------------------
+  */
+
+ /*
+ STRUCTURE
+ */
+ .centred {
+     margin: 0 auto;
+     max-width: 1200px;
+     padding: 0 15px;
+ }
+ .table {
+     display: table;
+     table-layout: fixed;
+     width: 100%;
+ }
+.table-row {
+    display: table-row;
+}
+ .table-cell {
+     display: table-cell;
+     vertical-align: top;
+ }
+.vmid {
+    vertical-align: middle;
+}
+ .relative {
+     position: relative;
+ }
+ /*
+ TEXT
+ */
+ .font-light {
+     font-weight: 300;
+ }
+ .font-normal {
+     font-weight: normal;
+ }
+ .font-medium {
+     font-weight: 600;
+ }
+ .font-heavy {
+     font-weight: 900;
+ }
+ .font-bold {
+     font-weight: bold;
+ }
+ .text-center {
+     text-align: center;
+ }
+ .text-right {
+     text-align: right;
+ }
+/**
+ * HEADER
+ * -----------------------------------------------------------------------------
+ */
+/**
+ * NAVIGATION
+ * -----------------------------------------------------------------------------
+ */
+/**
+* FOOTER
+* -----------------------------------------------------------------------------
+*/
+/**
+* GENERAL
+* -----------------------------------------------------------------------------
+*/
+/**
+ * MEDIA QUERIES
+ * -----------------------------------------------------------------------------
+ */
