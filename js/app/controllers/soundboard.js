@@ -2,12 +2,16 @@ define(
     'controllers/soundboard',
     [
         'marionette',
+        'radios/sounds',
         'views/soundboard'
     ],
-    function (Marionette, SoundboardView) {
+    function (Marionette, SoundsRadio, SoundboardView) {
         "use strict";
 
-        var SoundboardController = Marionette.Controller.extend({
+        var SoundboardController = Marionette.Object.extend({
+            initialize: function() {
+                this.soundsRadio    = new SoundsRadio();
+            },
             index: function() {
                 var currentView = App.getRegion('app').currentView;
 

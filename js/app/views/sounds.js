@@ -2,10 +2,11 @@ define(
     'views/sounds',
     [
         'marionette',
-        'jquery',
+        'backbone.radio',
+        'underscore',
         'hbs!templates/sounds'
     ],
-    function (Marionette, $, SoundListTemplate) {
+    function (Marionette, Radio, _, SoundListTemplate) {
         "use strict";
 
         var SoundListView = Marionette.LayoutView.extend({
@@ -15,10 +16,12 @@ define(
 
                 this.data = {};
 
-                $.get('/sounds/sounds.json', function(json) {
-                    that.data.sounds    = json;
-                    that.render();
-                });
+                this.channel    = Radio.channel('Sounds');
+                this.channel.request('getSounds')
+                    .then(function (sounds) {
+                        that.data.sounds    = sounds;
+                        that.render();
+                    });
             },
             serializeData: function () {
                 var viewData = {data: this.data};

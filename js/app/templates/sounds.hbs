@@ -1,3 +1,7 @@
+<ul>
 {{#each data.sounds}}
-    {{title}}
+    <li data-character="{{character}}" data-file="{{file}}">
+        <a href="#">{{title}}</a>
+    </li>
 {{/each}}
+</ul>
