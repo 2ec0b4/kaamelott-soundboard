@@ -11,7 +11,7 @@ define(
         "use strict";
 
         var SoundListView = Marionette.LayoutView.extend({
-            collection : new SoundsCollection(),
+            collection: new SoundsCollection(),
             template: SoundListTemplate,
             ui: {
                 soundItem: 'li a'
@@ -39,8 +39,15 @@ define(
 
                 e.preventDefault();
 
+                this.stopCurrentPlay();
+
                 if( sound ) {
-                    sound.play();
+                    this.currentPlay   = sound.play();
+                }
+            },
+            stopCurrentPlay: function() {
+                if( this.currentPlay && !this.currentPlay.paused ) {
+                    this.currentPlay.pause();
                 }
             },
             serializeData: function () {

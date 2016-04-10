@@ -15,7 +15,9 @@ define(
             play: function() {
                 var audio = new Audio('sounds/'+this.attributes.file);
 
-                return audio.play();
+                audio.play();
+
+                return audio;
             }
         });
 
