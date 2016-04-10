@@ -11,6 +11,11 @@ define(
                 title: "",
                 character: "",
                 file: ""
+            },
+            play: function() {
+                var audio = new Audio('sounds/'+this.attributes.file);
+
+                return audio.play();
             }
         });
 
