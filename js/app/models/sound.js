@@ -7,17 +7,22 @@ define(
         "use strict";
 
         var Sound = Backbone.Model.extend({
+            audio: null,
             defaults: {
                 title: "",
                 character: "",
                 file: ""
             },
             play: function() {
-                var audio = new Audio('sounds/'+this.attributes.file);
+                this.audio = new Audio('sounds/'+this.attributes.file);
+                this.audio.play();
 
-                audio.play();
-
-                return audio;
+                return this;
+            },
+            stop: function() {
+                if( this.audio && !this.audio.paused ) {
+                    this.audio.pause();
+                }
             }
         });
 

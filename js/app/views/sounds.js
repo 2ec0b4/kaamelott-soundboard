@@ -39,15 +39,15 @@ define(
 
                 e.preventDefault();
 
-                this.stopCurrentPlay();
+                this.stopCurrentSound();
 
                 if( sound ) {
-                    this.currentPlay   = sound.play();
+                    this.currentSound   = sound.play();
                 }
             },
-            stopCurrentPlay: function() {
-                if( this.currentPlay && !this.currentPlay.paused ) {
-                    this.currentPlay.pause();
+            stopCurrentSound: function() {
+                if( this.currentSound ) {
+                    this.currentSound.stop();
                 }
             },
             serializeData: function () {
