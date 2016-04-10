@@ -10,15 +10,17 @@ define(
         var SoundSearchView = Marionette.LayoutView.extend({
             template: SoundSearchTemplate,
             ui: {
-                searchForm:'form',
-                searchField:'form input[name="s"]',
+                searchForm: 'form',
+                searchField: 'form input[name="s"]'
             },
             events: {
-                'submit @ui.searchForm':'filterSounds',
-                'keyup @ui.searchField':'filterSounds'
+                'submit @ui.searchForm': 'filterSounds',
+                'keyup @ui.searchField': 'filterSounds'
             },
-            filterSounds: function() {
+            filterSounds: function(e) {
                 var search  = $(this.ui.searchField).val();
+
+                e.preventDefault();
             }
         });
 
