@@ -6,7 +6,7 @@ define(
         'views/sounds',
         'hbs!templates/soundboard'
     ],
-    function (Marionette, SoundSearchView, SoundListView, SoundboardTemplate) {
+    function (Marionette, SoundSearchView, SoundsView, SoundboardTemplate) {
         "use strict";
 
         var SoundboardView = Marionette.LayoutView.extend({
@@ -18,7 +18,7 @@ define(
             onShow: function() {
 
                 this.showChildView('search', new SoundSearchView());
-                this.showChildView('list', new SoundListView());
+                this.showChildView('list', new SoundsView());
 
             }
         });

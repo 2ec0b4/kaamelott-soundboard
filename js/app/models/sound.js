@@ -11,18 +11,24 @@ define(
             defaults: {
                 title: "",
                 character: "",
-                file: ""
+                file: "",
+                playing: false
             },
             play: function() {
-                this.audio = new Audio('sounds/'+this.attributes.file);
-                this.audio.play();
+                if( !this.audio ) {
+                    this.audio = new Audio('sounds/'+this.attributes.file);
+                }
 
-                return this;
+                this.audio.play();
+                this.attributes.playing    = true;
             },
             stop: function() {
                 if( this.audio && !this.audio.paused ) {
                     this.audio.pause();
+                    this.audio.load();
                 }
+
+                this.attributes.playing    = false;
             }
         });
 

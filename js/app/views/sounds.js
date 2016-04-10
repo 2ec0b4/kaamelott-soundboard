@@ -5,19 +5,17 @@ define(
         'backbone.radio',
         'underscore',
         'collections/sounds',
-        'hbs!templates/sounds'
+        'views/sound'
     ],
-    function (Marionette, Radio, _, SoundsCollection, SoundListTemplate) {
+    function (Marionette, Radio, _, SoundsCollection, SoundView) {
         "use strict";
 
-        var SoundListView = Marionette.LayoutView.extend({
+        var SoundsCollectionView = Marionette.CollectionView.extend({
+            childView: SoundView,
             collection: new SoundsCollection(),
-            template: SoundListTemplate,
-            ui: {
-                soundItem: 'li a'
-            },
-            events: {
-                'click @ui.soundItem': 'playSound'
+            tagName: 'ul',
+            childEvents: {
+                'sound:play': 'stopPlayingSound'
             },
             initialize: function() {
                 var that    = this;
@@ -33,29 +31,19 @@ define(
                         that.render();
                     });
             },
-            playSound: function(e) {
-                var index = $(e.currentTarget).attr('data-sound'),
-                    sound = this.collection.at(index);
+            stopPlayingSound: function() {
+                var playingSound    = this.collection.findWhere({playing: true});
 
-                e.preventDefault();
-
-                this.stopCurrentSound();
-
-                if( sound ) {
-                    this.currentSound   = sound.play();
-                }
-            },
-            stopCurrentSound: function() {
-                if( this.currentSound ) {
-                    this.currentSound.stop();
+                if( playingSound ) {
+                    playingSound.stop();
                 }
             },
             serializeData: function () {
                 var viewData = {data: this.data};
 
-                return _.extend(viewData, Marionette.LayoutView.prototype.serializeData.apply(this, arguments));
+                return _.extend(viewData, Marionette.CollectionView.prototype.serializeData.apply(this, arguments));
             }
         });
 
-        return SoundListView;
+        return SoundsCollectionView;
 });
