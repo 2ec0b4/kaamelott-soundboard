@@ -8,6 +8,7 @@
  * HEADER
  * NAVIGATION
  * FOOTER
+ * FORM
  * GENERAL
  * MEDIA QUERIES
  */
@@ -24,17 +25,14 @@
  }
  html {
      font-size: 16px;
-     overflow-x: hidden;
  }
  body {
-     background: #fff;
-     color: #131313;
+     background: #3F3552;
+     color: #FEFDFD;
      font-family: 'Helvetica Neue', Helvetica, sans-serif;
      font-size: 100%;
      font-weight: 300;
      line-height: 1.3;
-     overflow-x: hidden;
-     position: relative;
      /**/
      -webkit-font-smoothing: antialiased;
  }
@@ -43,18 +41,18 @@
   * -----------------------------------------------------------------------------
   */
  ::-moz-selection {
-     background: red;
-     color: #fff;
+     background: #CB4D59;
+     color: #FEFDFD;
      text-shadow: none;
  }
  ::selection {
-     background: red;
-     color: #fff;
+     background: #CB4D59;
+     color: #FEFDFD;
      text-shadow: none;
  }
  ::-moz-selection {
-     background: red;
-     color: #fff;
+     background: #CB4D59;
+     color: #FEFDFD;
      text-shadow: none;
  }
  /**
@@ -110,12 +108,12 @@
  	font-weight: bold;
  }
  a:link {
- 	color: red;
+ 	color: #CB4D59;
  	font-weight: 600;
  	text-decoration: underline;
  }
  a:visited {
- 	color: red;
+ 	color: #CB4D59;
  	font-weight: 300;
  }
  a:hover,a:active,a:focus {
@@ -140,61 +138,13 @@
   * USEFUL CLASSES
   * -----------------------------------------------------------------------------
   */
-
- /*
- STRUCTURE
- */
- .centred {
-     margin: 0 auto;
-     max-width: 1200px;
-     padding: 0 15px;
- }
- .table {
-     display: table;
-     table-layout: fixed;
-     width: 100%;
- }
-.table-row {
-    display: table-row;
-}
- .table-cell {
-     display: table-cell;
-     vertical-align: top;
- }
-.vmid {
-    vertical-align: middle;
-}
- .relative {
-     position: relative;
- }
- /*
- TEXT
- */
- .font-light {
-     font-weight: 300;
- }
- .font-normal {
-     font-weight: normal;
- }
- .font-medium {
-     font-weight: 600;
- }
- .font-heavy {
-     font-weight: 900;
- }
- .font-bold {
-     font-weight: bold;
- }
- .text-center {
-     text-align: center;
- }
- .text-right {
-     text-align: right;
- }
 /**
  * HEADER
  * -----------------------------------------------------------------------------
  */
+ header h1 {
+     text-align: center;
+ }
 /**
  * NAVIGATION
  * -----------------------------------------------------------------------------
@@ -204,10 +154,111 @@
 * -----------------------------------------------------------------------------
 */
 /**
+* FORM
+* -----------------------------------------------------------------------------
+*/
+label {
+    display: block;
+    font-weight: 700;
+    margin: 0 0 5px;
+    padding: 0 5px;
+    max-width: 100%;
+}
+select, input, textarea {
+    background: #FFFFFF;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+}
+select, input {
+    height: 34px;
+}
+button,
+.btn {
+    -moz-user-select: none;
+    background: #CB4D59;
+    border: 1px solid #CB4D59;
+    border-radius: 4px;
+    color: #FEFDFD;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 5px;
+    padding: 6px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    /**/
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+button:hover, button:active, button:focus,
+.btn:hover, .btn:active, .btn:focus {
+    background: #CB4D59;
+    color: #FEFDFD;
+    outline: 0 none;
+}
+/**
 * GENERAL
 * -----------------------------------------------------------------------------
 */
+#app {
+    width: 90%;
+    margin: auto;
+}
+#search {
+
+}
+#list ul {
+    list-style-type: none;
+    margin: 2em 0 0;
+    padding: 0;
+    text-align: center;
+}
+#list ul li {
+    display: inline-block;
+    height: 2.3em;
+    line-height: 2.3em;
+    margin: 0 0 2em 0;
+}
+#list ul li a {
+    background: #18AE90;
+    border-bottom: 3px solid #017F66;
+    color: #FEFDFD;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+#list ul li a:active {
+    margin-top: 2px;
+    border-bottom: 1px solid #18AE90;
+}
+
 /**
  * MEDIA QUERIES
  * -----------------------------------------------------------------------------
  */
+@media only screen and (min-width:768px){
+    #list ul li {
+        width: 46%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+@media only screen and (min-width:1024px){
+    #list ul li {
+        width: 370px;
+    }
+}
