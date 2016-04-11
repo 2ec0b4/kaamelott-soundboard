@@ -16,11 +16,12 @@ define(
             },
             play: function() {
                 if( !this.audio ) {
-                    this.audio = new Audio('sounds/'+this.attributes.file);
+                    this.audio = new Audio('sounds/'+this.get('file'));
                 }
 
                 this.audio.play();
-                this.attributes.playing    = true;
+
+                this.set('playing', true);
             },
             stop: function() {
                 if( this.audio && !this.audio.paused ) {
@@ -28,7 +29,7 @@ define(
                     this.audio.load();
                 }
 
-                this.attributes.playing    = false;
+                this.set('playing', false);
             }
         });
 
