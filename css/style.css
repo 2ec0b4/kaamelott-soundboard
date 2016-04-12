@@ -10,6 +10,7 @@
  * FOOTER
  * FORM
  * GENERAL
+ * ANIMATIONS
  * MEDIA QUERIES
  */
 
@@ -190,18 +191,11 @@ button,
     font-size: 14px;
     font-weight: 400;
     line-height: 1.42857;
-    margin-bottom: 5px;
     padding: 6px 12px;
     text-align: center;
     text-transform: uppercase;
     vertical-align: middle;
     white-space: nowrap;
-    /**/
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
 }
 button:hover, button:active, button:focus,
 .btn:hover, .btn:active, .btn:focus {
@@ -231,25 +225,48 @@ button:hover, button:active, button:focus,
     height: 2.3em;
     line-height: 2.3em;
     margin: 0 0 2em 0;
+    position: relative;
+}
+#list ul li a:before {
+    content: "▶︎";
+    font-size: 1.1em;
+    position: absolute;
+    left: 10px;
 }
 #list ul li a {
     background: #18AE90;
     border-bottom: 3px solid #017F66;
     color: #FEFDFD;
     display: inline-block;
+    outline: 0 none;
+    overflow: hidden;
+    padding: 0 35px;
     text-align: center;
     text-decoration: none;
+    text-overflow: ellipsis;
+	white-space: nowrap;
     width: 100%;
 }
 #list ul li a:active {
-    margin-top: 2px;
     border-bottom: 1px solid #18AE90;
+    position: relative;
+    top: 2px;
 }
-
+/**
+ * ANIMATIONS
+ * -----------------------------------------------------------------------------
+ */
 /**
  * MEDIA QUERIES
  * -----------------------------------------------------------------------------
  */
+@media only screen and (max-width:767px){
+    #list ul li {
+        width: 95%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
 @media only screen and (min-width:768px){
     #list ul li {
         width: 46%;
