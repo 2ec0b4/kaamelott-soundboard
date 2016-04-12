@@ -16,7 +16,7 @@ define(
                     return this;
                 }
 
-                var pattern = new RegExp('^'+search, 'gi');
+                var pattern = new RegExp(search, 'gi');
                 return new Sounds(this.filter(function(data) {
                     return pattern.test(data.get('title'));
                 }));

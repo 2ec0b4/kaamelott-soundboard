@@ -20,22 +20,24 @@ define(
             initialize: function() {
                 var that    = this;
 
-                this.data = {};
+                this.data = {
+                    collection: this.collection
+                };
 
                 this.channel    = Radio.channel('Sounds');
-                this.channel.request('getSounds')
-                    .then(function(sounds) {
-                        that.collection     = new SoundsCollection(sounds);
-                        that.data.sounds    = that.collection.toJSON();
+                this.channel.request('getSounds').then(this.initCollection.bind(this));
+                this.channel.on('sounds:filter', this.filterCollection.bind(this));
+            },
+            initCollection: function(sounds) {
+                this.data.collection    = new SoundsCollection(sounds);
+                this.collection         = this.data.collection;
 
-                        that.render();
-                    });
+                this.render();
+            },
+            filterCollection: function(search) {
+                this.collection     = this.data.collection.filterByTitle(search);
 
-                this.channel.on('sounds:filter', function(search) {
-                    that.data.sounds    = that.collection.filterByTitle(search).toJSON();
-
-                    that.render();
-                });
+                this.render();
             },
             stopPlayingSound: function() {
                 var playingSound    = this.collection.findWhere({playing: true});
@@ -43,11 +45,6 @@ define(
                 if( playingSound ) {
                     playingSound.stop();
                 }
-            },
-            serializeData: function () {
-                var viewData = {data: this.data};
-
-                return _.extend(viewData, Marionette.CollectionView.prototype.serializeData.apply(this, arguments));
             }
         });
 
