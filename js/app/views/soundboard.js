@@ -2,22 +2,22 @@ define(
     'views/soundboard',
     [
         'marionette',
-        'views/search',
+        'views/filter',
         'views/sounds',
         'hbs!templates/soundboard'
     ],
-    function (Marionette, SoundSearchView, SoundsView, SoundboardTemplate) {
+    function (Marionette, SoundsFilterView, SoundsView, SoundboardTemplate) {
         "use strict";
 
         var SoundboardView = Marionette.LayoutView.extend({
             template: SoundboardTemplate,
             regions: {
-                'search': '#search',
+                'filter': '#filter',
                 'list': '#list'
             },
             onShow: function() {
 
-                this.showChildView('search', new SoundSearchView());
+                this.showChildView('filter', new SoundsFilterView());
                 this.showChildView('list', new SoundsView());
 
             }
