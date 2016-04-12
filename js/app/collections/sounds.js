@@ -11,13 +11,13 @@ define(
         var Sounds = Backbone.Collection.extend({
             model: Sound,
             url: 'sounds/sounds.json',
-            search : function(search){
+            filterByTitle: function(search){
                 if( search == "" ) {
                     return this;
                 }
 
                 var pattern = new RegExp('^'+search, 'gi');
-                return _(this.filter(function(data) {
+                return new Sounds(this.filter(function(data) {
                     return pattern.test(data.get('title'));
                 }));
             }

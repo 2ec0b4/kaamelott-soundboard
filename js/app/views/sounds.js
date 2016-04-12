@@ -30,6 +30,12 @@ define(
 
                         that.render();
                     });
+
+                this.channel.on('sounds:filter', function(search) {
+                    that.data.sounds    = that.collection.filterByTitle(search).toJSON();
+
+                    that.render();
+                });
             },
             stopPlayingSound: function() {
                 var playingSound    = this.collection.findWhere({playing: true});
