@@ -248,9 +248,8 @@ button:hover, button:active, button:focus,
     width: 100%;
 }
 #list ul li a:active {
-    border-bottom: 1px solid #18AE90;
-    position: relative;
-    top: 2px;
+    border-bottom: 0;
+    margin-top: 3px;
 }
 /**
  * ANIMATIONS
