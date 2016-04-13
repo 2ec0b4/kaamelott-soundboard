@@ -8,5 +8,20 @@
         "title": "Interprète",
         "character": "Arthur - Le Roi Burgonde",
         "file": "interprete.mp3"
+    },
+    {
+        "title": "Je ne mange pas de graines",
+        "character": "Le Maître d’armes",
+        "file": "je_ne_mange_pas_de_graine.mp3"
+    },
+    {
+        "title": "Putain il est fort ce con",
+        "character": "Merlin",
+        "file": "putain_il_est_fort_ce_con.mp3"
+    },
+    {
+        "title": "Mais je vous emmerde mon p'tit pote",
+        "character": "Arthur",
+        "file": "mais_je_vous_emmerde_mon_ptit_pote.mp3"
     }
 ]
