@@ -312,25 +312,25 @@ header h1 {
 * FORM
 * -----------------------------------------------------------------------------
 */
-input {
+input[type="text"] {
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-radius: 0;
+    box-shadow: none;
     color: #555;
     display: inline-block;
     font-size: 14px;
+    height: 34px;
     line-height: 1.42857;
     padding: 6px 12px;
 }
-input {
-    height: 34px;
-}
 .btn, .btn:hover, .btn:focus,
 a.btn, a.btn:hover, a.btn:focus {
-    -moz-user-select: none;
     background-color: #CB4D59;
+    background-image: none;
     border: 0;
     border-bottom: 3px solid #8B121E;
+    border-radius: 0;
     color: #FEFDFD;
     cursor: pointer;
     display: inline-block;
@@ -343,6 +343,8 @@ a.btn, a.btn:hover, a.btn:focus {
     text-decoration: none;
     vertical-align: top;
     white-space: nowrap;
+    -moz-user-select: none;
+    -webkit-appearance: none;
 }
 .btn-play, .btn-play:hover, .btn-play:focus,
 a.btn-play, a.btn-play:hover, a.btn-play:focus {
@@ -383,6 +385,7 @@ a.btn:active {
     overflow: hidden;
 }
 #filter input + .btn {
+    height: 34px;
     left: -5px;
     position: relative;
 }
@@ -408,6 +411,15 @@ a.btn:active {
 * MEDIA QUERIES
 * -----------------------------------------------------------------------------
 */
+@media only screen and (max-width:320px){
+    input[type="text"] {
+        width: 60%;
+    }
+    .btn, .btn:hover, .btn:focus,
+    a.btn, a.btn:hover, a.btn:focus {
+        width: 30%;
+    }
+}
 @media only screen and (max-width:767px){
     #list ul li {
         width: 95%;
