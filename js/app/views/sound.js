@@ -16,14 +16,30 @@ define(
                 soundItem: 'a'
             },
             events: {
-                'click @ui.soundItem': 'playSound'
+                'click @ui.soundItem': 'toggleSound'
             },
-            playSound: function(e) {
+            initialize: function() {
+                this.listenTo(this.model, "change:playing", this.playingAttributeChanged);
+            },
+            toggleSound: function(e) {
                 e.preventDefault();
 
-                this.trigger('sound:play');
+                if( this.model.get('playing') ) {
+                    this.trigger('sound:stop');
 
-                this.model.play();
+                    this.model.stop();
+                } else {
+                    this.trigger('sound:play');
+
+                    this.model.play();
+                }
+            },
+            playingAttributeChanged: function() {
+                if( this.model.get('playing') ) {
+                    $(this.ui.soundItem).addClass('playing');
+                } else {
+                    $(this.ui.soundItem).removeClass('playing');
+                }
             }
         });
 

@@ -20,6 +20,8 @@ define(
                 }
 
                 this.audio.play();
+                this.audio.onended = this.stop.bind(this);
+                this.audio.onpause = this.stop.bind(this);
 
                 this.set('playing', true);
             },

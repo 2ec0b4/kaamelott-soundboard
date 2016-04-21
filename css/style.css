@@ -359,6 +359,11 @@ a.btn-play:before {
     position: absolute;
     left: 10px;
 }
+a.btn-play.playing:before {
+    content: "▩";
+    font-size: 1.2em;
+    top: 7px;
+}
 .btn:active,
 a.btn:active {
     top:3px;
