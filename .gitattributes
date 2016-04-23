@@ -1,0 +1,10 @@
+# Autodetect text files
+* text=auto
+
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.* text eol=lf
+
+*.mp3 binary
+
+/Audacity           export-ignore
+/README.md          export-ignore
