@@ -2,26 +2,31 @@
     {
         "title": "C'est pas faux",
         "character": "Perceval",
+        "episode": "Livre I, 28 - La Botte Secrète",
         "file": "cest_pas_faux.mp3"
     },
     {
         "title": "Interprète",
         "character": "Arthur - Le Roi Burgonde",
+        "episode": "Livre II, 03 - Le Dialogue de Paix",
         "file": "interprete.mp3"
     },
     {
         "title": "Je ne mange pas de graines",
         "character": "Le Maître d’armes",
+        "episode": "Livre II, 26 - Corpore sano",
         "file": "je_ne_mange_pas_de_graine.mp3"
     },
     {
         "title": "Putain il est fort ce con",
         "character": "Merlin",
+        "episode": "Livre I, 15 - Les Défis de Merlin",
         "file": "putain_il_est_fort_ce_con.mp3"
     },
     {
         "title": "Mais je vous emmerde mon p'tit pote",
         "character": "Arthur",
+        "episode": "Livre II, 12 - Les Classes de Bohort",
         "file": "mais_je_vous_emmerde_mon_ptit_pote.mp3"
     }
 ]

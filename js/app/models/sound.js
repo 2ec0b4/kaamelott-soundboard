@@ -11,6 +11,7 @@ define(
             defaults: {
                 title: "",
                 character: "",
+                episode: "",
                 file: "",
                 playing: false
             },
