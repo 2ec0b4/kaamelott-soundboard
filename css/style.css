@@ -351,7 +351,7 @@ a.btn-play, a.btn-play:hover, a.btn-play:focus {
     background: #18AE90;
     border: 1px solid #18AE90;
     border-bottom: 3px solid #017F66;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 a.btn-play:before {
     content: "▶︎";
