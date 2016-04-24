@@ -1,0 +1,167 @@
+# ------------------------------------------------------------------------------
+# | UTF-8 encoding |
+# ------------------------------------------------------------------------------
+
+<IfModule mod_mime.c>
+    AddCharset utf-8 .atom .scss .css .js .json .jsonld .rss .vtt .webapp .xml .txt
+</IfModule>
+
+
+
+# ------------------------------------------------------------------------------
+# | Additionnal charset/types/etc. |
+# ------------------------------------------------------------------------------
+
+
+<IfModule mod_mime.c>
+
+  # Audio
+    AddType audio/mp4 m4a f4a f4b
+    AddType audio/mpeg mp3
+    AddType audio/ogg oga ogg opus
+    AddType audio/wav wav
+    AddType audio/webm webma
+
+  # Data interchange
+    AddType application/json json map
+    AddType application/ld+json jsonld
+
+  # JavaScript
+    # Normalize to standard type.
+    # http://tools.ietf.org/html/rfc4329#section-7.2
+    AddType application/javascript js
+
+  # Video
+    AddType video/mp4 f4v f4p m4v mp4
+    AddType video/ogg ogv
+    AddType video/webm webm
+    AddType video/x-flv flv
+
+  # Web fonts
+    AddType application/font-woff woff
+    AddType application/vnd.ms-fontobject eot
+    AddType application/x-font-ttf ttc ttf
+    AddType application/x-font-woff woff
+    AddType application/font-woff2 .woff2
+    AddType font/opentype otf
+
+
+    # Make SVGZ fonts work on the iPad.
+    # https://twitter.com/FontSquirrel/status/14855840545
+    AddType image/svg+xml svgz
+    AddEncoding gzip svgz
+
+  # Other
+    AddType application/octet-stream safariextz
+    AddType application/x-chrome-extension crx
+    AddType application/x-opera-extension oex
+    AddType application/x-web-app-manifest+json webapp
+    AddType application/x-xpinstall xpi
+    AddType application/xml atom rdf rss xml
+    AddType image/webp webp
+    AddType image/x-icon cur
+    AddType image/x-icon .ico
+    AddType text/cache-manifest appcache manifest
+    AddType text/css .css
+    AddType image/svg+xml svg
+    AddType text/vtt vtt
+    AddType text/x-component htc
+    AddType text/x-vcard vcf
+    AddType application/vnd.openxmlformats .docx .pptx .xlsx .xltx . xltm .dotx .potx .ppsx
+
+
+</IfModule>
+
+
+
+# ------------------------------------------------------------------------------
+# | Compression |
+# ------------------------------------------------------------------------------
+
+<IfModule mod_deflate.c>
+    AddOutputFilter INCLUDES;DEFLATE js
+    AddOutputFilter INCLUDES;DEFLATE css
+    AddOutputFilter INCLUDES;DEFLATE php
+    AddOutputFilter INCLUDES;DEFLATE html
+    AddOutputFilter INCLUDES;DEFLATE xml
+    AddOutputFilter INCLUDES;DEFLATE ico
+
+    # webfonts
+    AddOutputFilter INCLUDES;DEFLATE eot
+    AddOutputFilter INCLUDES;DEFLATE svg
+    AddOutputFilter INCLUDES;DEFLATE ttf
+
+    # others
+    AddOutputFilter INCLUDES;DEFLATE json
+
+</IfModule>
+
+
+
+# ------------------------------------------------------------------------------
+# | Security |
+# ------------------------------------------------------------------------------
+
+# Stops a browser from trying to MIME-sniff
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# Avoid Clickjacking and enable XSS-protection for browsers
+<FilesMatch "\.(pl|php|cgi|spl)$">
+  <IfModule mod_headers.c>
+    # security
+    Header set X-Frame-Options "DENY"
+    Header set X-XSS-Protection "1; mode=block"
+  </IfModule>
+</FilesMatch>
+
+
+
+
+# ------------------------------------------------------------------------------
+# | Cache + |
+# ------------------------------------------------------------------------------
+
+# CACHE + ETags
+<FilesMatch "\.(flv|gif|jpg|jpeg|png|ico|swf|ogv|mp4|webm|svg|ttf|woff|woff2|eot|js|css|pdf|txt|json)$">
+  <IfModule mod_headers.c>
+    Header unset Set-Cookie
+    Header set Cache-Control "max-age=21772800"
+    header set vary "Accept-Encoding"
+    header append vary "User-Agent"
+    header append Cache-Control "public"
+    header append Keep-Alive "timeout=5, max=100"
+    header append Connection "Keep-Alive"
+    FileETag None
+  </IfModule>
+</FilesMatch>
+
+# 10 minutes = HTML, XML (RSS)
+<FilesMatch "\.(html|htm|xml)$">
+  <IfModule mod_headers.c>
+    Header set Cache-Control "max-age=600"
+    header set vary "Accept-Encoding"
+    header append vary "User-Agent"
+    header append Cache-Control "private"
+    FileETag None
+  </IfModule>
+</FilesMatch>
+
+# DONT CACHE = NO CACHE FOR PHP
+<FilesMatch "\.(pl|php|cgi|spl)$">
+  <IfModule mod_headers.c>
+    Header unset Cache-Control
+    Header unset Expires
+    Header unset Last-Modified
+    Header unset Pragma
+    #BrowserMatch "MSIE" force-no-vary
+    FileETag None
+    header set vary "Accept-Encoding"
+    header append vary "User-Agent"
+    header append Cache-Control "private"
+
+    #Header set X-UA-Compatible "IE=edge"
+
+  </IfModule>
+</FilesMatch>
