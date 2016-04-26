@@ -373,6 +373,10 @@ a.btn:active {
 * GENERAL
 * -----------------------------------------------------------------------------
 */
+noscript p {
+    margin: 10px 0;
+    text-align: center;
+}
 #app {
     width: 90%;
     margin: auto;
