@@ -354,15 +354,17 @@ a.btn-play, a.btn-play:hover, a.btn-play:focus {
     padding: 10px 30px;
 }
 a.btn-play:before {
-    content: "▶︎";
-    font-size: 1.1em;
+    content: "";
+    background: url('../img/play.svg') no-repeat center center;
+    font-size: 1em;
+    height: 30px;
+    left: 0;
     position: absolute;
-    left: 10px;
+    top: 5px;
+    width: 30px;
 }
 a.btn-play.playing:before {
-    content: "▩";
-    font-size: 1.2em;
-    top: 7px;
+    background: url('../img/stop.svg') no-repeat center center;
 }
 .btn:active,
 a.btn:active {
