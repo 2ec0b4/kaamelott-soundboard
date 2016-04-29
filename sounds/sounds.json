@@ -94,5 +94,41 @@
         "character": "Venec",
         "episode": "Livre I, 16 - Le Banquet des Chefs",
         "file": "federer_mes_couilles.mp3"
+    },
+    {
+        "title": "Zut ! Là.",
+        "character": "Arthur",
+        "episode": "Livre I, 17 - Le Signe",
+        "file": "zut_la.mp3"
+    },
+    {
+        "title": "Eh, il est pas beau mon Graal ?",
+        "character": "Le tavernier",
+        "episode": "Livre I, 18 - En Forme de Graal",
+        "file": "il_est_pas_beau_mon_graal.mp3"
+    },
+    {
+        "title": "Ah vous ne commencez pas à me faire chier, c'est pas le moment",
+        "character": "Arthur",
+        "episode": "Livre I, 19 - Le Repos du Guerrier",
+        "file": "commencez_pas_a_me_faire_chier.mp3"
+    },
+    {
+        "title": "Il pue, il pète, il lâche des ruines",
+        "character": "L'Interprète",
+        "episode": "Livre I, 24 - L'Interprète",
+        "file": "il_pue_il_pete.mp3"
+    },
+    {
+        "title": "Il restait que burgonde ou anglais, anglais",
+        "character": "L'Interprète",
+        "episode": "Livre I, 24 - L'Interprète",
+        "file": "burgonde_ou_anglais.mp3"
+    },
+    {
+        "title": "Non mais allez boire un coup, je vous assure, ça ira mieux",
+        "character": "Arthur",
+        "episode": "Livre I, 25 - Le Sacrifice",
+        "file": "allez_boire_un_coup.mp3"
     }
 ]
