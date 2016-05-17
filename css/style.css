@@ -25,6 +25,11 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 html {
     font-size: 16px;
 }
@@ -145,6 +150,7 @@ td {
 */
 header h1 {
     font-size: 3em;
+    margin: 0.5em;
     text-align: center;
 }
 /**
@@ -312,6 +318,18 @@ header h1 {
 * FORM
 * -----------------------------------------------------------------------------
 */
+::-webkit-input-placeholder {
+    color: #AEAEAE;
+}
+:-moz-placeholder {
+    color: #AEAEAE;
+}
+::-moz-placeholder {
+    color: #AEAEAE;
+}
+:-ms-input-placeholder {
+    color: #AEAEAE;
+}
 input[type="text"] {
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
@@ -349,7 +367,6 @@ a.btn, a.btn:hover, a.btn:focus {
 .btn-play, .btn-play:hover, .btn-play:focus,
 a.btn-play, a.btn-play:hover, a.btn-play:focus {
     background: #18AE90;
-    border: 1px solid #18AE90;
     border-bottom: 3px solid #017F66;
     padding: 10px 30px;
 }
@@ -380,8 +397,8 @@ noscript p {
     text-align: center;
 }
 #app {
+    margin: 0 auto;
     width: 90%;
-    margin: auto;
 }
 #app .uil-ring-css {
     margin: 0 auto;
@@ -408,9 +425,10 @@ noscript p {
 }
 #list ul li {
     display: inline-block;
-    height: 2.3em;
-    line-height: 2.3em;
-    margin: 0 0 2em 0;
+    height: 43px;
+    line-height: 43px;
+    margin: 0 0 1em;
+    overflow: hidden;
     position: relative;
 }
 #list ul li a {
@@ -422,22 +440,6 @@ noscript p {
 * MEDIA QUERIES
 * -----------------------------------------------------------------------------
 */
-@media only screen and (max-width:320px){
-    input[type="text"] {
-        width: 60%;
-    }
-    .btn, .btn:hover, .btn:focus,
-    a.btn, a.btn:hover, a.btn:focus {
-        width: 30%;
-    }
-}
-@media only screen and (max-width:767px){
-    #list ul li {
-        width: 95%;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-}
 @media only screen and (min-width:768px){
     #list ul li {
         width: 46%;
@@ -448,5 +450,44 @@ noscript p {
 @media only screen and (min-width:1024px){
     #list ul li {
         width: 370px;
+    }
+}
+@media only screen and (max-width:767px){
+    header {
+        background: #3f3552;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 5;
+    }
+    header h1 {
+        font-size: 2.2em;
+    }
+    #app {
+        margin-bottom: 40px;
+        margin-top: 90px;
+    }
+    #list ul li {
+        width: 95%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+@media only screen and (max-width:400px){
+    header h1 {
+        font-size: 1.6em;
+    }
+    #app {
+        margin-top: 75px;
+    }
+}
+@media only screen and (max-width:320px){
+    input[type="text"] {
+        width: 60%;
+    }
+    .btn, .btn:hover, .btn:focus,
+    a.btn, a.btn:hover, a.btn:focus {
+        width: 30%;
     }
 }
