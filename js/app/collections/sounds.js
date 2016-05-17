@@ -10,8 +10,13 @@ define(
 
         var Sounds = Backbone.Collection.extend({
             model: Sound,
-            comparator: 'title',
             url: 'sounds/sounds.json',
+            comparator: function(a, b) {
+                var str1 = a.get('title'),
+                    str2 = b.get('title');
+
+                return str1.localeCompare(str2);
+            },
             filterByTitle: function(search){
                 if( search == "" ) {
                     return this;
