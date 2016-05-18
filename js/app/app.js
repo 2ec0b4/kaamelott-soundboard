@@ -5,10 +5,11 @@ requirejs(['main'], function () {
             'jquery',
             'marionette',
             'underscore',
+            'likely',
             'controllers/soundboard',
             'views/main'
         ],
-        function(Backbone, $, Marionette, _,
+        function(Backbone, $, Marionette, _, Likely,
                 SoundboardController,
                 MainView) {
             "use strict";
@@ -42,6 +43,8 @@ requirejs(['main'], function () {
                     Backbone.history.start();
                     App.trigger("backbone:history:start");
                 }
+
+                likely.initiate();
             };
 
             initialize();

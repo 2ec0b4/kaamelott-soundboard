@@ -161,6 +161,13 @@ header h1 {
 * FOOTER
 * -----------------------------------------------------------------------------
 */
+footer {
+    height: 40px;
+    text-align: center;
+}
+footer .likely {
+    margin-top: 8px;
+}
 /**
 * ANIMATIONS
 * -----------------------------------------------------------------------------
@@ -453,16 +460,22 @@ noscript p {
     }
 }
 @media only screen and (max-width:767px){
-    header {
+    header,
+    footer {
         background: #3f3552;
         left: 0;
         position: fixed;
-        top: 0;
         width: 100%;
         z-index: 5;
     }
+    header {
+        top: 0;
+    }
     header h1 {
         font-size: 2.2em;
+    }
+    footer {
+        bottom: 0;
     }
     #app {
         margin-bottom: 40px;
