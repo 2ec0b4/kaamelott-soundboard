@@ -532,6 +532,9 @@ noscript p {
     footer {
         bottom: 0;
     }
+    .ribbon {
+        display: none;
+    }
     #app {
         margin-bottom: 40px;
         margin-top: 90px;
