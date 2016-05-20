@@ -8,9 +8,10 @@
 * HEADER
 * NAVIGATION
 * FOOTER
+* ANIMATIONS
+* RIBBON
 * FORM
 * GENERAL
-* ANIMATIONS
 * MEDIA QUERIES
 */
 
@@ -320,6 +321,60 @@ footer .likely {
   -webkit-animation: uil-ring-anim 1s linear infinite;
   -o-animation: uil-ring-anim 1s linear infinite;
   animation: uil-ring-anim 1s linear infinite;
+}
+/**
+* RIBBON
+* -----------------------------------------------------------------------------
+*/
+.ribbon {
+    font-size: 13px;
+    height: 12.1em;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    text-indent: -999999px;
+    top: 0;
+    width: 12.1em;
+    z-index: 9999;
+}
+.ribbon:before, .ribbon:after {
+    display: block;
+    position: absolute;
+    height: 1.54em;
+    top: 3.23em;
+    right: -3.23em;
+    width: 15.38em;
+    /**/
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.ribbon:before {
+    content: "";
+    background-color: #CB4D59;
+    padding: .38em 0;
+    pointer-events: auto;
+    /**/
+    -webkit-box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, 0.5);
+}
+
+.ribbon:after {
+    content: attr(title);
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.54em;
+    margin: .15em 0;
+    padding: .15em 0;
+    text-decoration: none;
+    text-shadow: 0 -.08em rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-indent: 0;
 }
 /**
 * FORM
