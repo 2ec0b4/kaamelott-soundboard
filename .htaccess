@@ -124,7 +124,7 @@
 # ------------------------------------------------------------------------------
 
 # CACHE + ETags
-<FilesMatch "\.(flv|gif|jpg|jpeg|png|ico|swf|ogv|mp4|webm|svg|ttf|woff|woff2|eot|js|css|pdf|txt|json)$">
+<FilesMatch "\.(flv|gif|jpg|jpeg|png|ico|swf|ogv|mp3|mp4|webm|svg|ttf|woff|woff2|eot|js|css|pdf|txt|json)$">
   <IfModule mod_headers.c>
     Header unset Set-Cookie
     Header set Cache-Control "max-age=21772800"
