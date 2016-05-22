@@ -497,6 +497,9 @@ noscript p {
 #filter form {
     overflow: hidden;
 }
+#filter input[type="text"] {
+    text-align: left;
+}
 #filter input + .btn {
     height: 34px;
     left: -5px;
