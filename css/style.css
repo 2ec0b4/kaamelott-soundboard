@@ -392,6 +392,9 @@ footer .likely {
 :-ms-input-placeholder {
     color: #AEAEAE;
 }
+label {
+    display: none;
+}
 input {
     margin: 0;
 }
