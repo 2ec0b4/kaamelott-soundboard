@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------------------
 
 <IfModule mod_mime.c>
-    AddCharset utf-8 .atom .scss .css .js .json .jsonld .rss .vtt .webapp .xml .txt
+    AddCharset utf-8 .atom .scss .css .js .json .jsonld .rss .vtt .webapp .html .xml .txt
 </IfModule>
 
 
