@@ -16,7 +16,9 @@ define(
                 soundItem: 'a'
             },
             events: {
-                'click @ui.soundItem': 'toggleSound'
+                'click @ui.soundItem': 'toggleSound',
+                'mouseenter @ui.soundItem': 'toggleSoundDetail',
+                'mouseleave @ui.soundItem': 'toggleSoundDetail'
             },
             initialize: function() {
                 this.listenTo(this.model, "change:playing", this.playingAttributeChanged);
@@ -40,6 +42,26 @@ define(
                 } else {
                     $(this.ui.soundItem).removeClass('playing');
                 }
+            },
+            toggleSoundDetail: function(e) {
+                var offset;
+
+                if (e.type === 'mouseleave') {
+                    $('.tooltip').remove();
+                    return;
+                }
+
+                offset = $(this.el).offset();
+
+                $('<div/>')
+                    .addClass('tooltip')
+                    .append(
+                        $('<p/>').text(this.model.getSoundDetail())
+                    )
+                    .css({left: (offset.left+25)+'px', top: (offset.top+30)+'px'})
+                    .appendTo('body')
+                    .delay(1000)
+                    .show(0);
             }
         });
 

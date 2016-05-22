@@ -461,6 +461,22 @@ noscript p {
     margin: 10px 0;
     text-align: center;
 }
+.tooltip {
+    background-color: #FFFFFF;
+    border: 1px solid #999;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    color: #333;
+    display: none;
+    margin-right: 10px;
+    padding: 4px 8px;
+    position: absolute;
+    z-index: 10;
+}
+.tooltip p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
 #app {
     margin: 0 auto;
     padding: 0;

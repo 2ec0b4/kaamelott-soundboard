@@ -33,6 +33,9 @@ define(
                 }
 
                 this.set('playing', false);
+            },
+            getSoundDetail: function() {
+                return this.get('character')+', '+this.get('episode');
             }
         });
 
