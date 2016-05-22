@@ -460,6 +460,7 @@ noscript p {
 }
 #app {
     margin: 0 auto;
+    padding: 0;
     width: 90%;
 }
 #app .uil-ring-css {
@@ -536,8 +537,8 @@ noscript p {
         display: none;
     }
     #app {
-        margin-bottom: 60px;
-        margin-top: 90px;
+        padding-bottom: 50px;
+        padding-top: 90px;
     }
     #list ul li {
         width: 95%;
@@ -545,12 +546,12 @@ noscript p {
         margin-right: 2%;
     }
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:430px){
     header h1 {
         font-size: 1.6em;
     }
     #app {
-        margin-top: 75px;
+        padding-top: 75px;
     }
 }
 @media only screen and (max-width:320px){
