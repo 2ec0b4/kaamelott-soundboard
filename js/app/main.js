@@ -1,5 +1,6 @@
 requirejs.config({
     baseUrl: 'js/app',
+    urlArgs:'t=20160525',
     paths: {
         'backbone': '/js/vendor/backbone/backbone-min',
         'backbone.radio': '/js/vendor/backbone/plugins/backbone.radio/backbone.radio.min',
