@@ -1,11 +1,5 @@
 [
     {
-        "title": "Ouais c'est pas faux",
-        "character": "Perceval",
-        "episode": "Livre I, 28 - La Botte Secrète",
-        "file": "cest_pas_faux.mp3"
-    },
-    {
         "title": "Interprète",
         "character": "Arthur - Le Roi Burgonde",
         "episode": "Livre II, 03 - Le Dialogue de Paix",
@@ -130,5 +124,71 @@
         "character": "Arthur",
         "episode": "Livre I, 25 - Le Sacrifice",
         "file": "allez_boire_un_coup.mp3"
+    },
+    {
+        "title": "C'est vrai qu'elle reste celle-là",
+        "character": "Perceval",
+        "episode": "Livre I, 26 - À la volette",
+        "file": "cest_vrai_quelle_reste.mp3"
+    },
+    {
+        "title": "À la volette",
+        "character": "Arthur",
+        "episode": "Livre I, 26 - À la volette",
+        "file": "a_la_volette1.mp3"
+    },
+    {
+        "title": "À mon avis, un bon quart d'heure et on a fait le tour",
+        "character": "Dagonet",
+        "episode": "Livre I, 27 - De retour de Judée",
+        "file": "un_bon_quart_dheure.mp3"
+    },
+    {
+        "title": "Oh la vache !",
+        "character": "Lancelot",
+        "episode": "Livre I, 27 - De retour de Judée",
+        "file": "oh_la_vache.mp3"
+    },
+    {
+        "title": "J'peux vous dire qu'tavernier, c'est pas une sinécure",
+        "character": "Le tavernier",
+        "episode": "Livre I, 28 - La Botte secrète",
+        "file": "cest_pas_une_sinecure.mp3"
+    },
+    {
+        "title": "C'est pas faux",
+        "character": "Karadoc",
+        "episode": "Livre I, 28 - La Botte secrète",
+        "file": "cest_pas_faux1.mp3"
+    },
+    {
+        "title": "Ouais c'est pas faux",
+        "character": "Perceval",
+        "episode": "Livre I, 28 - La Botte secrète",
+        "file": "cest_pas_faux2.mp3"
+    },
+    {
+        "title": "J'ai l'impression d'être... insipide, mais alors",
+        "character": "Angharad",
+        "episode": "Livre I, 28 - La Botte secrète",
+        "file": "insipide.mp3"
+    },
+    {
+        "title": "Vous déconnez !?",
+        "character": "Demetra",
+        "episode": "Livre I, 30 - Le Trois de cœur",
+        "file": "vous_deconnez.mp3"
+    },
+    {
+        "title": "Ça moi j'peux pas vous dire",
+        "character": "Guenièvre",
+        "episode": "Livre I, 30 - Le Trois de cœur",
+        "file": "jpeux_pas_vous_dire.mp3"
+    },
+    {
+        "title": "OK, écartez-vous, j'vais gerber",
+        "character": "Arthur",
+        "episode": "Livre I, 30 - Le Trois de cœur",
+        "file": "ecartez-vous.mp3"
     }
 ]
