@@ -326,7 +326,8 @@ footer .likely {
 * RIBBON
 * -----------------------------------------------------------------------------
 */
-.ribbon {
+.ribbo,
+.ribbon:link {
     font-size: 13px;
     height: 12.1em;
     overflow: hidden;
