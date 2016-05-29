@@ -162,6 +162,9 @@ header h1 {
 * FOOTER
 * -----------------------------------------------------------------------------
 */
+.likely {
+    opacity: 0;
+}
 footer {
     height: 40px;
     text-align: center;
@@ -481,12 +484,12 @@ noscript p {
     margin: 0;
     padding: 0;
 }
-#app {
+#main {
     margin: 0 auto;
     padding: 0;
     width: 90%;
 }
-#app .uil-ring-css {
+#main .uil-ring-css {
     margin: 0 auto;
     -ms-transform: scale(0.4);
     -webkit-transform: scale(0.4);
@@ -562,7 +565,7 @@ noscript p {
     .ribbon {
         display: none;
     }
-    #app {
+    #main {
         padding-bottom: 50px;
         padding-top: 90px;
     }
@@ -576,7 +579,7 @@ noscript p {
     header h1 {
         font-size: 1.6em;
     }
-    #app {
+    #main {
         padding-top: 75px;
     }
 }

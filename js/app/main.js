@@ -1,25 +1,36 @@
-requirejs.config({
+require.config({
     baseUrl: 'js/app',
     urlArgs:'t=160525',
     paths: {
-        'backbone': '/js/vendor/backbone/backbone-min',
-        'backbone.radio': '/js/vendor/backbone/plugins/backbone.radio/backbone.radio.min',
-        'hbs': '/js/vendor/require/plugins/require-handlebars-plugin/hbs',
-        'jquery': '/js/vendor/jquery/jquery-1.12.2.min',
-        'likely': '/js/vendor/likely/likely',
-        'marionette': '/js/vendor/marionette/backbone.marionette.min',
-        'underscore': '/js/vendor/underscore/underscore-min'
-    },
-    hbs: {
-        "templateExtension": "hbs",
-        "hbs/underscore": "underscore"
+        'backbone': '../../node_modules/backbone/backbone-min',
+        'backbone.radio': '../../node_modules/backbone.radio/build/backbone.radio',
+        'css': '../../node_modules/require-css/css',
+        'handlebars': '../../node_modules/handlebars/dist/handlebars.min',
+        'hbs': '../../node_modules/requirejs-handlebars/hb',
+        'jquery': '../../node_modules/jquery/dist/jquery.min',
+        'likely': '../../node_modules/ilyabirman-likely/release/likely',
+        'marionette': '../../node_modules/backbone.marionette/lib/backbone.marionette.min',
+        'text': '../../node_modules/requirejs-text/text',
+        'underscore': '../../node_modules/underscore/underscore-min',
+        'app': './app'
     },
     shim: {
-        'likely' : {
-            exports: 'likely'
+        'backbone': {
+            deps: ['underscore', 'jquery'],
+            exports: 'Backbone'
+        },
+        'hbs': {
+            'templateExtension': 'hbs',
+            'hbs/underscore': 'underscore'
         },
         'marionette' : {
-            deps: ['jquery', 'backbone', 'underscore']
+            deps: ['backbone']
         }
     }
+});
+
+define(function(require) {
+    var App = require('app');
+
+    new App();
 });

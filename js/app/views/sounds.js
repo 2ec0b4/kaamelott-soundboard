@@ -1,52 +1,49 @@
-define(
-    'views/sounds',
-    [
-        'marionette',
-        'backbone.radio',
-        'underscore',
-        'collections/sounds',
-        'views/sound'
-    ],
-    function (Marionette, Radio, _, SoundsCollection, SoundView) {
-        "use strict";
+define('views/sounds', function(require) {
+    "use strict";
 
-        var SoundsCollectionView = Marionette.CollectionView.extend({
-            childView: SoundView,
-            collection: new SoundsCollection(),
-            tagName: 'ul',
-            childEvents: {
-                'sound:play': 'stopPlayingSound'
-            },
-            initialize: function() {
-                var that    = this;
+    var Marionette              = require('marionette'),
+        Radio                   = require('backbone.radio'),
+        SoundsCollection        = require('collections/sounds'),
+        SoundView               = require('views/sound'),
+        SoundsCollectionView;
 
-                this.data = {
-                    collection: this.collection
-                };
+    SoundsCollectionView = Marionette.CollectionView.extend({
+        childView: SoundView,
+        collection: new SoundsCollection(),
+        tagName: 'ul',
+        childEvents: {
+            'sound:play': 'stopPlayingSound'
+        },
+        initialize: function() {
+            var that    = this;
 
-                this.channel    = Radio.channel('Sounds');
-                this.channel.request('getSounds').then(this.initCollection.bind(this));
-                this.channel.on('sounds:filter', this.filterCollection.bind(this));
-            },
-            initCollection: function(sounds) {
-                this.data.collection    = new SoundsCollection(sounds);
-                this.collection         = this.data.collection;
+            this.data = {
+                collection: this.collection
+            };
 
-                this.render();
-            },
-            filterCollection: function(search) {
-                this.collection     = this.data.collection.filterByTitle(search);
+            this.channel    = Radio.channel('Sounds');
+            this.channel.request('getSounds').then(this.initCollection.bind(this));
+            this.channel.on('sounds:filter', this.filterCollection.bind(this));
+        },
+        initCollection: function(sounds) {
+            this.data.collection    = new SoundsCollection(sounds);
+            this.collection         = this.data.collection;
 
-                this.render();
-            },
-            stopPlayingSound: function() {
-                var playingSound    = this.collection.findWhere({playing: true});
+            this.render();
+        },
+        filterCollection: function(search) {
+            this.collection     = this.data.collection.filterByTitle(search);
 
-                if( playingSound ) {
-                    playingSound.stop();
-                }
+            this.render();
+        },
+        stopPlayingSound: function() {
+            var playingSound    = this.collection.findWhere({playing: true});
+
+            if( playingSound ) {
+                playingSound.stop();
             }
-        });
+        }
+    });
 
-        return SoundsCollectionView;
+    return SoundsCollectionView;
 });

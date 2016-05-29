@@ -6,6 +6,10 @@ _Lorem ipsum dolor sit amet._ Voilà. Et bien ça, par exemple, ça veut absolum
 
 Alors, c'est classe ou c'est pas classe ? Ou c'est classe ?
 
+## Lancer le projet ##
+
+Pour faire fonctionner le projet sur votre machine, vous devrez tout d'abord, depuis la racine, exécuter la commande `npm install` puis accéder au fichier `index.html` via le serveur Web de votre choix (Apache pour moi, quand je ne suis pas sioux et que je ne m'y prends pas comme un commanche).
+
 ## Contribuer ##
 
 1. Scissionnez (cf. [Fork](http://bitoduc.fr/#F)) ce dépôt
@@ -15,3 +19,5 @@ Alors, c'est classe ou c'est pas classe ? Ou c'est classe ?
 5. Enregistrez les modifications (`git commit -am "Mes sons qui envoient du paté"`)
 6. Poussez vos modifications (`git push origin head`)
 7. Créez une [fusiodemande](https://github.com/2ec0b4/kaamelott-soundboard/pulls)
+
+Merci, de rien, au revoir m'sieur dame
