@@ -45,7 +45,6 @@
         <meta itemprop="description" content="Quelques-unes des meilleures répliques sonores de Kaamelott. C'était ça ou chante Sloubi.">
         <meta itemprop="image" content="http://kaamelott-soundboard.2ec0b4.fr/img/ks.jpg">
 
-        <link rel="stylesheet" href="/js/vendor/likely/likely.css" media="screen">
         <link rel="stylesheet" href="/css/style.css" media="screen">
     </head>
     <body>
@@ -56,13 +55,13 @@
                 <h1>Kaamelott Soundboard</h1>
             </header>
 
-            <div id="app">
+            <main id="main" class="site-main" role="main">
                 <noscript>
                     <p>Ça va mal se mettre si JavaScript n'est pas activé sur votre navigateur</p>
                 </noscript>
 
                 <div class="uil-ring-css"><div></div></div>
-            </div>
+            </main>
 
             <footer>
                 <div class="likely likely-light" data-url="http://kaamelott-soundboard.2ec0b4.fr/">
@@ -73,6 +72,6 @@
             </footer>
         </div>
 
-        <script data-main="/js/app/app" src="/js/vendor/require/require.js"></script>
+        <script data-main="/js/app/main" src="/node_modules/requirejs/require.js"></script>
     </body>
 </html>

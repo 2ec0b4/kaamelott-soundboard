@@ -1,53 +1,44 @@
-requirejs(['main'], function () {
-    "use strict";
-    require([
-            'backbone',
-            'jquery',
-            'marionette',
-            'underscore',
-            'likely',
-            'controllers/soundboard',
-            'views/main'
-        ],
-        function(Backbone, $, Marionette, _, Likely,
-                SoundboardController,
-                MainView) {
-            "use strict";
+define('app', function(require) {
+    var Marionette              = require('marionette'),
+        Radio                   = require('backbone.radio'),
+        SoundboardController    = require('controllers/soundboard'),
+        app;
 
-            var initialize = function initialize() {
-                window.App = (window.App) || new Marionette.Application();
+    require('css!../../node_modules/ilyabirman-likely/release/likely.css');
+    require('likely');
 
-                App.on("start", start);
+    app = Marionette.Application.extend({
+        initialize: function intialize() {
+            this.addRegions({
+                'mainRegion': "#main"
+            });
 
-                App.addRegions({
-                    'app': '#app'
-                });
+            Radio.channel('app').reply('region:show', this.showRegion.bind(this));
 
-                App.controllers = {};
-                App.controllers.soundboard = new SoundboardController();
+            this.router = new Marionette.AppRouter();
 
-                App.router = new Marionette.AppRouter();
+            this.start();
+        },
 
-                App.router.processAppRoutes(App.controllers.soundboard, {
-                    "": "index"
-                });
+        start: function start() {
+            var soundboardController = new SoundboardController();
 
-                App.start();
-            };
+            this.router.processAppRoutes(soundboardController, {
+                "": "index"
+            });
 
-            var start = function () {
-                var mainView = new MainView();
-                App.getRegion('app').show(mainView);
+            if (Backbone.history) {
+                Backbone.history.start();
+                this.trigger("backbone:history:start");
+            }
 
-                if (Backbone.history) {
-                    Backbone.history.start();
-                    App.trigger("backbone:history:start");
-                }
+            likely.initiate();
+        },
 
-                likely.initiate();
-            };
+        showRegion: function showRegion(params) {
+            this.mainRegion.show(params.view);
+        }
+    });
 
-            initialize();
-        });
-    }
-);
+    return app;
+});

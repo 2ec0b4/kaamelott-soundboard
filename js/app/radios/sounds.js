@@ -1,25 +1,23 @@
-define(
-    'radios/sounds',
-    [
-        'marionette',
-        'backbone.radio',
-        'collections/sounds'
-    ],
-    function (Marionette, Radio, SoundsCollection) {
-        "use strict";
+define('radios/sounds', function(require) {
+    "use strict";
 
-        var SoundsRadio = Marionette.Object.extend({
-            initialize : function () {
-                this.channel = Radio.channel('Sounds');
+    var Marionette          = require('marionette'),
+        Radio               = require('backbone.radio'),
+        SoundsCollection    = require('collections/sounds'),
+        SoundsRadio;
 
-                this.channel.reply('getSounds', this.getSounds.bind(this));
-            },
-            getSounds: function() {
-                var soundsCollection    = new SoundsCollection();
+    SoundsRadio = Marionette.Object.extend({
+        initialize : function () {
+            this.channel = Radio.channel('Sounds');
 
-                return soundsCollection.fetch();
-            }
-        });
+            this.channel.reply('getSounds', this.getSounds.bind(this));
+        },
+        getSounds: function() {
+            var soundsCollection    = new SoundsCollection();
 
-        return SoundsRadio;
+            return soundsCollection.fetch();
+        }
+    });
+
+    return SoundsRadio;
 });

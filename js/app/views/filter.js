@@ -1,32 +1,30 @@
-define(
-    'views/filter',
-    [
-        'marionette',
-        'backbone.radio',
-        'hbs!templates/filter'
-    ],
-    function (Marionette, Radio, SoundsFilterTemplate) {
-        "use strict";
+define('views/filter', function(require) {
+    "use strict";
 
-        var SoundsFilterView = Marionette.LayoutView.extend({
-            template: SoundsFilterTemplate,
-            ui: {
-                searchForm: 'form',
-                searchField: 'form input[name="s"]'
-            },
-            events: {
-                'submit @ui.searchForm': 'filterSounds',
-                'keyup @ui.searchField': 'filterSounds'
-            },
-            initialize: function() {
-                this.channel    = Radio.channel('Sounds');
-            },
-            filterSounds: function(e) {
-                e.preventDefault();
+    var Marionette              = require('marionette'),
+        Radio                   = require('backbone.radio'),
+        SoundsFilterTemplate    = require('hbs!templates/filter.hbs'),
+        SoundsFilterView;
 
-                this.channel.trigger('sounds:filter', $(this.ui.searchField).val());
-            }
-        });
+    SoundsFilterView = Marionette.LayoutView.extend({
+        template: SoundsFilterTemplate,
+        ui: {
+            searchForm: 'form',
+            searchField: 'form input[name="s"]'
+        },
+        events: {
+            'submit @ui.searchForm': 'filterSounds',
+            'keyup @ui.searchField': 'filterSounds'
+        },
+        initialize: function() {
+            this.channel    = Radio.channel('Sounds');
+        },
+        filterSounds: function(e) {
+            e.preventDefault();
 
-        return SoundsFilterView;
+            this.channel.trigger('sounds:filter', $(this.ui.searchField).val());
+        }
+    });
+
+    return SoundsFilterView;
 });

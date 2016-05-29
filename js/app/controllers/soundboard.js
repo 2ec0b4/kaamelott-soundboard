@@ -1,23 +1,22 @@
-define(
-    'controllers/soundboard',
-    [
-        'marionette',
-        'radios/sounds',
-        'views/soundboard'
-    ],
-    function (Marionette, SoundsRadio, SoundboardView) {
-        "use strict";
+define('controllers/soundboard', function(require) {
+    "use strict";
 
-        var SoundboardController = Marionette.Object.extend({
-            initialize: function() {
-                this.soundsRadio    = new SoundsRadio();
-            },
-            index: function() {
-                var currentView = App.getRegion('app').currentView;
+    var Marionette              = require('marionette'),
+        Radio                   = require('backbone.radio'),
+        SoundsRadio             = require('radios/sounds'),
+        SoundboardView          = require('views/soundboard'),
+        SoundboardController;
 
-                currentView.showChildView('main', new SoundboardView());
-            }
-        });
+    SoundboardController = Marionette.Object.extend({
+        initialize: function() {
+            var soundsRadio = new SoundsRadio();
+        },
+        index: function() {
+            var view = new SoundboardView();
 
-        return SoundboardController;
+            Radio.channel('app').request('region:show', { view: view });
+        }
+    });
+
+    return SoundboardController;
 });
