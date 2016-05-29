@@ -1,0 +1,35 @@
+{
+  "name": "kaamelott-soundboard",
+  "version": "1.0.0",
+  "description": "Quelques-unes des meilleures répliques sonores de Kaamelott. C'était ça ou chante Sloubi.",
+  "main": "js/app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/2ec0b4/kaamelott-soundboard"
+  },
+  "keywords": [
+    "kaamelott",
+    "soundboard"
+  ],
+  "author": "Antoine @2ec0b4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2ec0b4/kaamelott-soundboard/issues"
+  },
+  "homepage": "https://github.com/2ec0b4/kaamelott-soundboard#readme",
+  "dependencies": {
+    "backbone.marionette": "^2.4.6",
+    "backbone.radio": "^1.0.5",
+    "handlebars": "^4.0.5",
+    "jquery": "^2.2.4",
+    "ilyabirman-likely": "^2.1.0",
+    "require-css": "^0.1.8",
+    "requirejs": "^2.2.0",
+    "requirejs-handlebars": "^0.1.1",
+    "requirejs-text": "^2.0.12",
+    "underscore": "^1.8.3"
+  }
+}
