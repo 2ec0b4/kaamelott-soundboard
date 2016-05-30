@@ -1,1 +1,3 @@
+dist/*
+!dist/empty
 node_modules
