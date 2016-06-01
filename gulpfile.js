@@ -9,13 +9,21 @@ gulp.task("revision", function(){
     .pipe(rev())
     .pipe(gulp.dest('dist'))
     .pipe(rev.manifest())
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('dist'));
 })
 
-gulp.task("revreplace", function(){
+gulp.task("replace", function(){
   var manifest = gulp.src("./dist/rev-manifest.json");
 
   return gulp.src(['dist/*.js', 'dist/*/*.js'])
-    .pipe(revReplace({manifest: manifest}))
+    .pipe(revReplace({
+        manifest: manifest,
+        modifyUnreved: function(str) {
+            return '"'+str.slice(0, 3)+'"';
+        },
+        modifyReved: function(str) {
+            return '"'+str.slice(0, 3)+'"';
+        }
+    }))
     .pipe(gulp.dest('dist'));
 });
