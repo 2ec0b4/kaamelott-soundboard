@@ -7,7 +7,7 @@ define('collections/sounds', function(require) {
 
     Sounds = Backbone.Collection.extend({
         model: Sound,
-        url: 'sounds/sounds.json',
+        url: '/sounds/sounds.json',
         comparator: function(a, b) {
             var str1 = a.get('title'),
                 str2 = b.get('title');

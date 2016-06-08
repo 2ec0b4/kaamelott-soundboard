@@ -1,5 +1,5 @@
 require.config({
-    baseUrl: 'js/app',
+    baseUrl: '/js/app',
     urlArgs:'t=160525',
     paths: {
         'backbone': '../../node_modules/backbone/backbone-min',
