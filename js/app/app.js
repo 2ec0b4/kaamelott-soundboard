@@ -1,19 +1,21 @@
-define('app', function(require) {
-    var Marionette              = require('marionette'),
-        Radio                   = require('backbone.radio'),
-        SoundboardController    = require('controllers/soundboard'),
+define("app", function(require) {
+    "use strict";
+
+    var Marionette              = require("marionette"),
+        Radio                   = require("backbone.radio"),
+        SoundboardController    = require("controllers/soundboard"),
         app;
 
-    require('css!../../node_modules/ilyabirman-likely/release/likely.css');
-    require('likely');
+    require("css!../../node_modules/ilyabirman-likely/release/likely.css");
+    require("likely");
 
     app = Marionette.Application.extend({
         initialize: function intialize() {
             this.addRegions({
-                'mainRegion': "#main"
+                mainRegion: "#main"
             });
 
-            Radio.channel('app').reply('region:show', this.showRegion.bind(this));
+            Radio.channel("app").reply("region:show", this.showRegion.bind(this));
 
             this.router = new Marionette.AppRouter();
 

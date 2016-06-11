@@ -1,10 +1,10 @@
-define('controllers/soundboard', function(require) {
+define("controllers/soundboard", function(require) {
     "use strict";
 
-    var Marionette              = require('marionette'),
-        Radio                   = require('backbone.radio'),
-        SoundsRadio             = require('radios/sounds'),
-        SoundboardView          = require('views/soundboard'),
+    var Marionette              = require("marionette"),
+        Radio                   = require("backbone.radio"),
+        SoundsRadio             = require("radios/sounds"),
+        SoundboardView          = require("views/soundboard"),
         SoundboardController;
 
     SoundboardController = Marionette.Object.extend({
@@ -14,7 +14,7 @@ define('controllers/soundboard', function(require) {
         index: function() {
             var view = new SoundboardView();
 
-            Radio.channel('app').request('region:show', { view: view });
+            Radio.channel("app").request("region:show", { view: view });
         }
     });
 

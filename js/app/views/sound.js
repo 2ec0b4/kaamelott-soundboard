@@ -1,22 +1,22 @@
-define('views/sound', function(require) {
+define("views/sound", function(require) {
     "use strict";
 
-    var Marionette      = require('marionette'),
-        SoundModel      = require('models/sound'),
-        SoundTemplate   = require('hbs!templates/sound.hbs'),
+    var Marionette      = require("marionette"),
+        SoundModel      = require("models/sound"),
+        SoundTemplate   = require("hbs!templates/sound.hbs"),
         SoundView;
 
     SoundView = Marionette.ItemView.extend({
         template: SoundTemplate,
         model: SoundModel,
-        tagName: 'li',
+        tagName: "li",
         ui: {
-            soundItem: 'a'
+            soundItem: "a"
         },
         events: {
-            'click @ui.soundItem': 'toggleSound',
-            'mouseenter @ui.soundItem': 'toggleSoundDetail',
-            'mouseleave @ui.soundItem': 'toggleSoundDetail'
+            "click @ui.soundItem": "toggleSound",
+            "mouseenter @ui.soundItem": "toggleSoundDetail",
+            "mouseleave @ui.soundItem": "toggleSoundDetail"
         },
         initialize: function() {
             this.listenTo(this.model, "change:playing", this.playingAttributeChanged);
@@ -24,40 +24,40 @@ define('views/sound', function(require) {
         toggleSound: function(e) {
             e.preventDefault();
 
-            if( this.model.get('playing') ) {
-                this.trigger('sound:stop');
+            if( this.model.get("playing") ) {
+                this.trigger("sound:stop");
 
                 this.model.stop();
             } else {
-                this.trigger('sound:play');
+                this.trigger("sound:play");
 
                 this.model.play();
             }
         },
         playingAttributeChanged: function() {
-            if( this.model.get('playing') ) {
-                $(this.ui.soundItem).addClass('playing');
+            if( this.model.get("playing") ) {
+                $(this.ui.soundItem).addClass("playing");
             } else {
-                $(this.ui.soundItem).removeClass('playing');
+                $(this.ui.soundItem).removeClass("playing");
             }
         },
         toggleSoundDetail: function(e) {
             var offset;
 
-            if (e.type === 'mouseleave') {
-                $('.tooltip').remove();
+            if (e.type === "mouseleave") {
+                $(".tooltip").remove();
                 return;
             }
 
             offset = $(this.el).offset();
 
-            $('<div/>')
-                .addClass('tooltip')
+            $("<div/>")
+                .addClass("tooltip")
                 .append(
-                    $('<p/>').text(this.model.getSoundDetail())
+                    $("<p/>").text(this.model.getSoundDetail())
                 )
-                .css({left: (offset.left+25)+'px', top: (offset.top+30)+'px'})
-                .appendTo('body')
+                .css({left: (offset.left+25)+"px", top: (offset.top+30)+"px"})
+                .appendTo("body")
                 .delay(1000)
                 .show(0);
         }
