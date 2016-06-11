@@ -7,25 +7,35 @@ var gulp        = require('gulp'),
     rev         = require('gulp-rev'),
     revReplace  = require('gulp-rev-replace');
 
-gulp.task("scripts", function(){
+gulp.task("scripts-rev", function(){
     return gulp.src(['js/app/**/*.js'])
-        // .pipe(uglify())
         .pipe(rev())
         .pipe(gulp.dest('dist/js/app'))
         .pipe(rev.manifest())
         .pipe(gulp.dest('dist/js/app'));
 });
 
-gulp.task("styles", function(){
+gulp.task("scripts-min", function(){
+    return gulp.src(['dist/js/app/**/*.js'])
+        .pipe(uglify())
+        .pipe(gulp.dest('dist/js/app'));
+});
+
+gulp.task("styles-rev", function(){
     return gulp.src(['css/**/*.css'])
-        .pipe(cssnano())
         .pipe(rev())
         .pipe(gulp.dest('dist/css'))
         .pipe(rev.manifest())
         .pipe(gulp.dest('dist/css'));
 });
 
-gulp.task("config", function(){
+gulp.task("styles-min", function(){
+    return gulp.src(['dist/css/**/*.css'])
+        .pipe(cssnano())
+        .pipe(gulp.dest('dist/css'));
+});
+
+gulp.task("config-rev", function(){
     return gulp.src(['sounds/sounds.json'])
         .pipe(rev())
         .pipe(gulp.dest('dist/sounds'))
@@ -96,5 +106,5 @@ gulp.task('sync', function() {
 });
 
 gulp.task("build", function(){
-    return runSequence('clean', 'sync', 'scripts', 'styles', 'config', 'scripts-rev-replace', 'styles-rev-replace', 'config-rev-replace', 'index-rev-replace');
+    return runSequence('clean', 'sync', 'scripts-rev', 'styles-rev', 'config-rev', 'scripts-rev-replace', 'styles-rev-replace', 'config-rev-replace', 'index-rev-replace', /*'scripts-min',*/ 'styles-min');
 });
