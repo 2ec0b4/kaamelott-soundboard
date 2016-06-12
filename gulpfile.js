@@ -17,7 +17,9 @@ gulp.task("scripts-rev", function(){
 
 gulp.task("scripts-min", function(){
     return gulp.src(['dist/js/app/**/*.js'])
-        .pipe(uglify())
+        .pipe(uglify({
+            mangle: { except: ['$', 'require'] }
+        }))
         .pipe(gulp.dest('dist/js/app'));
 });
 
@@ -106,5 +108,5 @@ gulp.task('sync', function() {
 });
 
 gulp.task("build", function(){
-    return runSequence('clean', 'sync', 'scripts-rev', 'styles-rev', 'config-rev', 'scripts-rev-replace', 'styles-rev-replace', 'config-rev-replace', 'index-rev-replace', /*'scripts-min',*/ 'styles-min');
+    return runSequence('clean', 'sync', 'scripts-rev', 'styles-rev', 'config-rev', 'scripts-rev-replace', 'styles-rev-replace', 'config-rev-replace', 'index-rev-replace', 'scripts-min', 'styles-min');
 });
