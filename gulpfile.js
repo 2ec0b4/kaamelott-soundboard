@@ -5,7 +5,30 @@ var gulp        = require('gulp'),
     syncy       = require('syncy'),
     runSequence = require('run-sequence'),
     rev         = require('gulp-rev'),
+    RevAll      = require('gulp-rev-all'),
     revReplace  = require('gulp-rev-replace');
+
+function annotator(contents, path) {
+    return [{'contents': contents, 'path': path}];
+}
+
+function replacer(fragment, replaceRegExp, newReference, referencedFile) {
+    fragment.contents = fragment.contents.replace(replaceRegExp, '$1' + newReference + '$3$4');
+}
+
+gulp.task("rev-all", function(){
+    var revAll  = new RevAll({
+        dontRenameFile: [/^\/index\.html/g, /^\/sounds\/(.+)\.mp3/g, /^\/robots\.txt/g, /^\/img\/ks\.jpg/g],
+        annotator: annotator,
+        replacer: replacer
+    });
+
+    return gulp.src(['dist/**'])
+        .pipe(revAll.revision())
+        .pipe(gulp.dest('dist'))
+        .pipe(revAll.manifestFile())
+        .pipe(gulp.dest('dist'));
+});
 
 gulp.task("scripts-rev", function(){
     return gulp.src(['js/app/**/*.js'])
@@ -98,15 +121,15 @@ gulp.task("config-rev-replace", function(){
 });
 
 gulp.task('clean', function() {
-    return del(['dist/js', 'dist/css', 'dist/index.html', 'dist/sounds/sounds*.json', '!dist/empty']);
+    return del(['dist']);
 });
 
 gulp.task('sync', function() {
-    syncy(['.htaccess', './favicons/**', './img/**', './js/app/templates/**', 'index.html', './node_modules/**', 'robots.txt', './sounds/**', '!./sounds/sounds.json'], 'dist', {
+    syncy(['.htaccess', './css/**', './favicons/**', './img/**', './js/**', 'index.html', 'robots.txt', './sounds/**'], 'dist', {
         updateAndDelete: true,
     }).on('error', console.error).end();
 });
 
 gulp.task("build", function(){
-    return runSequence('clean', 'sync', 'scripts-rev', 'styles-rev', 'config-rev', 'scripts-rev-replace', 'styles-rev-replace', 'config-rev-replace', 'index-rev-replace', 'scripts-min', 'styles-min');
+    return runSequence('clean', 'sync');
 });
