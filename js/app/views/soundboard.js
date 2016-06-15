@@ -4,7 +4,7 @@ define("views/soundboard", function(require) {
     var Marionette          = require("marionette"),
         SoundsFilterView    = require("views/filter"),
         SoundsView          = require("views/sounds"),
-        SoundboardTemplate  = require("hbs!templates/soundboard.hbs"),
+        SoundboardTemplate  = require("hbs!templates/soundboard"),
         SoundboardView;
 
     SoundboardView = Marionette.LayoutView.extend({
