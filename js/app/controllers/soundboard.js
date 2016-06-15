@@ -14,7 +14,7 @@ define("controllers/soundboard", function(require) {
         index: function() {
             var view = new SoundboardView();
 
-            Radio.channel("app").request("region:show", { view: view });
+            Radio.channel("App").request("region:show", { view: view });
         }
     });
 
