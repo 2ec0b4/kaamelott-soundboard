@@ -4,23 +4,12 @@ var gulp        = require('gulp'),
     del         = require('del'),
     syncy       = require('syncy'),
     runSequence = require('run-sequence'),
-    rev         = require('gulp-rev'),
     RevAll      = require('gulp-rev-all'),
     revReplace  = require('gulp-rev-replace');
 
-function annotator(contents, path) {
-    return [{'contents': contents, 'path': path}];
-}
-
-function replacer(fragment, replaceRegExp, newReference, referencedFile) {
-    fragment.contents = fragment.contents.replace(replaceRegExp, '$1' + newReference + '$3$4');
-}
-
 gulp.task("rev-all", function(){
     var revAll  = new RevAll({
-        dontRenameFile: [/^\/index\.html/g, /^\/sounds\/(.+)\.mp3/g, /^\/robots\.txt/g, /^\/img\/ks\.jpg/g],
-        annotator: annotator,
-        replacer: replacer
+        dontRenameFile: [/^\/index\.html/g, /^\/sounds\/(.+)\.mp3/g, /^\/robots\.txt/g, /^\/img\/ks\.jpg/g]
     });
 
     return gulp.src(['dist/**'])
@@ -28,14 +17,6 @@ gulp.task("rev-all", function(){
         .pipe(gulp.dest('dist'))
         .pipe(revAll.manifestFile())
         .pipe(gulp.dest('dist'));
-});
-
-gulp.task("scripts-rev", function(){
-    return gulp.src(['js/app/**/*.js'])
-        .pipe(rev())
-        .pipe(gulp.dest('dist/js/app'))
-        .pipe(rev.manifest())
-        .pipe(gulp.dest('dist/js/app'));
 });
 
 gulp.task("scripts-min", function(){
@@ -46,76 +27,27 @@ gulp.task("scripts-min", function(){
         .pipe(gulp.dest('dist/js/app'));
 });
 
-gulp.task("styles-rev", function(){
-    return gulp.src(['css/**/*.css'])
-        .pipe(rev())
-        .pipe(gulp.dest('dist/css'))
-        .pipe(rev.manifest())
-        .pipe(gulp.dest('dist/css'));
-});
-
 gulp.task("styles-min", function(){
     return gulp.src(['dist/css/**/*.css'])
         .pipe(cssnano())
         .pipe(gulp.dest('dist/css'));
 });
 
-gulp.task("config-rev", function(){
-    return gulp.src(['sounds/sounds.json'])
-        .pipe(rev())
-        .pipe(gulp.dest('dist/sounds'))
-        .pipe(rev.manifest())
-        .pipe(gulp.dest('dist/sounds'));
-});
-
 gulp.task("scripts-rev-replace", function(){
-    var manifest = gulp.src('dist/js/app/rev-manifest.json');
+    var manifest = gulp.src('dist/rev-manifest.json'),
+        replaceStr = function(str) {
+            str = str.replace(/[\/]?js\/app\//g, "");
+            if( str.match(/\.js$/) || str.match(/\.hbs$/) ) {
+                return '"'+( str.match(/\.hbs$/) ? 'hbs!' : '' )+str.slice(0, str.lastIndexOf('.'))+'"';
+            }
+            return str;
+        };
 
     return gulp.src(['dist/js/app/**/*.js'])
         .pipe(revReplace({
             manifest: manifest,
-            modifyUnreved: function(str) {
-                return '"'+str.slice(0, str.lastIndexOf('.'))+'"';
-            },
-            modifyReved: function(str) {
-                return '"'+str.slice(0, str.lastIndexOf('.'))+'"';
-            }
-        }))
-        .pipe(gulp.dest('dist/js/app'));
-});
-
-gulp.task("index-rev-replace", function(){
-    var manifest = gulp.src('dist/js/app/rev-manifest.json');
-
-    return gulp.src(['dist/index.html'])
-        .pipe(revReplace({
-            manifest: manifest,
-            modifyUnreved: function(str) {
-                return '"/js/app/'+str.slice(0, str.lastIndexOf('.'))+'"';
-            },
-            modifyReved: function(str) {
-                return '"/js/app/'+str.slice(0, str.lastIndexOf('.'))+'"';
-            }
-        }))
-        .pipe(gulp.dest('dist'));
-});
-
-gulp.task("styles-rev-replace", function(){
-    var manifest = gulp.src('dist/css/rev-manifest.json');
-
-    return gulp.src(['dist/index.html'])
-        .pipe(revReplace({
-            manifest: manifest
-        }))
-        .pipe(gulp.dest('dist'));
-});
-
-gulp.task("config-rev-replace", function(){
-    var manifest = gulp.src('dist/sounds/rev-manifest.json');
-
-    return gulp.src(['dist/js/app/**/*.js'])
-        .pipe(revReplace({
-            manifest: manifest
+            modifyUnreved: replaceStr,
+            modifyReved: replaceStr
         }))
         .pipe(gulp.dest('dist/js/app'));
 });
@@ -130,6 +62,10 @@ gulp.task('sync', function() {
     }).on('error', console.error).end();
 });
 
-gulp.task("build", function(){
+gulp.task("init", function(){
     return runSequence('clean', 'sync');
+});
+
+gulp.task("build", ["init"], function(){
+    return runSequence('rev-all', 'scripts-rev-replace', 'scripts-min', 'styles-min');
 });
