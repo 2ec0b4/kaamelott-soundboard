@@ -15,7 +15,7 @@ define("app", function(require) {
                 mainRegion: "#main"
             });
 
-            Radio.channel("app").reply("region:show", this.showRegion.bind(this));
+            Radio.channel("App").reply("region:show", this.showRegion.bind(this));
 
             this.router = new Marionette.AppRouter();
 

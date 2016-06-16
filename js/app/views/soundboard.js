@@ -4,18 +4,18 @@ define("views/soundboard", function(require) {
     var Marionette          = require("marionette"),
         SoundsFilterView    = require("views/filter"),
         SoundsView          = require("views/sounds"),
-        SoundboardTemplate  = require("hbs!templates/soundboard.hbs"),
+        SoundboardTemplate  = require("hbs!templates/soundboard"),
         SoundboardView;
 
     SoundboardView = Marionette.LayoutView.extend({
         template: SoundboardTemplate,
         regions: {
-            filter: "#filter",
-            list: "#list"
+            regFilter: "#filter",
+            regList: "#list"
         },
         onShow: function() {
-            this.showChildView("filter", new SoundsFilterView());
-            this.showChildView("list", new SoundsView());
+            this.showChildView("regFilter", new SoundsFilterView());
+            this.showChildView("regList", new SoundsView());
         }
     });
 

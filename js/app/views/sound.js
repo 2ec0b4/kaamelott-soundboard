@@ -3,7 +3,7 @@ define("views/sound", function(require) {
 
     var Marionette      = require("marionette"),
         SoundModel      = require("models/sound"),
-        SoundTemplate   = require("hbs!templates/sound.hbs"),
+        SoundTemplate   = require("hbs!templates/sound"),
         SoundView;
 
     SoundView = Marionette.ItemView.extend({

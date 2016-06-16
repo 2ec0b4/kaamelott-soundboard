@@ -3,7 +3,7 @@ define("views/filter", function(require) {
 
     var Marionette              = require("marionette"),
         Radio                   = require("backbone.radio"),
-        SoundsFilterTemplate    = require("hbs!templates/filter.hbs"),
+        SoundsFilterTemplate    = require("hbs!templates/filter"),
         SoundsFilterView;
 
     SoundsFilterView = Marionette.LayoutView.extend({
