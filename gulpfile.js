@@ -67,6 +67,6 @@ gulp.task("init", function(){
     return runSequence('clean', 'sync');
 });
 
-gulp.task("build", ["init"], function(){
+gulp.task("build", function(){
     return runSequence('rev-all', 'scripts-rev-replace', 'scripts-min', 'styles-min');
 });
