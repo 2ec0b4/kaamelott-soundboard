@@ -9,7 +9,8 @@ var gulp        = require('gulp'),
 
 gulp.task("rev-all", function(){
     var revAll  = new RevAll({
-        dontRenameFile: [/^\/index\.html/g, /^\/sounds\/(.+)\.mp3/g, /^\/robots\.txt/g, /^\/img\/ks\.jpg/g]
+        dontGlobal: [/^\/favicon.ico$/g, /^\/sounds\/(.+)\.mp3/g],
+        dontRenameFile: [/^\/index\.html/g, /^\/robots\.txt/g, /^\/img\/ks\.jpg/g]
     });
 
     return gulp.src(['dist/**'])
