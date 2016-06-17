@@ -1,16 +1,16 @@
 require.config({
     baseUrl: "/js/app",
     paths: {
-        backbone: "../../node_modules/backbone/backbone-min",
-        "backbone.radio": "../../node_modules/backbone.radio/build/backbone.radio",
-        css: "../../node_modules/require-css/css",
-        handlebars: "../../node_modules/handlebars/dist/handlebars.min",
-        hbs: "../../node_modules/require-handlebars-plugin/hbs",
-        jquery: "../../node_modules/jquery/dist/jquery.min",
-        likely: "../../node_modules/ilyabirman-likely/release/likely",
-        marionette: "../../node_modules/backbone.marionette/lib/backbone.marionette.min",
-        text: "../../node_modules/requirejs-text/text",
-        underscore: "../../node_modules/underscore/underscore-min"
+        backbone: "../../bower_components/backbone/backbone-min",
+        "backbone.radio": "../../bower_components/backbone.radio/build/backbone.radio",
+        css: "../../bower_components/require-css/css",
+        handlebars: "../../bower_components/handlebars/handlebars.min",
+        hbs: "../../bower_components/require-handlebars-plugin/hbs",
+        jquery: "../../bower_components/jquery/dist/jquery.min",
+        likely: "../../bower_components/ilyabirman-likely/release/likely",
+        marionette: "../../bower_components/backbone.marionette/lib/backbone.marionette.min",
+        text: "../../bower_components/requirejs-text/text",
+        underscore: "../../bower_components/underscore/underscore-min"
     },
     shim: {
         backbone: {

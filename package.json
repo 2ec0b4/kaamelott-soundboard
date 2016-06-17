@@ -20,18 +20,6 @@
     "url": "https://github.com/2ec0b4/kaamelott-soundboard/issues"
   },
   "homepage": "https://github.com/2ec0b4/kaamelott-soundboard#readme",
-  "dependencies": {
-    "backbone.marionette": "^2.4.6",
-    "backbone.radio": "^1.0.5",
-    "handlebars": "^4.0.5",
-    "jquery": "^2.2.4",
-    "ilyabirman-likely": "^2.1.0",
-    "require-css": "^0.1.8",
-    "require-handlebars-plugin": "^1.0.0",
-    "requirejs": "^2.2.0",
-    "requirejs-text": "^2.0.12",
-    "underscore": "^1.8.3"
-  },
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.1",

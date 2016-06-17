@@ -6,7 +6,7 @@ define("app", function(require) {
         SoundboardController    = require("controllers/soundboard"),
         app;
 
-    require("css!../../node_modules/ilyabirman-likely/release/likely.css");
+    require("css!../../bower_components/ilyabirman-likely/release/likely.css");
     require("likely");
 
     app = Marionette.Application.extend({
