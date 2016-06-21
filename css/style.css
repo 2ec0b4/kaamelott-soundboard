@@ -437,6 +437,7 @@ input[type="text"] {
     font-size: 14px;
     height: 34px;
     line-height: 1.42857;
+    outline: none;
     padding: 6px 12px;
 }
 .btn, .btn:hover, .btn:focus,
@@ -538,6 +539,18 @@ noscript p {
     -webkit-transform: scale(0.4);
     transform: scale(0.4);
 }
+#modal-back {
+    background: #333333;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
 #filter {
     text-align: center;
 }
@@ -581,6 +594,23 @@ noscript p {
     text-overflow: ellipsis;
     width: 100%;
 }
+.share-link {
+    background-color: #FFFFFF;
+    border: 1px solid #999;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    color: #333;
+    margin: 0 auto;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 10001;
+}
+.share-link input[type="text"] {
+    width: 100%;
+}
+.share-link .likely {
+    margin-top: 5px;
+}
 /**
 * MEDIA QUERIES
 * -----------------------------------------------------------------------------
@@ -590,6 +620,9 @@ noscript p {
         width: 46%;
         margin-left: 1%;
         margin-right: 1%;
+    }
+    .share-link {
+        width : 400px;
     }
 }
 @media only screen and (min-width:1024px){
@@ -626,6 +659,9 @@ noscript p {
         width: 95%;
         margin-left: 2%;
         margin-right: 2%;
+    }
+    .share-link {
+        width : 90%;
     }
 }
 @media only screen and (max-width:430px){

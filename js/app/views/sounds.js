@@ -5,6 +5,7 @@ define("views/sounds", function(require) {
         Radio                   = require("backbone.radio"),
         SoundsCollection        = require("collections/sounds"),
         SoundView               = require("views/sound"),
+        SoundShareView          = require("views/share"),
         SoundsCollectionView;
 
     SoundsCollectionView = Marionette.CollectionView.extend({
@@ -12,7 +13,8 @@ define("views/sounds", function(require) {
         collection: new SoundsCollection(),
         tagName: "ul",
         childEvents: {
-            "sound:play": "stopPlayingSound"
+            "sound:play": "stopPlayingSound",
+            "sound:share": "shareSoundLink"
         },
         initialize: function(options) {
             var that    = this;
@@ -55,6 +57,11 @@ define("views/sounds", function(require) {
             if( playingSound ) {
                 playingSound.stop();
             }
+        },
+        shareSoundLink: function(args) {
+            var view = new SoundShareView({model: args.model});
+
+            Radio.channel("App").request("modal:show", { view: view });
         }
     });
 
