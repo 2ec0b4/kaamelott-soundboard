@@ -14,11 +14,18 @@ define("views/sound", function(require) {
         ui: {
             btn: ".btn",
             btnPlay: ".btn-play",
+            btnShare: ".btn-share"
         },
         events: {
             "mouseenter @ui.btnPlay": "toggleSoundDetail",
             "mouseleave @ui.btnPlay": "toggleSoundDetail",
             "click @ui.btnPlay": "toggleSound"
+        },
+        triggers: {
+            "click @ui.btnShare": {
+                event: "sound:share",
+                preventDefault: true
+            },
         },
         initialize: function() {
             this.listenTo(this.model, "change:playing", this.playingAttributeChanged);

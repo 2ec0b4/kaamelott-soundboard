@@ -480,6 +480,24 @@ a.btn-play:before {
 a.btn-play.playing:before {
     background: url('../img/stop.svg') no-repeat center center;
 }
+.btn-share, .btn-share:hover, .btn-share:focus,
+a.btn-share, a.btn-share:hover, a.btn-share:focus {
+    background: #18AE90;
+    border-bottom: 3px solid #017F66;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+}
+a.btn-share:before {
+    content: "";
+    background: url('../img/share.svg') no-repeat center center;
+    font-size: 1em;
+    height: 43px;
+    left: 12px;
+    position: absolute;
+    top: 7px;
+    width: 43px;
+}
 .btn:active,
 a.btn:active {
     top:3px;
@@ -549,6 +567,16 @@ noscript p {
     position: relative;
 }
 #list ul li a {
+    height: 43px;
+    width: 43px;
+}
+#list ul li > a {
+    right: 0;
+}
+#list ul li div {
+    margin-right: 45px;
+}
+#list ul li div a {
     overflow: hidden;
     text-overflow: ellipsis;
     width: 100%;
