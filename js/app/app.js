@@ -26,7 +26,8 @@ define("app", function(require) {
             var soundboardController = new SoundboardController();
 
             this.router.processAppRoutes(soundboardController, {
-                "": "index"
+                "": "index",
+                "son/:slug": "index"
             });
 
             if (Backbone.history) {

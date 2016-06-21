@@ -14,8 +14,10 @@ define("views/sounds", function(require) {
         childEvents: {
             "sound:play": "stopPlayingSound"
         },
-        initialize: function() {
+        initialize: function(options) {
             var that    = this;
+
+            this.slug = typeof options.slug !== 'undefined' ? options.slug : '';
 
             this.data = {
                 collection: this.collection
@@ -24,6 +26,17 @@ define("views/sounds", function(require) {
             this.channel    = Radio.channel("Sounds");
             this.channel.request("getSounds").then(this.initCollection.bind(this));
             this.channel.on("sounds:filter", this.filterCollection.bind(this));
+        },
+        onBeforeRender: function() {
+            var sound;
+
+            if( this.slug ) {
+                sound   = this.collection.findWhere({file: this.slug+".mp3"});
+
+                if( sound ) {
+                    sound.set('selected', true);
+                }
+            }
         },
         initCollection: function(sounds) {
             this.data.collection    = new SoundsCollection(sounds);

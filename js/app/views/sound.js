@@ -11,15 +11,28 @@ define("views/sound", function(require) {
         model: SoundModel,
         tagName: "li",
         ui: {
-            soundItem: "a"
+            btn: ".btn",
+            btnPlay: ".btn-play",
         },
         events: {
-            "click @ui.soundItem": "toggleSound",
-            "mouseenter @ui.soundItem": "toggleSoundDetail",
-            "mouseleave @ui.soundItem": "toggleSoundDetail"
+            "mouseenter @ui.btnPlay": "toggleSoundDetail",
+            "mouseleave @ui.btnPlay": "toggleSoundDetail",
+            "click @ui.btnPlay": "toggleSound"
         },
         initialize: function() {
             this.listenTo(this.model, "change:playing", this.playingAttributeChanged);
+        },
+        onShow: function() {
+            var that    = this,
+                height;
+
+            if( this.model.get('selected') ) {
+                height = $('header').outerHeight();
+                $('html, body').animate({scrollTop: this.$el.offset().top-height}, 750, 'swing', function() {
+                    that.$el.find(that.ui.btn).addClass('flash');
+                });
+                this.$el.find(this.ui.btnPlay).click();
+            }
         },
         toggleSound: function(e) {
             e.preventDefault();
@@ -36,9 +49,9 @@ define("views/sound", function(require) {
         },
         playingAttributeChanged: function() {
             if( this.model.get("playing") ) {
-                $(this.ui.soundItem).addClass("playing");
+                $(this.ui.btnPlay).addClass("playing");
             } else {
-                $(this.ui.soundItem).removeClass("playing");
+                $(this.ui.btnPlay).removeClass("playing");
             }
         },
         toggleSoundDetail: function(e) {

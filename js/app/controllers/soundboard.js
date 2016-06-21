@@ -11,8 +11,8 @@ define("controllers/soundboard", function(require) {
         initialize: function() {
             var soundsRadio = new SoundsRadio();
         },
-        index: function() {
-            var view = new SoundboardView();
+        index: function(slug) {
+            var view = new SoundboardView({slug: slug});
 
             Radio.channel("App").request("region:show", { view: view });
         }
