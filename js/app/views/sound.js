@@ -1,9 +1,10 @@
 define("views/sound", function(require) {
     "use strict";
 
-    var Marionette      = require("marionette"),
-        SoundModel      = require("models/sound"),
-        SoundTemplate   = require("hbs!templates/sound"),
+    var Marionette          = require("marionette"),
+        SoundModel          = require("models/sound"),
+        SoundTemplate       = require("hbs!templates/sound"),
+        SoundDetailTemplate = require("hbs!templates/soundDetail"),
         SoundView;
 
     SoundView = Marionette.ItemView.extend({
@@ -55,20 +56,18 @@ define("views/sound", function(require) {
             }
         },
         toggleSoundDetail: function(e) {
-            var offset;
+            var offset,
+                template;
 
             if (e.type === "mouseleave") {
                 $(".tooltip").remove();
                 return;
             }
 
-            offset = $(this.el).offset();
+            offset      = $(this.el).offset();
+            template    = SoundDetailTemplate({detail: this.model.getSoundDetail()});
 
-            $("<div/>")
-                .addClass("tooltip")
-                .append(
-                    $("<p/>").text(this.model.getSoundDetail())
-                )
+            $(template)
                 .css({left: (offset.left+25)+"px", top: (offset.top+30)+"px"})
                 .appendTo("body")
                 .delay(1000)
