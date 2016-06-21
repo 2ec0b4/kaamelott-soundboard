@@ -12,10 +12,12 @@ define("app", function(require) {
     app = Marionette.Application.extend({
         initialize: function intialize() {
             this.addRegions({
-                mainRegion: "#main"
+                mainRegion: "#main",
+                modalRegion: "#modal"
             });
 
             Radio.channel("App").reply("region:show", this.showRegion.bind(this));
+            Radio.channel("App").reply("modal:show", this.showModal.bind(this));
 
             this.router = new Marionette.AppRouter();
 
@@ -40,6 +42,10 @@ define("app", function(require) {
 
         showRegion: function showRegion(params) {
             this.mainRegion.show(params.view);
+        },
+
+        showModal: function showModal(params) {
+            this.modalRegion.show(params.view);
         }
     });
 
