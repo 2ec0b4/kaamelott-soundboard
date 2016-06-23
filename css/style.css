@@ -177,19 +177,46 @@ footer .likely {
 * -----------------------------------------------------------------------------
 */
 @-webkit-keyframes flash {
-    0% { background-color: none; }
-    50% { background-color: #fbf8b2; }
-    100% { background-color: none; }
+    0% {
+        background-color: none;
+        border-color: none;
+    }
+    50% {
+        background-color: #fbf8b2;
+        border-color: #fbf8b2;
+    }
+    100% {
+        background-color: none;
+        border-color: none;
+    }
 }
 @-moz-keyframes flash {
-    0% { background-color: none; }
-    50% { background-color: #fbf8b2; }
-    100% { background-color: none; }
+    0% {
+        background-color: none;
+        border-color: none;
+    }
+    50% {
+        background-color: #fbf8b2;
+        border-color: #fbf8b2;
+    }
+    100% {
+        background-color: none;
+        border-color: none;
+    }
 }
 @-ms-keyframes flash {
-    0% { background-color: none; }
-    50% { background-color: #fbf8b2; }
-    100% { background-color: none; }
+    0% {
+        background-color: none;
+        border-color: none;
+    }
+    50% {
+        background-color: #fbf8b2;
+        border-color: #fbf8b2;
+    }
+    100% {
+        background-color: none;
+        border-color: none;
+    }
 }
 .flash {
   -moz-animation: flash 1s ease-out;
