@@ -5,16 +5,18 @@ var gulp        = require('gulp'),
     syncy       = require('syncy'),
     runSequence = require('run-sequence'),
     RevAll      = require('gulp-rev-all'),
-    revReplace  = require('gulp-rev-replace');
+    revReplace  = require('gulp-rev-replace'),
+    revDel      = require('gulp-rev-delete-original');
 
 gulp.task("rev-all", function(){
     var revAll  = new RevAll({
-        dontGlobal: [/^\/favicon.ico$/g, /^\/sounds\/(.+)\.mp3/g],
+        dontGlobal: [/^\/favicons\/favicon\.ico$/g, /^\/sounds\/(.+)\.mp3/g],
         dontRenameFile: [/^\/index\.html/g, /^\/robots\.txt/g, /^\/img\/ks\.jpg/g]
     });
 
-    return gulp.src(['dist/**'])
+    return gulp.src(['dist/**', '!dist/bower_components/**'])
         .pipe(revAll.revision())
+        .pipe(revDel())
         .pipe(gulp.dest('dist'))
         .pipe(revAll.manifestFile())
         .pipe(gulp.dest('dist'));
@@ -58,7 +60,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('sync', function() {
-    syncy(['.htaccess', './css/**', './favicons/**', './img/**', './js/**', 'index.html', 'robots.txt', './sounds/**'], 'dist', {
+    syncy(['.htaccess', './bower_components/**', './css/**', './favicons/**', './img/**', './js/**', 'index.html', 'robots.txt', './sounds/**'], 'dist', {
         updateAndDelete: true,
     }).on('error', console.error).end();
 });
