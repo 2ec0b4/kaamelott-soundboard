@@ -34,6 +34,16 @@ define("models/sound",  function(require) {
         },
         getSoundDetail: function() {
             return this.get("character")+", "+this.get("episode");
+        },
+        getSlug: function() {
+            return this.get("file").slice(0, this.get("file").lastIndexOf('.'));
+        },
+        toJSON: function(){
+            var json = Backbone.Model.prototype.toJSON.apply(this, arguments);
+
+            json.slug = this.getSlug();
+
+            return json;
         }
     });
 

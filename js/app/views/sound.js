@@ -1,9 +1,10 @@
 define("views/sound", function(require) {
     "use strict";
 
-    var Marionette      = require("marionette"),
-        SoundModel      = require("models/sound"),
-        SoundTemplate   = require("hbs!templates/sound"),
+    var Marionette          = require("marionette"),
+        SoundModel          = require("models/sound"),
+        SoundTemplate       = require("hbs!templates/sound"),
+        SoundDetailTemplate = require("hbs!templates/soundDetail"),
         SoundView;
 
     SoundView = Marionette.ItemView.extend({
@@ -11,15 +12,38 @@ define("views/sound", function(require) {
         model: SoundModel,
         tagName: "li",
         ui: {
-            soundItem: "a"
+            btn: ".btn",
+            btnPlay: ".btn-play",
+            btnShare: ".btn-share"
         },
         events: {
-            "click @ui.soundItem": "toggleSound",
-            "mouseenter @ui.soundItem": "toggleSoundDetail",
-            "mouseleave @ui.soundItem": "toggleSoundDetail"
+            "mouseenter @ui.btnPlay": "toggleSoundDetail",
+            "mouseleave @ui.btnPlay": "toggleSoundDetail",
+            "click @ui.btnPlay": "toggleSound"
+        },
+        triggers: {
+            "click @ui.btnShare": {
+                event: "sound:share",
+                preventDefault: true
+            },
         },
         initialize: function() {
             this.listenTo(this.model, "change:playing", this.playingAttributeChanged);
+        },
+        onShow: function() {
+            var that    = this,
+                height;
+
+            if( this.model.get('selected') ) {
+                height = $('header').outerHeight();
+                $('html, body').animate({scrollTop: this.$el.offset().top-height}, 750, 'swing', function() {
+                    that.$el.find(that.ui.btn).addClass('flash');
+                });
+
+                if( !/iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+                    this.$el.find(this.ui.btnPlay).click();
+                }
+            }
         },
         toggleSound: function(e) {
             e.preventDefault();
@@ -36,26 +60,24 @@ define("views/sound", function(require) {
         },
         playingAttributeChanged: function() {
             if( this.model.get("playing") ) {
-                $(this.ui.soundItem).addClass("playing");
+                $(this.ui.btnPlay).addClass("playing");
             } else {
-                $(this.ui.soundItem).removeClass("playing");
+                $(this.ui.btnPlay).removeClass("playing");
             }
         },
         toggleSoundDetail: function(e) {
-            var offset;
+            var offset,
+                template;
 
             if (e.type === "mouseleave") {
                 $(".tooltip").remove();
                 return;
             }
 
-            offset = $(this.el).offset();
+            offset      = $(this.el).offset();
+            template    = SoundDetailTemplate({detail: this.model.getSoundDetail()});
 
-            $("<div/>")
-                .addClass("tooltip")
-                .append(
-                    $("<p/>").text(this.model.getSoundDetail())
-                )
+            $(template)
                 .css({left: (offset.left+25)+"px", top: (offset.top+30)+"px"})
                 .appendTo("body")
                 .delay(1000)

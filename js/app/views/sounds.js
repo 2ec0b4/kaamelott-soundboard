@@ -5,6 +5,7 @@ define("views/sounds", function(require) {
         Radio                   = require("backbone.radio"),
         SoundsCollection        = require("collections/sounds"),
         SoundView               = require("views/sound"),
+        SoundShareView          = require("views/share"),
         SoundsCollectionView;
 
     SoundsCollectionView = Marionette.CollectionView.extend({
@@ -12,10 +13,13 @@ define("views/sounds", function(require) {
         collection: new SoundsCollection(),
         tagName: "ul",
         childEvents: {
-            "sound:play": "stopPlayingSound"
+            "sound:play": "stopPlayingSound",
+            "sound:share": "shareSoundLink"
         },
-        initialize: function() {
+        initialize: function(options) {
             var that    = this;
+
+            this.slug = typeof options.slug !== 'undefined' ? options.slug : '';
 
             this.data = {
                 collection: this.collection
@@ -24,6 +28,17 @@ define("views/sounds", function(require) {
             this.channel    = Radio.channel("Sounds");
             this.channel.request("getSounds").then(this.initCollection.bind(this));
             this.channel.on("sounds:filter", this.filterCollection.bind(this));
+        },
+        onBeforeRender: function() {
+            var sound;
+
+            if( this.slug ) {
+                sound   = this.collection.findWhere({file: this.slug+".mp3"});
+
+                if( sound ) {
+                    sound.set('selected', true);
+                }
+            }
         },
         initCollection: function(sounds) {
             this.data.collection    = new SoundsCollection(sounds);
@@ -42,6 +57,11 @@ define("views/sounds", function(require) {
             if( playingSound ) {
                 playingSound.stop();
             }
+        },
+        shareSoundLink: function(args) {
+            var view = new SoundShareView({model: args.model});
+
+            Radio.channel("App").request("modal:show", { view: view });
         }
     });
 

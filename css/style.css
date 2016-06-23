@@ -176,6 +176,88 @@ footer .likely {
 * ANIMATIONS
 * -----------------------------------------------------------------------------
 */
+@-webkit-keyframes flash {
+    0% {
+        background-color: none;
+        border-color: none;
+    }
+    50% {
+        background-color: #fbf8b2;
+        border-color: #fbf8b2;
+    }
+    100% {
+        background-color: none;
+        border-color: none;
+    }
+}
+@-moz-keyframes flash {
+    0% {
+        background-color: none;
+        border-color: none;
+    }
+    50% {
+        background-color: #fbf8b2;
+        border-color: #fbf8b2;
+    }
+    100% {
+        background-color: none;
+        border-color: none;
+    }
+}
+@-ms-keyframes flash {
+    0% {
+        background-color: none;
+        border-color: none;
+    }
+    50% {
+        background-color: #fbf8b2;
+        border-color: #fbf8b2;
+    }
+    100% {
+        background-color: none;
+        border-color: none;
+    }
+}
+@-o-keyframes flash {
+    0% {
+        background-color: none;
+        border-color: none;
+    }
+    50% {
+        background-color: #fbf8b2;
+        border-color: #fbf8b2;
+    }
+    100% {
+        background-color: none;
+        border-color: none;
+    }
+}
+@keyframes flash {
+    0% {
+        background-color: none;
+        border-color: none;
+    }
+    50% {
+        background-color: #fbf8b2;
+        border-color: #fbf8b2;
+    }
+    100% {
+        background-color: none;
+        border-color: none;
+    }
+}
+.flash {
+  -moz-animation: flash 1s ease-out;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation: flash 1s ease-out;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation: flash 1s ease-out;
+  -ms-animation-iteration-count: 1;
+  -o-animation: flash 1s ease-out;
+  -o-animation-iteration-count: 1;
+  animation: flash 1s ease-out;
+  animation-iteration-count: 1;
+}
 @-webkit-keyframes uil-ring-anim {
   0% {
     -ms-transform: rotate(0deg);
@@ -412,6 +494,7 @@ input[type="text"] {
     font-size: 14px;
     height: 34px;
     line-height: 1.42857;
+    outline: none;
     padding: 6px 12px;
 }
 .btn, .btn:hover, .btn:focus,
@@ -455,6 +538,24 @@ a.btn-play:before {
 a.btn-play.playing:before {
     background: url('../img/stop.svg') no-repeat center center;
 }
+.btn-share, .btn-share:hover, .btn-share:focus,
+a.btn-share, a.btn-share:hover, a.btn-share:focus {
+    background: #18AE90;
+    border-bottom: 3px solid #017F66;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+}
+a.btn-share:before {
+    content: "";
+    background: url('../img/share.svg') no-repeat center center;
+    font-size: 1em;
+    height: 43px;
+    left: 12px;
+    position: absolute;
+    top: 7px;
+    width: 43px;
+}
 .btn:active,
 a.btn:active {
     top:3px;
@@ -495,6 +596,18 @@ noscript p {
     -webkit-transform: scale(0.4);
     transform: scale(0.4);
 }
+#modal-back {
+    background: #333333;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
 #filter {
     text-align: center;
 }
@@ -524,9 +637,36 @@ noscript p {
     position: relative;
 }
 #list ul li a {
+    height: 43px;
+    width: 43px;
+}
+#list ul li > a {
+    right: 0;
+}
+#list ul li div {
+    margin-right: 45px;
+}
+#list ul li div a {
     overflow: hidden;
     text-overflow: ellipsis;
     width: 100%;
+}
+.share-link {
+    background-color: #FFFFFF;
+    border: 1px solid #999;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    color: #333;
+    margin: 0 auto;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 10001;
+}
+.share-link input[type="text"] {
+    width: 100%;
+}
+.share-link .likely {
+    margin-top: 5px;
 }
 /**
 * MEDIA QUERIES
@@ -537,6 +677,9 @@ noscript p {
         width: 46%;
         margin-left: 1%;
         margin-right: 1%;
+    }
+    .share-link {
+        width : 400px;
     }
 }
 @media only screen and (min-width:1024px){
@@ -573,6 +716,9 @@ noscript p {
         width: 95%;
         margin-left: 2%;
         margin-right: 2%;
+    }
+    .share-link {
+        width : 90%;
     }
 }
 @media only screen and (max-width:430px){

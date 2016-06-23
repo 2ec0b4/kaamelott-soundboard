@@ -13,9 +13,14 @@ define("views/soundboard", function(require) {
             regFilter: "#filter",
             regList: "#list"
         },
+        initialize: function(options) {
+            this.slug = typeof options.slug !== 'undefined' ? options.slug : '';
+        },
         onShow: function() {
             this.showChildView("regFilter", new SoundsFilterView());
-            this.showChildView("regList", new SoundsView());
+            this.showChildView("regList", new SoundsView({
+                slug: this.slug
+            }));
         }
     });
 
