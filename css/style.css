@@ -218,15 +218,45 @@ footer .likely {
         border-color: none;
     }
 }
+@-o-keyframes flash {
+    0% {
+        background-color: none;
+        border-color: none;
+    }
+    50% {
+        background-color: #fbf8b2;
+        border-color: #fbf8b2;
+    }
+    100% {
+        background-color: none;
+        border-color: none;
+    }
+}
+@keyframes flash {
+    0% {
+        background-color: none;
+        border-color: none;
+    }
+    50% {
+        background-color: #fbf8b2;
+        border-color: #fbf8b2;
+    }
+    100% {
+        background-color: none;
+        border-color: none;
+    }
+}
 .flash {
   -moz-animation: flash 1s ease-out;
   -moz-animation-iteration-count: 1;
-
   -webkit-animation: flash 1s ease-out;
   -webkit-animation-iteration-count: 1;
-
   -ms-animation: flash 1s ease-out;
   -ms-animation-iteration-count: 1;
+  -o-animation: flash 1s ease-out;
+  -o-animation-iteration-count: 1;
+  animation: flash 1s ease-out;
+  animation-iteration-count: 1;
 }
 @-webkit-keyframes uil-ring-anim {
   0% {
