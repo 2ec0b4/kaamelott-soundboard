@@ -27,13 +27,11 @@ define("views/share", function(require) {
             this.model  = options.model;
 
             $(window).on("resize", this.center.bind(this));
-            $(window).on("scroll", this.destroy.bind(this));
         },
         onDestroy: function() {
             $(this.ui.background).remove();
 
             $(window).off("resize", this.center.bind(this));
-            $(window).off("scroll", this.destroy.bind(this));
         },
         onBeforeShow: function() {
             this.$el.append($("<div/>").attr("id", "modal-back"));
