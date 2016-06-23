@@ -45,7 +45,7 @@ define("views/share", function(require) {
 
             this.center();
 
-            window.setInterval(function() {
+            window.setTimeout(function() {
                 that.$el
                     .find(that.ui.field)
                     .focus(function() {
