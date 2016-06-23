@@ -39,7 +39,10 @@ define("views/sound", function(require) {
                 $('html, body').animate({scrollTop: this.$el.offset().top-height}, 750, 'swing', function() {
                     that.$el.find(that.ui.btn).addClass('flash');
                 });
-                this.$el.find(this.ui.btnPlay).click();
+
+                if( !/iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+                    this.$el.find(this.ui.btnPlay).click();
+                }
             }
         },
         toggleSound: function(e) {
