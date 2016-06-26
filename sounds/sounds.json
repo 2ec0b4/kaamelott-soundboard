@@ -190,5 +190,119 @@
         "character": "Arthur",
         "episode": "Livre I, 30 - Le Trois de cœur",
         "file": "ecartez-vous.mp3"
+    },
+    {
+        "title": "Qu'est-ce que vous avez à sourire comme des glands ?",
+        "character": "Arthur",
+        "episode": "Livre I, 31 - Basidiomycètes",
+        "file": "sourire_comme_des_glands.mp3"
+    },
+    {
+        "title": "Nan mais faut pas toucher ça laissez-le à l'air ça va passer",
+        "character": "Merlin",
+        "episode": "Livre I, 32 - L'Imposteur",
+        "file": "laissez_le_a_lair.mp3"
+    },
+    {
+        "title": "J'vous soupçonne d'être un gros nul",
+        "character": "Arthur",
+        "episode": "Livre I, 32 - L'Imposteur",
+        "file": "soupcon_gros_nul.mp3"
+    },
+    {
+        "title": "Nan mais quand on est sur place c'est vraiment impressionnant",
+        "character": "Lancelot",
+        "episode": "Livre I, 32 - L'Imposteur",
+        "file": "vraiment_impressionnant.mp3"
+    },
+    {
+        "title": "Plaît-il ?",
+        "character": "L'évêque Boniface",
+        "episode": "Livre I, 33 - Compagnons de chambrée",
+        "file": "plait_il.mp3"
+    },
+    {
+        "title": "À moi ! À l'assassin !",
+        "character": "L'évêque Boniface",
+        "episode": "Livre I, 33 - Compagnons de chambrée",
+        "file": "a_moi_a_lassassin.mp3"
+    },
+    {
+        "title": "C'est... un genre de cake",
+        "character": "La Dame du Lac",
+        "episode": "Livre I, 34 - La Grotte de Padraig",
+        "file": "un_genre_cake.mp3"
+    },
+    {
+        "title": "Vous rigolez, j'espère !",
+        "character": "Léodagan",
+        "episode": "Livre I, 34 - La Grotte de Padraig",
+        "file": "vous_rigolez_jespere.mp3"
+    },
+    {
+        "title": "Selon comme on est tourné, ça change tout",
+        "character": "Perceval",
+        "episode": "Livre I, 35 - Ambidextrie",
+        "file": "ca_change_tout.mp3"
+    },
+    {
+        "title": "Voilà, là c'est pro !",
+        "character": "Perceval",
+        "episode": "Livre I, 35 - Ambidextrie",
+        "file": "voila_cest_pro.mp3"
+    },
+    {
+        "title": "Toi, un jour, je te crame ta famille, toi",
+        "character": "Perceval",
+        "episode": "Livre I, 35 - Ambidextrie",
+        "file": "crame_ta_famille.mp3"
+    },
+    {
+        "title": "Ah bah faut c'qui faut, hein !",
+        "character": "Léodagan",
+        "episode": "Livre I, 36 - Raison d’argent",
+        "file": "faut_ce_qui_faut.mp3"
+    },
+    {
+        "title": "Le pognon ça va, ça vient, il faut jamais paniquer",
+        "character": "Venec",
+        "episode": "Livre I, 36 - Raison d’argent",
+        "file": "le_pognon_ca_va_ca_vient.mp3"
+    },
+    {
+        "title": "Si vous êtes vendeur, j'vous fais une proposition aux oignons",
+        "character": "Venec",
+        "episode": "Livre I, 36 - Raison d’argent",
+        "file": "si_vous_etes_vendeur.mp3"
+    },
+    {
+        "title": "Bah vous la crachez votre pastille ?",
+        "character": "Arthur",
+        "episode": "Livre I, 36 - Raison d’argent",
+        "file": "vous_la_crachez_votre_pastille.mp3"
+    },
+    {
+        "title": "C'est bien fait, hein ?",
+        "character": "Léodagan",
+        "episode": "Livre I, 36 - Raison d’argent",
+        "file": "cest_bien_fait.mp3"
+    },
+    {
+        "title": "C'EST HONTEUX",
+        "character": "Bohort",
+        "episode": "Livre I, 36 - Raison d’argent",
+        "file": "cest_honteux.mp3"
+    },
+    {
+        "title": "C'est bon, y a pas de quoi en chier une galette",
+        "character": "Léodagan",
+        "episode": "Livre I, 36 - Raison d’argent",
+        "file": "pas_de_quoi_en_chier_une_galette.mp3"
+    },
+    {
+        "title": "C'est débile cette histoire",
+        "character": "Guenièvre",
+        "episode": "Livre I, 37 - La Romance de Lancelot",
+        "file": "cest_debile_cette_histoire.mp3"
     }
 ]
