@@ -15,14 +15,28 @@ define("collections/sounds", function(require) {
             return str1.localeCompare(str2);
         },
         filterByTitle: function(search){
+            var that    = this,
+                pattern;
+
             if( search == "" ) {
                 return this;
             }
 
-            var pattern = new RegExp(search, "gi");
+            pattern     = new RegExp(this.removeDiacritics(search), "gi");
             return new Sounds(this.filter(function(data) {
-                return pattern.test(data.get("title")) || pattern.test(data.get("character"));
+                return pattern.test(that.removeDiacritics(data.get("title")))
+                    || pattern.test(that.removeDiacritics(data.get("character")));
             }));
+        },
+        removeDiacritics: function(str) {
+            str = str.replace(/[àâ]/gi,"a");
+            str = str.replace(/[ç]/gi,"c");
+            str = str.replace(/[éèëê]/gi,"e");
+            str = str.replace(/[ïî]/gi,"i");
+            str = str.replace(/[ô]/gi,"o");
+            str = str.replace(/[ùüû]/gi,"u");
+
+            return str;
         }
     });
 
