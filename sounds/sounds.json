@@ -78,6 +78,12 @@
         "file": "ca_vous_ennuie_si_je_vomis.mp3"
     },
     {
+        "title": "VOUS ALLEZ FERMER VOS MOUILLES OUI ?",
+        "character": "Arthur",
+        "episode": "Livre I, 12 - Le Sixième Sens",
+        "file": "vous_allez_fermer_vos_mouilles_oui.mp3"
+    },
+    {
         "title": "M'ADRESSE PAS LA PAROLE HÉRÉTIQUE, DÉMON",
         "character": "Le Répurgateur",
         "episode": "Livre I, 14 - Le Répurgateur",
@@ -304,5 +310,35 @@
         "character": "Guenièvre",
         "episode": "Livre I, 37 - La Romance de Lancelot",
         "file": "cest_debile_cette_histoire.mp3"
+    },
+    {
+        "title": "C'est plus filiforme",
+        "character": "Perceval",
+        "episode": "Livre II, 36 - Les Exploités",
+        "file": "cest_plus_filiforme.mp3"
+    },
+    {
+        "title": "Le Graal par ci, le Graal par là",
+        "character": "Karadoc",
+        "episode": "Livre II, 36 - Les Exploités",
+        "file": "le_graal_par_ci_le_graal_par_la.mp3"
+    },
+    {
+        "title": "Moi j'serais vous, j'vous écouterais",
+        "character": "Perceval",
+        "episode": "Livre II, 36 - Les Exploités",
+        "file": "moi_je_serais_vous_je_vous_ecouterais.mp3"
+    },
+    {
+        "title": "ON EN A GROS !",
+        "character": "Perceval",
+        "episode": "Livre II, 36 - Les Exploités",
+        "file": "on_en_a_gros.mp3"
+    },
+    {
+        "title": "Vous nous utilisez bon gré, mal gré, pour arriver sur la fin",
+        "character": "Perceval",
+        "episode": "Livre II, 36 - Les Exploités",
+        "file": "vous_nous_utilisez_bon_gre_mal_gre_pour_arriver_sur_la_fin.mp3"
     }
 ]
