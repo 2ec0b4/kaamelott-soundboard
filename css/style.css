@@ -138,9 +138,6 @@ a:hover,a:active,a:focus {
 :-ms-input-placeholder {
     opacity:1;
 }
-td {
-    vertical-align: top;
-}
 /**
 * USEFUL CLASSES
 * -----------------------------------------------------------------------------
@@ -667,6 +664,28 @@ noscript p {
 }
 .share-link .likely {
     margin-top: 5px;
+}
+.video-wrapper {
+    height: 0;
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+}
+.video-wrapper iframe {
+	height: 100%;
+    left: 0;
+    max-height: 315px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#error404 {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+}
+#error404 .video-wrapper {
+    margin-bottom: 20px;
 }
 /**
 * MEDIA QUERIES
