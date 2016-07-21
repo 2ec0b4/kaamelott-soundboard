@@ -312,6 +312,60 @@
         "file": "cest_debile_cette_histoire.mp3"
     },
     {
+        "title": "Oh c'est la vacherie ça !",
+        "character": "Merlin",
+        "episode": "Livre I, 38 - Merlin et les Loups",
+        "file": "oh_cest_la_vacherie_ca.mp3"
+    },
+    {
+        "title": "Je refuse d’aller me battre pour soutenir une politique d’expansion territoriale dont je ne reconnais pas la légitimité.",
+        "character": "Yvain",
+        "episode": "Livre I, 39 - Le Cas Yvain",
+        "file": "je_refuse_daller_me_battre.mp3"
+    },
+    {
+        "title": "Super, bonjour la pédagogie",
+        "character": "Yvain",
+        "episode": "Livre I, 39 - Le Cas Yvain",
+        "file": "bonjour_la_pedagogie.mp3"
+    },
+    {
+        "title": "J'vois pas le rapport avec la Bretagne",
+        "character": "Perceval",
+        "episode": "Livre I, 40 - L’Adoubement",
+        "file": "je_vois_pas_le_rapport_avec_bretagne.mp3"
+    },
+    {
+        "title": "Faut toujours que vous veniez foutre votre merde",
+        "character": "Léodagan",
+        "episode": "Livre I, 41 - Arthur et les Ténèbres",
+        "file": "venir_foutre_votre_merde.mp3"
+    },
+    {
+        "title": "Je vais avoir l'air d'une idiote",
+        "character": "Guenièvre",
+        "episode": "Livre I, 42 - Le Zoomorphe",
+        "file": "lair_idiote.mp3"
+    },
+    {
+        "title": "Sont toujours en train de se plaindre ces péquenauds",
+        "character": "Perceval",
+        "episode": "Livre I, 43 - La Coccinelle de Madenn",
+        "file": "toujours_se_plaindre_pequenauds.mp3"
+    },
+    {
+        "title": "Bien manger c'est important !",
+        "character": "Karadoc",
+        "episode": "Livre I, 44 - Patience dans la plaine",
+        "file": "bien_manger_cest_important.mp3"
+    },
+    {
+        "title": "Quand on se fâche, il y a toujours un résultat",
+        "character": "Léodagan",
+        "episode": "Livre I, 45 - Le Oud",
+        "file": "quand_on_se_fache.mp3"
+    },
+    {
         "title": "C'est plus filiforme",
         "character": "Perceval",
         "episode": "Livre II, 36 - Les Exploités",
