@@ -1,17 +1,53 @@
-var gulp        = require('gulp'),
-    uglify      = require('gulp-uglify'),
-    cssnano     = require('gulp-cssnano'),
-    del         = require('del'),
-    syncy       = require('syncy'),
-    runSequence = require('run-sequence'),
-    RevAll      = require('gulp-rev-all'),
-    revReplace  = require('gulp-rev-replace'),
-    revDel      = require('gulp-rev-delete-original');
+var gulp            = require('gulp'),
+    uglify          = require('gulp-uglify'),
+    cssnano         = require('gulp-cssnano'),
+    del             = require('del'),
+    syncy           = require('syncy'),
+    runSequence     = require('run-sequence'),
+    RevAll          = require('gulp-rev-all'),
+    revReplace      = require('gulp-rev-replace'),
+    revDel          = require('gulp-rev-delete-original'),
+    Path            = require('path');
+    Tool            = require('./node_modules/gulp-rev-all/tool.js');
+    nonFileNameChar = '[^a-zA-Z0-9\\.\\-\\_\\/]',
+    qoutes          = '\'|"';
+
+function referenceToRegexs(reference) {
+    var escapedRefPathBase = Tool.path_without_ext(reference.path).replace(/([^0-9a-z])/ig, '\\$1'),
+        escapedRefPathExt = Path.extname(reference.path).replace(/([^0-9a-z])/ig, '\\$1'),
+        isJSReference = reference.path.match(/\.js$/),
+        isHBSReference = reference.path.match(/\.hbs$/),
+        regExps = [],
+        regExp;
+
+    if (isJSReference) {
+        regExp = '('+ qoutes +')(' + escapedRefPathBase + ')()('+ qoutes + '|$)';
+        regExps.push(new RegExp(regExp, 'g'));
+        regExp = '(require\\\(['+ qoutes +'])(' + escapedRefPathBase.replace(/\\\/js\\\/app\\\//ig, '') + ')()(['+ qoutes +']\\\))';
+        regExps.push(new RegExp(regExp, 'g'));
+    } else if(isHBSReference) {
+        regExp = '(require\\\(['+ qoutes +']hbs!)(' + escapedRefPathBase.replace(/\\\/js\\\/app\\\//ig, '') + ')()(['+ qoutes +']\\\))';
+        regExps.push(new RegExp(regExp, 'g'));
+    }
+
+    regExp = '('+ nonFileNameChar +')(' + escapedRefPathBase + ')(' +  escapedRefPathExt + ')('+ nonFileNameChar + '|$)';
+    regExps.push(new RegExp(regExp, 'g'));
+
+    return regExps;
+}
 
 gulp.task("rev-all", function(){
     var revAll  = new RevAll({
         dontGlobal: [/^\/favicons\/favicon\.ico$/g, /^\/sounds\/(.+)\.mp3/g],
-        dontRenameFile: [/^\/index\.html/g, /^\/robots\.txt/g, /^\/img\/ks\.jpg/g]
+        dontRenameFile: [/^\/.+\.html/g, /^\/robots\.txt/g, /^\/img\/ks\.jpg/g],
+        referenceToRegexs: referenceToRegexs,
+        transformPath: function (rev, source, path) {
+            if( source.match(/main/) ) {
+                return rev;
+            }
+
+            return rev.replace('/js/app/', '');
+        }
     });
 
     return gulp.src(['dist/**', '!dist/bower_components/**'])
@@ -60,7 +96,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('sync', function() {
-    syncy(['.htaccess', './bower_components/**', './css/**', './favicons/**', './img/**', './js/**', 'index.html', 'robots.txt', './sounds/**'], 'dist', {
+    syncy(['.htaccess', './bower_components/**', './css/**', './favicons/**', './img/**', './js/**', '*.html', 'robots.txt', './sounds/**'], 'dist', {
         updateAndDelete: true,
     }).on('error', console.error).end();
 });
