@@ -481,7 +481,8 @@ label {
 input {
     margin: 0;
 }
-input[type="text"] {
+input[type="text"],
+textarea {
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
     border-radius: 0;
@@ -489,10 +490,12 @@ input[type="text"] {
     color: #555;
     display: inline-block;
     font-size: 14px;
-    height: 34px;
     line-height: 1.42857;
     outline: none;
     padding: 6px 12px;
+}
+input[type="text"] {
+    height: 34px;
 }
 .btn, .btn:hover, .btn:focus,
 a.btn, a.btn:hover, a.btn:focus {

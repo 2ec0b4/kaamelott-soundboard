@@ -18,7 +18,7 @@ define("views/share", function(require) {
         ui: {
             background: "#modal-back",
             body: ".share-link",
-            field: "input:text"
+            field: "textarea"
         },
         events: {
             "click @ui.background": "destroy"
