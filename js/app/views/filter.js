@@ -10,19 +10,35 @@ define("views/filter", function(require) {
         template: SoundsFilterTemplate,
         ui: {
             searchForm: "form",
-            searchField: "form input[name='s']"
+            searchField: "form input[name='s']",
+            btnReset: ".btn-reset"
         },
         events: {
             "submit @ui.searchForm": "filterSounds",
-            "keyup @ui.searchField": "filterSounds"
+            "keyup @ui.searchField": "filterSounds",
+            "click @ui.btnReset": "resetFilter"
         },
         initialize: function() {
             this.channel    = Radio.channel("Sounds");
         },
         filterSounds: function(e) {
+            var value   = this.$el.find(this.ui.searchField).val();
+
             e.preventDefault();
 
-            this.channel.trigger("sounds:filter", $(this.ui.searchField).val());
+            if( value !== "" ) {
+                this.$el.find(this.ui.btnReset).removeClass('invisible');
+            } else {
+                this.$el.find(this.ui.btnReset).addClass('invisible');
+            }
+
+            this.channel.trigger("sounds:filter", value);
+        },
+        resetFilter: function(e) {
+            e.preventDefault();
+
+            this.$el.find(this.ui.searchField).val('');
+            this.$el.find(this.ui.searchForm).submit();
         }
     });
 

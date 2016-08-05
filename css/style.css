@@ -507,7 +507,7 @@ a.btn, a.btn:hover, a.btn:focus {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.42857;
-    outline: 0 none;
+    outline: none;
     padding: 5px 20px;
     position: relative;
     text-decoration: none;
@@ -582,6 +582,9 @@ noscript p {
     margin: 0;
     padding: 0;
 }
+.invisible {
+    visibility: hidden;
+}
 #main {
     margin: 0 auto;
     padding: 0;
@@ -610,14 +613,33 @@ noscript p {
 }
 #filter form {
     overflow: hidden;
+    position: relative;
 }
 #filter input[type="text"] {
+    padding-right: 32px;
     text-align: left;
 }
-#filter input + .btn {
+#filter .btn {
     height: 34px;
     left: -5px;
     position: relative;
+}
+#filter .btn-reset {
+    background: url('../img/close.svg') no-repeat center center;
+    border: 0;
+    font-size: 1em;
+    /*display: none;*/
+    height: 24px;
+    left: -38px;
+    margin: 0 -34px 0 0;
+    outline: none;
+    position: relative;
+    padding: 0;
+    width: 24px;
+    /**/
+    text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 #list ul {
     list-style-type: none;
