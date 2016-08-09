@@ -684,7 +684,7 @@ noscript p {
     text-align: center;
     z-index: 10001;
 }
-.share-link input[type="text"] {
+.share-link textarea {
     width: 100%;
 }
 .share-link .likely {
