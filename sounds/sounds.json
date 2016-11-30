@@ -400,5 +400,41 @@
         "character": "Le Maître d’armes",
         "episode": "Livre I, 9 - Le Maître d’armes",
         "file": "ma_femme_a_pas_de_moustache.mp3"
+    },
+    {
+        "title": "Euh… c’est moi ou y a une ambiance de merde ?",
+        "character": "Léodagan",
+        "episode": "Livre III, 26 - L'assemblée des rois I",
+        "file": "cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3"
+    },
+    {
+        "title": "En garde ma mignonne !",
+        "character": "Le Maître d’armes",
+        "episode": "Livre I, 09 - Le Maître d'armes",
+        "file": "en_garde_ma_mignone.mp3"
+    },
+    {
+        "title": "Le gras, c'est la vie",
+        "character": "Karadoc",
+        "episode": "Livre II, 26 - Corpore sano",
+        "file": "le_gras_cest_la_vie.mp3"
+    },
+    {
+        "title": "Je vous soupçonne d'être un gros nul",
+        "character": "Arthur",
+        "episode": "Livre I, 36 - L'Imposteur",
+        "file": "moi_je_vous_le_dit_je_vous_soupconne_detre_un_gros_nul.mp3"
+    },
+    {
+        "title": "C'est de la merde 1",
+        "character": "Karadoc",
+        "episode": "Livre I, 68 - Le Pain",
+        "file": "cest_de_la_merde.mp3"
+    },
+    {
+        "title": "C'est de la merde 2",
+        "character": "Karadoc",
+        "episode": "Livre I, 68 - Le Pain",
+        "file": "mais_ya_rien_a_developper_cest_de_la_merde_cest_tout.mp3"
     }
 ]
