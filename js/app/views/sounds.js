@@ -13,7 +13,7 @@ define("views/sounds", function(require) {
         collection: new SoundsCollection(),
         tagName: "ul",
         childEvents: {
-            "sound:play": "stopPlayingSound",
+            "sound:play": "manageSounds",
             "sound:share": "shareSoundLink"
         },
         initialize: function(options) {
@@ -50,6 +50,11 @@ define("views/sounds", function(require) {
             this.collection     = this.data.collection.filterByTitle(search);
 
             this.render();
+        },
+        manageSounds: function(args) {
+            this.stopPlayingSound();
+
+            Radio.channel("Sounds").trigger("sound:play", args.model.getSlug());
         },
         stopPlayingSound: function() {
             var playingSound    = this.collection.findWhere({playing: true});

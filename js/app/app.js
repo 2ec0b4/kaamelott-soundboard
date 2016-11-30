@@ -18,6 +18,7 @@ define("app", function(require) {
 
             Radio.channel("App").reply("region:show", this.showRegion.bind(this));
             Radio.channel("App").reply("modal:show", this.showModal.bind(this));
+            Radio.channel("Sounds").on("sound:play", this.changeUrl.bind(this));
 
             this.router = new Marionette.AppRouter();
 
@@ -38,6 +39,10 @@ define("app", function(require) {
             }
 
             likely.initiate();
+        },
+
+        changeUrl: function(slug) {
+            this.router.navigate("son/"+slug);
         },
 
         showRegion: function showRegion(params) {
