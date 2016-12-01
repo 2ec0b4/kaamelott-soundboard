@@ -5,7 +5,7 @@ define("app", function(require) {
         Marionette              = require("marionette"),
         Radio                   = require("backbone.radio"),
         SoundboardController    = require("controllers/soundboard"),
-        likely                  = require("likely"),
+        Likely                  = require("likely"),
         app;
 
     require("css!../../bower_components/ilyabirman-likely/release/likely.css");
