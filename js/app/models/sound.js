@@ -11,7 +11,8 @@ define("models/sound",  function(require) {
             character: "",
             episode: "",
             file: "",
-            playing: false
+            playing: false,
+            selected: false
         },
         play: function() {
             if( !this.audio ) {

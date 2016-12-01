@@ -32,11 +32,12 @@ define("views/sounds", function(require) {
         onBeforeRender: function() {
             var sound;
 
-            if( this.slug ) {
+            if( !!this.slug ) {
                 sound   = this.collection.findWhere({file: this.slug+".mp3"});
 
                 if( sound ) {
                     sound.set('selected', true);
+                    this.slug   = "";
                 }
             }
         },
