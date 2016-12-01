@@ -43,6 +43,8 @@ define("views/sound", function(require) {
                 if( !/iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
                     this.$el.find(this.ui.btnPlay).click();
                 }
+
+                this.model.set('selected', false);
             }
         },
         toggleSound: function(e) {
