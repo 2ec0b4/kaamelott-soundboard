@@ -1,13 +1,14 @@
 define("app", function(require) {
     "use strict";
 
-    var Marionette              = require("marionette"),
+    var Backbone                = require("backbone"),
+        Marionette              = require("marionette"),
         Radio                   = require("backbone.radio"),
         SoundboardController    = require("controllers/soundboard"),
+        likely                  = require("likely"),
         app;
 
     require("css!../../bower_components/ilyabirman-likely/release/likely.css");
-    require("likely");
 
     app = Marionette.Application.extend({
         initialize: function intialize() {

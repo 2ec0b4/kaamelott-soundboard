@@ -24,6 +24,8 @@ define("collections/sounds", function(require) {
 
             pattern     = new RegExp(this.removeDiacritics(search), "gi");
             return new Sounds(this.filter(function(data) {
+                pattern.lastIndex = 0;
+                
                 return pattern.test(that.removeDiacritics(data.get("title")))
                     || pattern.test(that.removeDiacritics(data.get("character")));
             }));
