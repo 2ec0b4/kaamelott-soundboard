@@ -39,7 +39,7 @@ define("app", function(require) {
                 this.trigger("backbone:history:start");
             }
 
-            likely.initiate();
+            Likely.initiate();
         },
 
         changeUrl: function(slug) {
