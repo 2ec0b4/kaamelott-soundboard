@@ -430,5 +430,35 @@
         "character": "Karadoc",
         "episode": "Livre I, 68 - Le Pain",
         "file": "mais_ya_rien_a_developper_cest_de_la_merde_cest_tout.mp3"
+    },
+    {
+        "title": "Rien à carer ?",
+        "character": "Karadoc",
+        "episode": "Livre III, 72 - La restriction II",
+        "file": "rien_a_carer.mp3"
+    },
+    {
+        "title": "La bouffe est interdit en dehors des repas !",
+        "character": "Séli",
+        "episode": "Livre III, 72 - La restriction II",
+        "file": "la_bouffe_est_interdite.mp3"
+    },
+    {
+        "title": "Je vois trouble, c'est le manque de gras",
+        "character": "Karadoc",
+        "episode": "Livre II, 92 - La restriction",
+        "file": "je_vois_trouble.mp3"
+    },
+    {
+        "title": "Elle est ou la poulette ?",
+        "character": "Kadoc",
+        "episode": "Livre II, 60 - Le Jeu du caillou",
+        "file": "elle_est_ou_la_poulette.mp3"
+    },
+    {
+        "title": "Vous êtes completement con !",
+        "character": "Le maitre d'armes",
+        "episode": "Livre III, 26 - L'assemblé des rois - 2ème partie",
+        "file": "vous_etes_completement_con.mp3"
     }
 ]
