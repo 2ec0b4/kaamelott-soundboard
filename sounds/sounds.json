@@ -430,5 +430,23 @@
         "character": "Karadoc",
         "episode": "Livre I, 68 - Le Pain",
         "file": "mais_ya_rien_a_developper_cest_de_la_merde_cest_tout.mp3"
+    },
+    {
+        "title": "Moi j'ai toujours dit",
+        "character": "Le tavernier",
+        "episode": "Livre III, 67 - La Baraka",
+        "file": "moi_jai_toujours_dit.mp3"
+    },
+    {
+        "title": "Moi j'ai toujours dit 2",
+        "character": "Le tavernier",
+        "episode": "Livre III, 67 - La Baraka",
+        "file": "moi_jai_toujours_dit2.mp3"
+    },
+    {
+        "title": "Mais tout à fait",
+        "character": "Roparzh",
+        "episode": "Livre III, 36 - Feue la Poule de Guethenoc",
+        "file": "mais_tout_a_fait.mp3"
     }
 ]
