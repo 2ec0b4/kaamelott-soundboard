@@ -448,5 +448,35 @@
         "character": "Roparzh",
         "episode": "Livre III, 36 - Feue la Poule de Guethenoc",
         "file": "mais_tout_a_fait.mp3"
+    },
+    {
+        "title": "J'EN AI RIEN À CARER",
+        "character": "Karadoc",
+        "episode": "Livre III, 72 - La restriction II",
+        "file": "rien_a_carer.mp3"
+    },
+    {
+        "title": "La bouffe est interdite en dehors des heures des repas !",
+        "character": "Séli",
+        "episode": "Livre III, 72 - La restriction II",
+        "file": "la_bouffe_est_interdite.mp3"
+    },
+    {
+        "title": "Je vois trouble, c'est le manque de gras, je m'déssèche",
+        "character": "Karadoc",
+        "episode": "Livre II, 92 - La restriction",
+        "file": "je_vois_trouble.mp3"
+    },
+    {
+        "title": "Elle est où la poulette ?",
+        "character": "Kadoc",
+        "episode": "Livre II, 60 - Le Jeu du caillou",
+        "file": "elle_est_ou_la_poulette.mp3"
+    },
+    {
+        "title": "MAIS VOUS ÊTES COMPLÈTEMENT CONS !",
+        "character": "Le Maître d'armes",
+        "episode": "Livre III, 26 - L'assemblé des rois - 2ème partie",
+        "file": "vous_etes_completement_con.mp3"
     }
 ]
