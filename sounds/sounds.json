@@ -473,10 +473,28 @@
         "episode": "Livre II, 60 - Le Jeu du caillou",
         "file": "elle_est_ou_la_poulette.mp3"
     },
-    {
-        "title": "MAIS VOUS ÊTES COMPLÈTEMENT CONS !",
-        "character": "Le Maître d'armes",
-        "episode": "Livre III, 26 - L'assemblé des rois - 2ème partie",
-        "file": "vous_etes_completement_con.mp3"
-    }
+  {
+    "title": "MAIS VOUS ÊTES COMPLÈTEMENT CONS !",
+    "character": "Le Maître d'armes",
+    "episode": "Livre III, 26 - L'assemblée des rois - 2ème partie",
+    "file": "vous_etes_completement_con.mp3"
+  },
+  {
+    "title": "Est-ce qu'on peut s'en servir pour donner de l'élan à un pigeon ?",
+    "character": "Yvain",
+    "episode": "Livre III, 88 - L'étudiant",
+    "file": "est_ce_que_peut_servir_elan_pigeon.mp3"
+  },
+  {
+    "title": "Ça vous fait pas mal à la tête de glandouiller 24h sur 24 ?",
+    "character": "Arthur",
+    "episode": "Livre I, 93 - Unagi",
+    "file": "ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3"
+  },
+  {
+    "title": "Ah, le printemps. La nature se réveille, les oiseaux reviennent, on crame des mecs...",
+    "character": "Arthur",
+    "episode": "Livre II, 42 - La fête du printemps",
+    "file": "ah_le_printemps_on_crame_des_mecs.mp3"
+  }
 ]
