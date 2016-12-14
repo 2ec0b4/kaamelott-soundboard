@@ -478,5 +478,65 @@
         "character": "Le Maître d'armes",
         "episode": "Livre III, 26 - L'assemblé des rois - 2ème partie",
         "file": "vous_etes_completement_con.mp3"
+    },
+	{
+        "title": "Ah ba on va leur foutre 2-3 pierres",
+        "character": "Ropharz",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "ah_ba_non_on_va_leur_foutre_2_3_pierres.mp3"
+    },
+	{
+        "title": "Ca va encore faire des discussion à rallonge",
+        "character": "Ropharz",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "ca_va_encore_faire_des_discussions_a_rallonge.mp3"
+    },
+	{
+        "title": "Dites, tirez-vous",
+        "character": "Guethenoc",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "dites_tirez_vous.mp3"
+    },
+	{
+        "title": "Honnêtement, je connais pas le mot",
+        "character": "Ropharz",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "honnetement_je_connais_pas_le_mot_la.mp3"
+    },
+	{
+        "title": "Mais faut pas déconner, ils y sont pour rien",
+        "character": "Ropharz",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "mais_faut_pas_deconner_ils_y_sont_pour_rien.mp3"
+    },
+	{
+        "title": "Mais je vous ai dit que c'était important",
+        "character": "Guethenoc",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "mais_je_vous_ai_dis_que_c_etait_important.mp3"
+    },
+	{
+        "title": "Mais qu-est-ce que j'en ai à foutre",
+        "character": "Ropharz",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "mais_qu_est_ce_que_j_en_ai_a_foutre.mp3"
+    },
+	{
+        "title": "Pourquoi qu'on gueule ?",
+        "character": "Guethenoc",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "pourquoi_qu_on_gueule.mp3"
+    },
+	{
+        "title": "Quand on gueule sans savoir pourquoi",
+        "character": "Guethenoc",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "quand_on_gueule_sans_savoir_pourquoi.mp3"
+    },
+	{
+        "title": "Vous trouvez que ça va mieux vous ?",
+        "character": "Guethenoc",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "vous_trouvez_que_ca_va_mieux_vous.mp3"
     }
 ]
