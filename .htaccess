@@ -108,13 +108,11 @@
 </IfModule>
 
 # Avoid Clickjacking and enable XSS-protection for browsers
-<FilesMatch "\.(pl|php|cgi|spl)$">
-  <IfModule mod_headers.c>
-    # security
-    Header set X-Frame-Options "DENY"
-    Header set X-XSS-Protection "1; mode=block"
-  </IfModule>
-</FilesMatch>
+<IfModule mod_headers.c>
+  # security
+  Header set X-Frame-Options "DENY"
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>
 
 
 
