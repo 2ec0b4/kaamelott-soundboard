@@ -3,6 +3,7 @@ define("app", function(require) {
 
     var Backbone                = require("backbone"),
         Marionette              = require("marionette"),
+        $                       = require("jquery"),
         Radio                   = require("backbone.radio"),
         SoundboardController    = require("controllers/soundboard"),
         Likely                  = require("likely"),
@@ -27,7 +28,8 @@ define("app", function(require) {
         },
 
         start: function start() {
-            var soundboardController = new SoundboardController();
+            var that    = this,
+                soundboardController = new SoundboardController();
 
             this.router.processAppRoutes(soundboardController, {
                 "": "index",
@@ -37,6 +39,10 @@ define("app", function(require) {
             if (Backbone.history) {
                 Backbone.history.start();
                 this.trigger("backbone:history:start");
+                
+                $(window).on('popstate', function () {
+                    that.router.navigate(Backbone.history.getFragment(), {replace: true});
+                });
             }
 
             likely.initiate();
