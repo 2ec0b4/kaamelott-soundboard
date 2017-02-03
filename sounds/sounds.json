@@ -604,5 +604,11 @@
         "character": "Le Roi Burgonde",
         "episode": "Livre II, 03 - Le Dialogue de Paix",
         "file": "arthour.mp3"
+    },
+        {
+        "title": "La politique de l'autruche",
+        "character": "Karadoc",
+        "episode": "Livre II, 21 - La cassette",
+        "file": "politique_de_l_autruche.mp3"
     }
 ]
