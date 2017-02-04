@@ -604,5 +604,11 @@
         "character": "Le Roi Burgonde",
         "episode": "Livre II, 03 - Le Dialogue de Paix",
         "file": "arthour.mp3"
+    },
+        {
+        "title": "Ou mettre du beurre dans le fond du plat pour pas que le gratin colle",
+        "character": "Kadoc",
+        "episode": "Livre II, 41 - O'Brother",
+        "file": "mettre_du_beurre_au_fond_du_plat.mp3"
     }
 ]
