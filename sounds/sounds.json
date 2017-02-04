@@ -604,5 +604,11 @@
         "character": "Le Roi Burgonde",
         "episode": "Livre II, 03 - Le Dialogue de Paix",
         "file": "arthour.mp3"
+    },
+        {
+        "title": "J'voudrais pas faire ma raclette, mais la soirée s'annonce pas super",
+        "character": "Perceval",
+        "episode": "Livre II, 26 - Un Roi à La Taverne",
+        "file": "jvoudrais_pas_faire_ma_raclette.mp3"
     }
 ]
