@@ -617,10 +617,16 @@
         "episode": "Livre II, 26 - Un Roi à La Taverne",
         "file": "jvoudrais_pas_faire_ma_raclette.mp3"
     },
-        {
+    {
         "title": "PAYS DE GALLES INDÉPENDANT",
         "character": "Perceval",
         "episode": "Livre II, 31 - L'Ivresse",
         "file": "pays_de_galles_independant.mp3"
+    },
+    {
+        "title": "MÉCRÉANT",
+        "character": "Bohort",
+        "episode": "Livre II, 14 - Les Classes de Bohort",
+        "file": "mecreant.mp3"
     }
 ]
