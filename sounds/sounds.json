@@ -604,5 +604,11 @@
         "character": "Le Roi Burgonde",
         "episode": "Livre II, 03 - Le Dialogue de Paix",
         "file": "arthour.mp3"
+    },
+        {
+        "title": "Mécréant",
+        "character": "Bohort",
+        "episode": "Livre II, 14 - Les Classes de Bohort",
+        "file": "mecreant.mp3"
     }
 ]
