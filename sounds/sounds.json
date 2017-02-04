@@ -604,5 +604,11 @@
         "character": "Le Roi Burgonde",
         "episode": "Livre II, 03 - Le Dialogue de Paix",
         "file": "arthour.mp3"
+    },
+        {
+        "title": "Pays de Galles indépendant",
+        "character": "Perceval",
+        "episode": "Livre II, 31 - L'Ivresse",
+        "file": "pays_de_galles_independant.mp3"
     }
 ]
