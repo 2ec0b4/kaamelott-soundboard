@@ -646,5 +646,35 @@
         "character": "Kadoc",
         "episode": "Livre II, 41 - O'Brother",
         "file": "pour_savoir_si_il_va_y_avoir_du_vent.mp3"
+    },
+    {
+        "title": "J'ai le droit d'être quatre jours pas chez moi, et après chez moi. Il ya du voyage qui se prépare, et heu, pour soigner les bêtes, y a pas que ma tante, y a moi aussi.",
+        "character": "Kadoc",
+        "episode": "Livre II, 41 - O'Brother",
+        "file": "j_ai_le_droit_d_etre_4_jours_pas_chez_moi.mp3"
+    },
+    {
+        "title": "Les pattes de canard",
+        "character": "Kadoc",
+        "episode": "Livre II, 10 - Le Jeu Du Caillou",
+        "file": "les_pattes_de_canard.mp3"
+    },
+    {
+        "title": "Tatan, elle fait des flans",
+        "character": "Kadoc",
+        "episode": "Livre II, 10 - Le Jeu Du Caillou",
+        "file": "tatan_elle_fait_des_flans.mp3"
+    },
+    {
+        "title": "Il ressemble à Tatan",
+        "character": "Kadoc",
+        "episode": "Livre II, 10 - Le Jeu Du Caillou",
+        "file": "il_ressemble_a_tatan.mp3"
+    },
+    {
+        "title": "MORDU",
+        "character": "Kadoc",
+        "episode": "Livre II, 10 - Le Jeu Du Caillou",
+        "file": "mordu.mp3"
     }
 ]
