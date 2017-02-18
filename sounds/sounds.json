@@ -676,5 +676,29 @@
         "character": "Kadoc",
         "episode": "Livre II, 10 - Le Jeu Du Caillou",
         "file": "mordu.mp3"
+    },
+    {
+        "title": "Il faut pas faire du mal aux lapins",
+        "character": "Kadoc",
+        "episode": "Livre III, 24 - Les Suppléants",
+        "file": "il_faut_pas_faire_du_mal_aux_lapins.mp3"
+    },
+    {
+        "title": "Le caca des pigeons c'est caca, faut pas manger",
+        "character": "Kadoc",
+        "episode": "Livre III, 24 - Les Suppléants",
+        "file": "le_caca_des_pigeons_c_est_caca_faut_pas_manger.mp3"
+    },
+    {
+        "title": "LE POISSON! LE PETIT POISSON!",
+        "character": "Kadoc",
+        "episode": "Livre III, 24 - Les Suppléants",
+        "file": "le_poisson_le_petit_poisson.mp3"
+    },
+    {
+        "title": "Pas du tout, les lapins, les lapins c'est gentil",
+        "character": "Kadoc",
+        "episode": "Livre III, 24 - Les Suppléants",
+        "file": "pas_du_tout_les_lapins_les_lapins_c_est_gentil.mp3"
     }
 ]
