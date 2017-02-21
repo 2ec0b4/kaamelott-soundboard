@@ -548,13 +548,13 @@ a.btn-share, a.btn-share:hover, a.btn-share:focus {
 }
 a.btn-share:before {
     content: "";
-    background: url('../img/share.svg') no-repeat center center;
+    background: url('../img/share-arrow.svg') no-repeat center center;
     font-size: 1em;
-    height: 43px;
-    left: 12px;
+    height: 24px;
+    left: 10px;
     position: absolute;
-    top: 7px;
-    width: 43px;
+    top: 8px;
+    width: 24px;
 }
 .btn:active,
 a.btn:active {
