@@ -694,5 +694,119 @@
         "character": "Kadoc",
         "episode": "Livre III, 24 - Les Suppléants",
         "file": "pas_du_tout_les_lapins_les_lapins_c_est_gentil.mp3"
+    },
+    {
+        "title": "A Kadoc !",
+        "character": "Kadoc",
+        "episode": "Livre II, 31 - Le Jeu du Caillou",
+        "file": "a_kadoc.mp3"
+    },
+    {
+        "title": "Alors ca vient, p'tite bite !",
+        "character": "Le Maître d'armes",
+        "episode": "Livre I, 9 - Le Maître d'armes",
+        "file": "alors_ca_vient_ptite_bite.mp3"
+    },
+    {
+        "title": "Bon ben, révolte ?... REVOOOOLTE !!!",
+        "character": "Guetenoc",
+        "episode": "Livre II, 23 - La Révolte",
+        "file": "bon_ben_revolte.mp3"
+    },
+    {
+        "title": "Bon, cassez-vous ! Cassez-vous sans déconner j'vous défonce. Vous vous tirez où je vous caillasse la tête !",
+        "character": "Arthur",
+        "episode": "Livre II, 30 - La Garde Royale",
+        "file": "bon_cassez_vous.mp3"
+    },
+    {
+        "title": "C'est le rendez-vous des glandus là ou quoi ?",
+        "character": "Léodagan",
+        "episode": "Livre II, 25 - Séli et les Rongeurs",
+        "file": "cest_le_rendez_vous_des_glandus_la_ou_quoi.mp3"
+    },
+    {
+        "title": "Chuis un marteau moi ! Je crame tout moi ! Ma ferme, la sienne, celles des autres, le château, j'vais flamber la moitié de la Bretagne.",
+        "character": "Guetenoc",
+        "episode": "Livre II, 69 - Feue La Vache De Roparzh",
+        "file": "chui_un_marteau_moi.mp3"
+    },
+    {
+        "title": "Est-ce que vous pouvez vous barrer, maintenant ?",
+        "character": "Arthur",
+        "episode": "Livre II, 10 - La Chambre",
+        "file": "est-ce_que_vous_pouvez_vous_barrer_maintenant.mp3"
+    },
+    {
+        "title": "J'ai pas envie de voir vos tronches",
+        "character": "Arthur",
+        "episode": "Livre II, 36 - Les Exploités",
+        "file": "jai_pas_envie_de_voir_vos_tronches.mp3"
+    },
+    {
+        "title": "J'ai toujours été fasciné par le monde paysan",
+        "character": "Arthur",
+        "episode": "Livre II, 69 - Feue la Vache de Roparzh",
+        "file": "jai_toujours_ete_fascine_par_le_monde_paysan.mp3"
+    },
+    {
+        "title": "Je gueule, je gueule, j’pourrais gueuler dans le cul d’un poney, qu’ce serait pareil !",
+        "character": "Guetenoc",
+        "episode": "Livre II, 23 - La Révolte",
+        "file": "je_pourrais_gueuler_dans_le_cul_dun_poney.mp3"
+    },
+    {
+        "title": "J'vais vous passer le goût du plein air, moi !",
+        "character": "Léodagan",
+        "episode": "Livre II, 5 - Silbury Hill",
+        "file": "je_vais_vous_passer_le_gout_du_plein_air_moi.mp3"
+    },
+    {
+        "title": "Vous êtes marié comme moi vous savez qu'la monstruosité peut prendre des formes très diverses...",
+        "character": "Léodagan",
+        "episode": "Livre I, 88 - L'Escorte",
+        "file": "la_monstruosite.mp3"
+    },
+    {
+        "title": "Mais arrêtez de discutailler cinq minutes j'arrive pas à me concentrer !",
+        "character": "Arthur",
+        "episode": "Livre II, 60 - Le Jeu du Caillou",
+        "file": "mais_arretez_de_discutailler_cinq_minutes.mp3"
+    },
+    {
+        "title": "Mais c'est pas possible d'entendre ça !",
+        "character": "Léodagan",
+        "episode": "Livre I, 38 - Merlin et les Loups",
+        "file": "mais_c_est_pas_possible_d_entendre_ca.mp3"
+    },
+    {
+        "title": "Mon frère y peut pas aller à l’école. Quand on lui explique un machin technique, il s’évanouit.",
+        "character": "Karadoc",
+        "episode": "Livre II, 41 - O'Brother",
+        "file": "mon_frere_y_peut_pas_aller_a_l_ecole.mp3"
+    },
+    {
+        "title": "TRUUU-uuuut !",
+        "character": "Kay",
+		"episode": "Livre I, 08 - Codes et Stratégies",
+        "file": "petite_corne.mp3"
+    },
+    {
+        "title": "Ne restez pas planté là comme un cèpe, pointez-vous !",
+        "character": "Dame Séli",
+        "episode": "Livre II, 25 - Séli et les Rongeurs",
+        "file": "restez_pas_plante_la_comme_un_cepe.mp3"
+    },
+    {
+        "title": "Non mais il y a des fois, vous admettrez que vous êtes hors-norme.",
+        "character": "Léodagan",
+        "episode": "Livre II, 25 - Séli et les rongeurs",
+        "file": "vous_admettrez_que_vous_etes_hors_normes.mp3"
+    },
+    {
+        "title": "Non mais vous surchauffez pas un peu du citron, non ?! Vous voulez que j'vous dégage la nuque à la serpette ?",
+        "character": "Léodagan",
+        "episode": "Livre II, 10 - La Chambre",
+        "file": "vous_voulez_que_je_vous_degage_la_nuque_a_la_serpette.mp3"
     }
 ]
