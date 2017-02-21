@@ -27,7 +27,8 @@ define("collections/sounds", function(require) {
                 pattern.lastIndex = 0;
                 
                 return pattern.test(that.removeDiacritics(data.get("title")))
-                    || pattern.test(that.removeDiacritics(data.get("character")));
+                    || pattern.test(that.removeDiacritics(data.get("character")))
+                    || pattern.test(that.removeDiacritics(data.get("episode")));
             }));
         },
         removeDiacritics: function(str) {
