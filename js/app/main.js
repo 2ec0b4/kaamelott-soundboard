@@ -1,5 +1,5 @@
 require.config({
-    baseUrl: "/js/app",
+    baseUrl: "js/app",
     paths: {
         backbone: "../../bower_components/backbone/backbone-min",
         "backbone.radio": "../../bower_components/backbone.radio/build/backbone.radio",
