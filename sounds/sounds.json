@@ -814,5 +814,11 @@
         "episode": "Livre VI, 04 - Arturi Inquisitio",
         "file": "tu_la_fermes_definitivement.mp3",
         "title": "Toi tu fermes ta gueule. Tu la fermes définitivement, tu fermes ta gueule définitivement !"
+    },
+    {
+        "character": "Goustan",
+        "episode": "Livre VI, 2 - Le Centurion",
+        "file": "bataille_de_fions.mp3",
+        "title": "Et bien voilà, bataille de fions"
     }
 ]
