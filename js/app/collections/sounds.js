@@ -7,7 +7,7 @@ define("collections/sounds", function(require) {
 
     Sounds = Backbone.Collection.extend({
         model: Sound,
-        url: "/sounds/sounds.json",
+        url: "sounds/sounds.json",
         comparator: function(a, b) {
             var str1 = a.get("title"),
                 str2 = b.get("title");
@@ -27,7 +27,8 @@ define("collections/sounds", function(require) {
                 pattern.lastIndex = 0;
                 
                 return pattern.test(that.removeDiacritics(data.get("title")))
-                    || pattern.test(that.removeDiacritics(data.get("character")));
+                    || pattern.test(that.removeDiacritics(data.get("character")))
+                    || pattern.test(that.removeDiacritics(data.get("episode")));
             }));
         },
         removeDiacritics: function(str) {
