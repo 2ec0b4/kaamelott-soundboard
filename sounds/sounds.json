@@ -820,5 +820,11 @@
         "episode": "Livre VI, 2 - Le Centurion",
         "file": "bataille_de_fions.mp3",
         "title": "Et bien voilà, bataille de fions"
+    },
+    {
+        "character": "Caius",
+        "episode": "Livre III, 7 - Le Déserteur",
+        "file": "stand_de_crepes.mp3",
+        "title": "Oui mais je bosse le jour moi, j'suis dans l'armée je tiens pas un stand de crêpes."
     }
 ]
