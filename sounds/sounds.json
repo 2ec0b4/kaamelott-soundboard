@@ -820,5 +820,11 @@
         "episode": "Livre VI, 2 - Le Centurion",
         "file": "bataille_de_fions.mp3",
         "title": "Et bien voilà, bataille de fions"
+    },
+    {
+        "character": "Guethenoc",
+        "episode": "Livre III, 36 - Feue La Poule de Guethenoc",
+        "file": "pique_diagonale.mp3",
+        "title": "Moi je bondis comme ça, et je vous arrive dessus en piqué diagonal. Et là c'est l'hymne à la cruauté, hein, un autel dressé au culte de la barbarie !"
     }
 ]
