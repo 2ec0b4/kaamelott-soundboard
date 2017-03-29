@@ -838,5 +838,11 @@
         "episode": "Livre III, 42 - Le Dialogue de Paix II",
         "file": "fort_en_pomme_2.mp3",
         "title": "Fort en pommes!? (2)"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre III, 42 - Le Dialogue de Paix II",
+        "file": "on_est_fort.mp3",
+        "title": "On est forts!"
     }
 ]
