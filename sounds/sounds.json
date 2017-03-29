@@ -826,5 +826,29 @@
         "episode": "Livre III, 7 - Le Déserteur",
         "file": "stand_de_crepes.mp3",
         "title": "Oui mais je bosse le jour moi. J'suis dans l’armée, j'tiens pas un stand de crêpes."
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre III, 42 - Le Dialogue de Paix II",
+        "file": "fort_en_pomme_1.mp3",
+        "title": "Fort en pommes? (1)"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre III, 42 - Le Dialogue de Paix II",
+        "file": "fort_en_pomme_2.mp3",
+        "title": "Fort en pommes!? (2)"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre III, 42 - Le Dialogue de Paix II",
+        "file": "on_est_fort.mp3",
+        "title": "On est forts!"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre III, 42 - Le Dialogue de Paix II",
+        "file": "qu-est_ce_dire_que_ceci.mp3",
+        "title": "Qu'est-ce dire que ceci?"
     }
 ]
