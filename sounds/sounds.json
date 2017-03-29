@@ -844,5 +844,11 @@
         "episode": "Livre III, 42 - Le Dialogue de Paix II",
         "file": "on_est_fort.mp3",
         "title": "On est forts!"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre III, 42 - Le Dialogue de Paix II",
+        "file": "qu-est_ce_dire_que_ceci.mp3",
+        "title": "Qu'est-ce dire que ceci?"
     }
 ]
