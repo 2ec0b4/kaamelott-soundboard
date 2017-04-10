@@ -20,4 +20,10 @@ Pour faire fonctionner le projet sur votre machine, vous devrez tout d'abord, de
 6. Poussez vos modifications (`git push origin head`)
 7. Créez une [fusiodemande](https://github.com/2ec0b4/kaamelott-soundboard/pulls)
 
+## Liens ##
+
+* Reddit : https://www.reddit.com/r/france/comments/5orvyf/kaamelott_soundboard_3/
+* Application iOS : https://github.com/tnducrocq/kaamelott-sound-board-ios
+* Application Android : https://play.google.com/store/apps/details?id=fr.androdev.kaamelottsounds
+
 Merci, de rien, au revoir m'sieur dame
