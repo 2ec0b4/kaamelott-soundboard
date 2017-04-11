@@ -864,177 +864,129 @@
         "title": "Moi je bondis comme ça, là. Après je vous arrive dessus en piqué diagonal. Et là c’est l’hymne à la cruauté, attention hein. Un autel dressé au culte de la barbarie."
     },
     {
-        "character": "Leodagan",
+        "character": "Léodagan",
         "episode": "Livre I, 88 - L'éscorte",
         "file": "2_3_poils_de_Q.mp3",
         "title": "A 2-3 poils de cul"
     },
-	{
-		"character": "Guenièvre",
+    {
+        "character": "Guenièvre",
         "episode": "Livre I, 81 - Polymorphie",
         "file": "a_voui_vous_avez_raison.mp3",
-        "title": "Ah voui c'est ça vous avez raison"
-	
-	},
-	{
-		"character": "Arthur",
+        "title": "Ah voui, c'est ça, vous avez raison hein"
+    },
+    {
+        "character": "Arthur",
         "episode": "Livre III, 11 - Ablutions",
         "file": "a_plus_tard.mp3",
         "title": "A plus tard"
-	
-	},
-	{
-		"character": "Guenièvre",
+    },
+    {
+        "character": "Guenièvre",
         "episode": "Livre I, 39 - Le Cas yvain",
         "file": "avez_de_la_chance.mp3",
         "title": "Vous avez de la chance hein"
-	
-	},
-	{
-		"character": "Perceval",
-        "episode": "Livre I, 40 - L'adoubement",
-        "file": "ça_mfrait_mal.mp3",
-        "title": "Ah bah ça m'frait mal"
-	
-	},
-	{
-		"character": "Galessin",
-        "episode": "Livre I, 04 - Le Chevalier Mystère",
-        "file": "ça_vous_agace.mp3",
-        "title": "Ca vous agace ça hein ?"
-	
-	},
-	{
-		"character": "Guenièvre",
+    },
+    {
+        "character": "Guenièvre",
         "episode": "Livre I, 97 - Agnus Dei",
         "file": "charmant.mp3",
         "title": "Charmant !"
-	
-	},
-	{
-		"character": "Arthur",
+    },
+    {
+        "character": "Arthur",
         "episode": "Livre I, 89 - Tel Un Chevalier",
         "file": "comment.mp3",
         "title": "Comment ?"
-	
-	},
-	{
-		"character": "Perceval",
-        "episode": "Livre I, 35 - Ambidextrie",
-        "file": "crame_famille.mp3",
-        "title": "Toi un jour je te crame ta famille"
-	
-	},
-	{
-		"character": "Leodagan",
+    },
+    {
+        "character": "Léodagan",
         "episode": "Livre I, 07 - Des Nouvelles du Monde",
         "file": "enquille.mp3",
-        "title": "Oui bon aller, enquille !"
-	
-	},
-	{
-		"character": "Père Blaise",
+        "title": "Oui, bon allez ! Enquille !"
+    },
+    {
+        "character": "Père Blaise",
         "episode": "Livre I, 96 - La Quête des Deux Renards",
         "file": "epique.mp3",
         "title": "Je sens qu'ça va encore être épique"
-	
-	},
-	{
-		"character": "Séli",
+    },
+    {
+        "character": "Séli",
         "episode": "Livre I, 02 - La Tarte aux Myrtilles",
         "file": "et_alors_faut_un_permis.mp3",
         "title": "Et alors faut un permis ?"
-	
-	},
-	{
-		"character": "Leodagan",
+    },
+    {
+        "character": "Léodagan",
         "episode": "Livre I, 88 - L'Escorte",
         "file": "et_puis_quoi_encore.mp3",
         "title": "Et puis quoi encore ?"
-	
-	},
-	{
-		"character": "Arthur",
+    },
+    {
+        "character": "Arthur",
         "episode": "Livre II, 24 - Sous Les Verrous",
         "file": "evidemment_quelquun.mp3",
         "title": "Evidemment qu'y a quelqu'un !"
-	
-	},
-	{
-		"character": "Leodagan",
+    },
+    {
+        "character": "Léodagan",
         "episode": "Livre I, 23 - La potion de Fécondité",
         "file": "fournis_notice.mp3",
-        "title": "Des engins comme vous ça devrait être fournis avec une notice"
-	
-	},
-	{
-		"character": "Perceval",
+        "title": "Ma parole, des engins comme vous ça devrait être fournis avec une notice"
+    },
+    {
+        "character": "Perceval",
         "episode": "Livre I, 93 - Unagi",
         "file": "fulgurant.mp3",
         "title": "Je l'ai fais trop fulgurant"
-	
-	},
-	{
-		"character": "Arthur",
+    },
+    {
+        "character": "Arthur",
         "episode": "Livre I, 87 - Retour de Campagne",
-        "file": "ha_cest_ça.mp3",
+        "file": "ah_cest_ca.mp3",
         "title": "Ah c'est ça !"
-	
-	},
-	{
-		"character": "Arthur",
+    },
+    {
+        "character": "Arthur",
         "episode": "Livre I, 67 - La Kleptomane",
         "file": "intro_comaque.mp3",
         "title": "L'intro est comaque"
-	
-	},
-	{
-		"character": "Arthur",
-        "episode": "Livre I, 30 - Le Trois de Coeur",
-        "file": "jvais_gerber.mp3",
-        "title": "Ecartez-vous j'vais gerber"
-	
-	},
-	{
-		"character": "Perceval",
+    },
+    {
+        "character": "Perceval",
         "episode": "Livre I, 46 - Le Code de Chevalerie",
         "file": "jvous_fait_confiance.mp3",
-        "title": "J'vous fais confiance"
-	
-	},
-	{
-		"character": "Perceval",
+        "title": "Non non non, j'vous fais confiance"
+    },
+    {
+        "character": "Perceval",
         "episode": "Livre I, 93 - Unagi",
         "file": "la_dedans_carbure.mp3",
         "title": "Là dedans par contre ça carbure"
-	
-	},
-	{
-		"character": "Yvain",
+    },
+    {
+        "character": "Yvain",
         "episode": "Livre I, 60 - Le Prodige du Fakir",
         "file": "la_gerbe.mp3",
         "title": "J'vous raconte pas la gerbe"
-	
-	},
-	{
-		"character": "Arthur",
+    },
+    {
+        "character": "Arthur",
         "episode": "Livre I, 25 - Le Sacrifice",
         "file": "ptetre_une_connerie.mp3",
-        "title": "Ptèt fais une connerie moi"
-	
-	},
-	{
-		"character": "Arthur",
+        "title": "Ptet fait une connerie mo"
+    },
+    {
+        "character": "Arthur",
         "episode": "Livre I, 76 - Choc Frontal",
         "file": "quand_meme_raide.mp3",
-        "title": "Elle est quand même raide celle là"
-	
-	},
-	{
-		"character": "Arthur",
+        "title": "M'enfin, elle est quand même raide celle-là"
+    },
+    {
+        "character": "Arthur",
         "episode": "Livre I, 80 - Les Volontaires",
         "file": "sans_deconner.mp3",
         "title": "Non sans déconner ?"
-	
-	}
+    }
 ]
