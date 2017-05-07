@@ -988,5 +988,23 @@
         "episode": "Livre I, 80 - Les Volontaires",
         "file": "sans_deconner.mp3",
         "title": "Non sans déconner ?"
+    },
+	{
+        "character": "Jacca",
+        "episode": "Livre I, 21 - La taxe militaire",
+        "file": "il_trouverait_meme_pas_sa_bite_pour_pisser.mp3",
+        "title": "Il trouverait même pas sa bite pour pisser"
+    },
+	{
+        "character": "Grüdü",
+        "episode": "Livre I, 22 - La queue du scorpion",
+        "file": "mi_ours_mi_scorpion.mp3",
+        "title": "Il était mi-ours, mi-scorpion et re-mi-ours derrière"
+    },
+	{
+        "character": "Arthur",
+        "episode": "Livre IV, 38 - Le Rassemblement du Corbeau II",
+        "file": "cest_que_cest_pas_une_blague.mp3",
+        "title": "C'est pas que c'est pas drôle, c'est que c'est pas une blague"
     }
 ]
