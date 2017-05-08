@@ -85,9 +85,27 @@
     },
     {
         "character": "Le Répurgateur",
-        "episode": "Livre I, 14 - Le Répurgateur",
+        "episode": "Livre I, 14 - Monogame",
         "file": "madresse_pas_la_parole.mp3",
         "title": "M'ADRESSE PAS LA PAROLE HÉRÉTIQUE, DÉMON"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre I, 79 - L’Expurgation de Merlin",
+        "file": "bucher1.mp3",
+        "title": "HÉRÉTIQUE ! AU BUCHER !"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre I, 79 - L’Expurgation de Merlin",
+        "file": "bucher2.mp3",
+        "title": "HÉRÉTIQUE ! AU BUCHER ! 2"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre I, 79 - L’Expurgation de Merlin",
+        "file": "bucher3.mp3",
+        "title": "HÉRÉTIQUE ! AU BUCHER ! 3"
     },
     {
         "character": "Venec",
