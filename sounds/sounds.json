@@ -85,9 +85,27 @@
     },
     {
         "character": "Le Répurgateur",
-        "episode": "Livre I, 14 - Le Répurgateur",
+        "episode": "Livre I, 14 - Monogame",
         "file": "madresse_pas_la_parole.mp3",
         "title": "M'ADRESSE PAS LA PAROLE HÉRÉTIQUE, DÉMON"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre I, 79 - L’Expurgation de Merlin",
+        "file": "bucher1.mp3",
+        "title": "HÉRÉTIQUE ! AU BUCHER !"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre I, 79 - L’Expurgation de Merlin",
+        "file": "bucher2.mp3",
+        "title": "HÉRÉTIQUE ! AU BUCHER ! 2"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre I, 79 - L’Expurgation de Merlin",
+        "file": "bucher3.mp3",
+        "title": "HÉRÉTIQUE ! AU BUCHER ! 3"
     },
     {
         "character": "Venec",
@@ -1090,5 +1108,29 @@
         "episode": "Livre II, 4 - Le Rassemblement du Corbeau",
         "file": "pas_dalcool.mp3",
         "title": "En plus il n'y a pas d'alcool"
+  },
+	{
+        "character": "Jacca",
+        "episode": "Livre I, 21 - La Taxe Militaire",
+        "file": "il_trouverait_meme_pas_sa_bite_pour_pisser.mp3",
+        "title": "Mais vous vous foutez de moi ! Il a au moins 95 ans, il a une jambe raide, il est tellement bigleux qu'il trouverait même pas sa bite pour pisser !"
+    },
+	{
+        "character": "Grüdü",
+        "episode": "Livre I, 22 - La Queue du Scorpion",
+        "file": "mi_ours_mi_scorpion.mp3",
+        "title": " En plus y'en avait un il était mi-ours, mi-scorpion et re-mi-ours derrière !"
+    },
+	{
+        "character": "Arthur",
+        "episode": "Livre IV, 38 - Le Rassemblement du Corbeau II",
+        "file": "cest_que_cest_pas_une_blague.mp3",
+        "title": "C'est pas que c'est pas drôle, c'est que c'est pas une blague"
+    },
+	{
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "fleur_en_bouquet.mp3",
+        "title": "La fleur en bouquet fâne... et jamais ne renait !"
     }
 ]
