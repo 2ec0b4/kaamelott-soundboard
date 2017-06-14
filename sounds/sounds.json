@@ -1007,6 +1007,108 @@
         "file": "sans_deconner.mp3",
         "title": "Non sans déconner ?"
     },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "meteo.mp3",
+        "title": "Météo"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "assiette_fromage.mp3",
+        "title": "Arthour, pas changer assiette pour fromage"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "ave_cesar.mp3",
+        "title": "Ave Cesar !"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "tres_bien.mp3",
+        "title": "Très bien"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "cuillere_2.mp3",
+        "title": "Cuillère (2)"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 12 - La Délégation Maure",
+        "file": "lache_une_caisse.mp3",
+        "title": "Si il lache une caisse ça le fait ou pas ?"
+    },
+    {
+        "character": "Père Blaise",
+        "episode": "Livre II, 55 - La Quinte Juste",
+        "file": "et_cest_de_la_merde.mp3",
+        "title": "Et c'est de la merde"
+    },
+    {
+        "character": "Guethenoc",
+        "episode": "Livre II, 69 - Feue La Vache De Roparzh",
+        "file": "coup_de_beche.mp3",
+        "title": "Coup de bèche dans la tête"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre II, 79 - La Botte Secrète II",
+        "file": "merci_de_rien.mp3",
+        "title": "Merci de rien, au revoir messieurs dames"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre II, 92 - La Restriction",
+        "file": "pauvre_conne.mp3",
+        "title": "Pauvre conne !"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre II, 98 - La Frange Romaine",
+        "file": "quequette.mp3",
+        "title": "C'est passé à ça d'la quequette"
+    },
+    {
+        "character": "Le Maître d’armes",
+        "episode": "Livre II, 52 - Excalibur et le Destin",
+        "file": "gras_du_cul.mp3",
+        "title": "Je vais vous découper le gras du cul"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre III, 93 - Le Législateur",
+        "file": "joie_de_vivre.mp3",
+        "title": "La joie de vivre et le jambon"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 46 - Le Cadeau",
+        "file": "ferme_ta_gueule.mp3",
+        "title": "Ferme ta gueule"
+    },
+    {
+        "character": "Kadoc",
+        "episode": "Livre II, 48 - Les Chiens de Guerre",
+        "file": "coup_de_pied_aux_poules.mp3",
+        "title": "Coup de pied aux poules"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 42 - La Fête du Printemps",
+        "file": "cest_prodigieux.mp3",
+        "title": "C'est prodigieux"
+    },
+    {
+        "character": "Merlin",
+        "episode": "Livre II, 4 - Le Rassemblement du Corbeau",
+        "file": "pas_dalcool.mp3",
+        "title": "En plus il n'y a pas d'alcool"
+  },
 	{
         "character": "Jacca",
         "episode": "Livre I, 21 - La Taxe Militaire",
