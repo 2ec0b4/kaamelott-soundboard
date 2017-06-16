@@ -988,5 +988,17 @@
         "episode": "Livre I, 80 - Les Volontaires",
         "file": "sans_deconner.mp3",
         "title": "Non sans déconner ?"
+    },
+	{
+        "character": "Léodagan",
+        "episode": "Livre I, 11 - Dîner dansant",
+        "file": "je-l-ai-pas-dit-fort.mp3",
+        "title": "Je l'ai pas dit fort"
+    },
+	{
+        "character": "Loth",
+        "episode": "Livre V - Les dauphins",
+        "file": "votre_existence_est_merdique.mp3",
+        "title": "Parce que votre existence est merdique mon pauvre ami... Vous avez l'oeil qui brille à chaque fois qu'un oiseau pète, c'est triste à voir. Ca fait des années que vous menez un train de vie de noix de saint jacques, alors évidemment : un message qui annonce la visite d'un imbécile, porteur de bonne nouvelle, c'est déjà un petit festival pour vous ! Je suis sûr que vous vous êtes peignés pour l'occasion !"
     }
 ]
