@@ -6,7 +6,7 @@
         "title": "Interprète"
     },
     {
-        "character": "Le Maître d’armes",
+        "character": "Le Maître d'armes",
         "episode": "Livre II, 26 - Corpore sano",
         "file": "je_ne_mange_pas_de_graines.mp3",
         "title": "JE NE MANGE PAS DE GRAINES"
@@ -54,14 +54,14 @@
         "title": "SORTEZ-VOUS LES DOIGTS DU CUL"
     },
     {
-        "character": "Le Maître d’armes",
-        "episode": "Livre I, 09 - Le Maître d’armes",
+        "character": "Le Maître d'armes",
+        "episode": "Livre I, 09 - Le Maître d'armes",
         "file": "ptite_pucelle.mp3",
         "title": "P'tite pucelle"
     },
     {
-        "character": "Le Maître d’armes",
-        "episode": "Livre I, 09 - Le Maître d’armes",
+        "character": "Le Maître d'armes",
+        "episode": "Livre I, 09 - Le Maître d'armes",
         "file": "en_garde_espece_de_vieille_pute_degarnie.mp3",
         "title": "En garde, espèce de vieille pute dégarnie"
     },
@@ -85,15 +85,33 @@
     },
     {
         "character": "Le Répurgateur",
-        "episode": "Livre I, 14 - Le Répurgateur",
+        "episode": "Livre I, 14 - Monogame",
         "file": "madresse_pas_la_parole.mp3",
         "title": "M'ADRESSE PAS LA PAROLE HÉRÉTIQUE, DÉMON"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre I, 79 - L'Expurgation de Merlin",
+        "file": "bucher1.mp3",
+        "title": "HÉRÉTIQUE ! AU BUCHER !"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre I, 79 - L'Expurgation de Merlin",
+        "file": "bucher2.mp3",
+        "title": "HÉRÉTIQUE ! AU BUCHER ! 2"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre I, 79 - L'Expurgation de Merlin",
+        "file": "bucher3.mp3",
+        "title": "HÉRÉTIQUE ! AU BUCHER ! 3"
     },
     {
         "character": "Venec",
         "episode": "Livre I, 16 - Le Banquet des Chefs",
         "file": "federer_mes_couilles.mp3",
-        "title": "S'ils arrivent et qu'y a pas d’femmes, vous allez fédérer mes couilles"
+        "title": "S'ils arrivent et qu'y a pas d'femmes, vous allez fédérer mes couilles"
     },
     {
         "character": "Arthur",
@@ -265,43 +283,43 @@
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, 36 - Raison d’argent",
+        "episode": "Livre I, 36 - Raison d'argent",
         "file": "faut_ce_qui_faut.mp3",
         "title": "Ah bah faut c'qui faut, hein !"
     },
     {
         "character": "Venec",
-        "episode": "Livre I, 36 - Raison d’argent",
+        "episode": "Livre I, 36 - Raison d'argent",
         "file": "le_pognon_ca_va_ca_vient.mp3",
         "title": "Le pognon ça va, ça vient, il faut jamais paniquer"
     },
     {
         "character": "Venec",
-        "episode": "Livre I, 36 - Raison d’argent",
+        "episode": "Livre I, 36 - Raison d'argent",
         "file": "si_vous_etes_vendeur.mp3",
         "title": "Si vous êtes vendeur, j'vous fais une proposition aux oignons"
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, 36 - Raison d’argent",
+        "episode": "Livre I, 36 - Raison d'argent",
         "file": "vous_la_crachez_votre_pastille.mp3",
         "title": "Bah vous la crachez votre pastille ?"
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, 36 - Raison d’argent",
+        "episode": "Livre I, 36 - Raison d'argent",
         "file": "cest_bien_fait.mp3",
         "title": "C'est bien fait, hein ?"
     },
     {
         "character": "Bohort",
-        "episode": "Livre I, 36 - Raison d’argent",
+        "episode": "Livre I, 36 - Raison d'argent",
         "file": "cest_honteux.mp3",
         "title": "C'EST HONTEUX"
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, 36 - Raison d’argent",
+        "episode": "Livre I, 36 - Raison d'argent",
         "file": "pas_de_quoi_en_chier_une_galette.mp3",
         "title": "C'est bon, y a pas de quoi en chier une galette"
     },
@@ -321,7 +339,7 @@
         "character": "Yvain",
         "episode": "Livre I, 39 - Le Cas Yvain",
         "file": "je_refuse_daller_me_battre.mp3",
-        "title": "Je refuse d’aller me battre pour soutenir une politique d’expansion territoriale dont je ne reconnais pas la légitimité."
+        "title": "Je refuse d'aller me battre pour soutenir une politique d'expansion territoriale dont je ne reconnais pas la légitimité."
     },
     {
         "character": "Yvain",
@@ -331,7 +349,7 @@
     },
     {
         "character": "Perceval",
-        "episode": "Livre I, 40 - L’Adoubement",
+        "episode": "Livre I, 40 - L'Adoubement",
         "file": "je_vois_pas_le_rapport_avec_bretagne.mp3",
         "title": "J'vois pas le rapport avec la Bretagne"
     },
@@ -396,8 +414,8 @@
         "title": "Vous nous utilisez bon gré, mal gré, pour arriver sur la fin"
     },
     {
-        "character": "Le Maître d’armes",
-        "episode": "Livre I, 09 - Le Maître d’armes",
+        "character": "Le Maître d'armes",
+        "episode": "Livre I, 09 - Le Maître d'armes",
         "file": "ma_femme_a_pas_de_moustache.mp3",
         "title": "Mais moi, ma femme n'a pas de moustache !"
     },
@@ -405,10 +423,10 @@
         "character": "Léodagan",
         "episode": "Livre III, 26 - L'assemblée des rois I",
         "file": "cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3",
-        "title": "Euh… c’est moi ou y a une ambiance de merde ?"
+        "title": "Euh… c'est moi ou y a une ambiance de merde ?"
     },
     {
-        "character": "Le Maître d’armes",
+        "character": "Le Maître d'armes",
         "episode": "Livre I, 09 - Le Maître d'armes",
         "file": "en_garde_ma_mignone.mp3",
         "title": "En garde ma mignonne !"
@@ -456,7 +474,7 @@
         "title": "J'EN AI RIEN À CARER"
     },
     {
-        "character": "Séli",
+        "character": "Dame Séli",
         "episode": "Livre III, 72 - La restriction II",
         "file": "la_bouffe_est_interdite.mp3",
         "title": "La bouffe est interdite en dehors des heures des repas !"
@@ -507,13 +525,13 @@
         "character": "Arthur",
         "episode": "Livre III, 95 - L'étudiant",
         "file": "le_prochain_qui_l_ouvre_galeres_trois_ans.mp3",
-        "title": "Le prochain qui l’ouvre, je l’envoie aux galères pendant trois ans, sans déconner j’le fais."
+        "title": "Le prochain qui l'ouvre, je l'envoie aux galères pendant trois ans, sans déconner j'le fais."
     },
     {
         "character": "Perceval",
         "episode": "Livre III, 95 - L'étudiant",
         "file": "wooouuuhouhouhou_c_est_mortel.mp3",
-        "title": "Wooouuuhouhouhou !!! C’est mortel !"
+        "title": "Wooouuuhouhouhou !!! C'est mortel !"
     },
     {
         "character": "Élias",
@@ -591,7 +609,7 @@
         "character": "Arthur",
         "episode": "Livre I, 89 - Tel un chevalier",
         "file": "arretez_de_parler_aux_gens.mp3",
-        "title": "Non, moi j'crois qu'il faut qu’vous arrêtiez d'essayer de dire des trucs. Ça vous fatigue, déjà, et pour les autres, vous vous rendez pas compte de c'que c'est. Moi quand vous faites ça, ça me fout une angoisse... j'pourrais vous tuer, j'crois. De chagrin, hein ! J'vous jure c'est pas bien. Il faut plus que vous parliez avec des gens."
+        "title": "Non, moi j'crois qu'il faut qu'vous arrêtiez d'essayer de dire des trucs. Ça vous fatigue, déjà, et pour les autres, vous vous rendez pas compte de c'que c'est. Moi quand vous faites ça, ça me fout une angoisse... j'pourrais vous tuer, j'crois. De chagrin, hein ! J'vous jure c'est pas bien. Il faut plus que vous parliez avec des gens."
     },
     {
         "character": "Le Roi Burgonde",
@@ -708,7 +726,7 @@
         "title": "Alors ca vient, p'tite bite !"
     },
     {
-        "character": "Guetenoc",
+        "character": "Guethenoc",
         "episode": "Livre II, 23 - La Révolte",
         "file": "bon_ben_revolte.mp3",
         "title": "Bon ben, révolte ?... REVOOOOLTE !!!"
@@ -726,7 +744,7 @@
         "title": "C'est le rendez-vous des glandus là ou quoi ?"
     },
     {
-        "character": "Guetenoc",
+        "character": "Guethenoc",
         "episode": "Livre II, 69 - Feue La Vache De Roparzh",
         "file": "chui_un_marteau_moi.mp3",
         "title": "Chuis un marteau moi ! Je crame tout moi ! Ma ferme, la sienne, celles des autres, le château, j'vais flamber la moitié de la Bretagne."
@@ -750,10 +768,10 @@
         "title": "J'ai toujours été fasciné par le monde paysan"
     },
     {
-        "character": "Guetenoc",
+        "character": "Guethenoc",
         "episode": "Livre II, 23 - La Révolte",
         "file": "je_pourrais_gueuler_dans_le_cul_dun_poney.mp3",
-        "title": "Je gueule, je gueule, j’pourrais gueuler dans le cul d’un poney, qu’ce serait pareil !"
+        "title": "Je gueule, je gueule, j'pourrais gueuler dans le cul d'un poney, qu'ce serait pareil !"
     },
     {
         "character": "Léodagan",
@@ -783,7 +801,7 @@
         "character": "Karadoc",
         "episode": "Livre II, 41 - O'Brother",
         "file": "mon_frere_y_peut_pas_aller_a_l_ecole.mp3",
-        "title": "Mon frère y peut pas aller à l’école. Quand on lui explique un machin technique, il s’évanouit."
+        "title": "Mon frère y peut pas aller à l'école. Quand on lui explique un machin technique, il s'évanouit."
     },
     {
         "character": "Kay",
@@ -825,7 +843,7 @@
         "character": "Caius",
         "episode": "Livre III, 07 - Le Déserteur",
         "file": "stand_de_crepes.mp3",
-        "title": "Oui mais je bosse le jour moi. J'suis dans l’armée, j'tiens pas un stand de crêpes."
+        "title": "Oui mais je bosse le jour moi. J'suis dans l'armée, j'tiens pas un stand de crêpes."
     },
     {
         "character": "Le Roi Burgonde",
@@ -861,7 +879,7 @@
         "character": "Guethenoc",
         "episode": "Livre III, 36 - Feue La Poule de Guethenoc",
         "file": "pique_diagonale.mp3",
-        "title": "Moi je bondis comme ça, là. Après je vous arrive dessus en piqué diagonal. Et là c’est l’hymne à la cruauté, attention hein. Un autel dressé au culte de la barbarie."
+        "title": "Moi je bondis comme ça, là. Après je vous arrive dessus en piqué diagonal. Et là c'est l'hymne à la cruauté, attention hein. Un autel dressé au culte de la barbarie."
     },
     {
         "character": "Léodagan",
@@ -912,7 +930,7 @@
         "title": "Je sens qu'ça va encore être épique"
     },
     {
-        "character": "Séli",
+        "character": "Dame Séli",
         "episode": "Livre I, 02 - La Tarte aux Myrtilles",
         "file": "et_alors_faut_un_permis.mp3",
         "title": "Et alors faut un permis ?"
@@ -989,49 +1007,176 @@
         "file": "sans_deconner.mp3",
         "title": "Non sans déconner ?"
     },
-	{
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "meteo.mp3",
+        "title": "Météo"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "assiette_fromage.mp3",
+        "title": "Arthour, pas changer assiette pour fromage"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "ave_cesar.mp3",
+        "title": "Ave Cesar !"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "tres_bien.mp3",
+        "title": "Très bien"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "cuillere_2.mp3",
+        "title": "Cuillère (2)"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 12 - La Délégation Maure",
+        "file": "lache_une_caisse.mp3",
+        "title": "Si il lache une caisse ça le fait ou pas ?"
+    },
+    {
+        "character": "Père Blaise",
+        "episode": "Livre II, 55 - La Quinte Juste",
+        "file": "et_cest_de_la_merde.mp3",
+        "title": "Et c'est de la merde"
+    },
+    {
+        "character": "Guethenoc",
+        "episode": "Livre II, 69 - Feue La Vache De Roparzh",
+        "file": "coup_de_beche.mp3",
+        "title": "Coup de bèche dans la tête"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre II, 79 - La Botte Secrète II",
+        "file": "merci_de_rien.mp3",
+        "title": "Merci de rien, au revoir messieurs dames"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre II, 92 - La Restriction",
+        "file": "pauvre_conne.mp3",
+        "title": "Pauvre conne !"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre II, 98 - La Frange Romaine",
+        "file": "quequette.mp3",
+        "title": "C'est passé à ça d'la quequette"
+    },
+    {
+        "character": "Le Maître d'armes",
+        "episode": "Livre II, 52 - Excalibur et le Destin",
+        "file": "gras_du_cul.mp3",
+        "title": "Je vais vous découper le gras du cul, ça vous fera ça de moins à trimballer"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre III, 93 - Le Législateur",
+        "file": "joie_de_vivre.mp3",
+        "title": "La joie de vivre et le jambon"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 46 - Le Cadeau",
+        "file": "ferme_ta_gueule.mp3",
+        "title": "Ferme ta gueule"
+    },
+    {
+        "character": "Kadoc",
+        "episode": "Livre II, 48 - Les Chiens de Guerre",
+        "file": "coup_de_pied_aux_poules.mp3",
+        "title": "Moi j'en ai marre de toujours donner des coups de pied aux poules"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 42 - La Fête du Printemps",
+        "file": "cest_prodigieux.mp3",
+        "title": "Non mais c'est incroyable. J'ai l'impression de bouffer de la terre avec de la bouse et du gravier, ça sent le poulailler, mais c'est du céleri et des oignons, c'est prodigieux."
+    },
+    {
+        "character": "Merlin",
+        "episode": "Livre II, 4 - Le Rassemblement du Corbeau",
+        "file": "pas_dalcool.mp3",
+        "title": "En plus il n'y a pas d'alcool"
+    },
+	  {
+        "character": "Jacca",
+        "episode": "Livre I, 21 - La Taxe Militaire",
+        "file": "il_trouverait_meme_pas_sa_bite_pour_pisser.mp3",
+        "title": "Mais vous vous foutez de moi ! Il a au moins 95 ans, il a une jambe raide, il est tellement bigleux qu'il trouverait même pas sa bite pour pisser !"
+    },
+	  {
+        "character": "Grüdü",
+        "episode": "Livre I, 22 - La Queue du Scorpion",
+        "file": "mi_ours_mi_scorpion.mp3",
+        "title": "En plus y'en avait un il était mi-ours, mi-scorpion et re-mi-ours derrière !"
+    },
+	  {
+        "character": "Arthur",
+        "episode": "Livre IV, 38 - Le Rassemblement du Corbeau II",
+        "file": "cest_que_cest_pas_une_blague.mp3",
+        "title": "C'est pas que c'est pas drôle, c'est que c'est pas une blague"
+    },
+	  {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "fleur_en_bouquet.mp3",
+        "title": "La fleur en bouquet fâne... et jamais ne renait !"
+
+    },    
+	  {
         "character": "Léodagan",
         "episode": "Livre I, 11 - Dîner Dansant",
         "file": "je-l-ai-pas-dit-fort.mp3",
         "title": "Je l'ai pas dit fort"
     },
-	{
+	  {
         "character": "Loth",
         "episode": "Livre V, 13 - Les Dauphins",
         "file": "votre_existence_est_merdique.mp3",
         "title": "Parce que votre existence est merdique mon pauvre ami... Vous avez l'oeil qui brille à chaque fois qu'un oiseau pète, c'est triste à voir. Ca fait des années que vous menez un train de vie de noix de saint jacques, alors évidemment : un message qui annonce la visite d'un imbécile, porteur de bonne nouvelle, c'est déjà un petit festival pour vous ! Je suis sûr que vous vous êtes peignés pour l'occasion !"
     },
-	{
+	  {
         "character": "Anna",
         "episode": "Livre V, 30 - La Supplique",
         "file": "vous-etes-une-gigantesque-tarlouze.mp3",
         "title": "Vous êtes une gigantesque tarlouze"
     },
-	{
+	  {
         "character": "Appius Manilius",
         "episode": "Livre VI, 06 - Nuptiae",
         "file": "j-ai-cherche-la-merde.mp3",
         "title": "En fait j'en ai pris deux, mais euh... j'ai cherché la merde"
     },
-	{
+	  {
         "character": "Merlin",
         "episode": "Livre III, 04 - Le Renfort Magique",
         "file": "j-ai-tout-entendu.mp3",
         "title": "J'ai tout entendu et c'est honteux !"
     },
-	{
+	  {
         "character": "Perceval",
         "episode": "Livre II, 53 - L'Absent",
         "file": "remonte-ton-slibard.mp3",
         "title": "Et toc ! Remonte ton slibard Lothard"
     },
-	{
+	  {
         "character": "Perceval",
         "episode": "Livre III, 08 - Morituri",
         "file": "faut-y-aller-a-la-zob.mp3",
         "title": "Quand on n'a pas de technique, faut y aller à la zob"
     },
-	{
+	  {
         "character": "Perceval",
         "episode": "Livre IV, 71 - Perceval Fait Raitournelle",
         "file": "c-est-les-autres-qui-sont-cons.mp3",
