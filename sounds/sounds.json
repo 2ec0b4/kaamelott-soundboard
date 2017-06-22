@@ -1109,77 +1109,76 @@
         "file": "pas_dalcool.mp3",
         "title": "En plus il n'y a pas d'alcool"
     },
-	  {
+    {
         "character": "Jacca",
         "episode": "Livre I, 21 - La Taxe Militaire",
         "file": "il_trouverait_meme_pas_sa_bite_pour_pisser.mp3",
         "title": "Mais vous vous foutez de moi ! Il a au moins 95 ans, il a une jambe raide, il est tellement bigleux qu'il trouverait même pas sa bite pour pisser !"
     },
-	  {
+    {
         "character": "Grüdü",
         "episode": "Livre I, 22 - La Queue du Scorpion",
         "file": "mi_ours_mi_scorpion.mp3",
         "title": "En plus y'en avait un il était mi-ours, mi-scorpion et re-mi-ours derrière !"
     },
-	  {
+    {
         "character": "Arthur",
         "episode": "Livre IV, 38 - Le Rassemblement du Corbeau II",
         "file": "cest_que_cest_pas_une_blague.mp3",
         "title": "C'est pas que c'est pas drôle, c'est que c'est pas une blague"
     },
-	  {
+    {
         "character": "Le Roi Burgonde",
         "episode": "Livre II, 44 - Le Dialogue de Paix",
         "file": "fleur_en_bouquet.mp3",
         "title": "La fleur en bouquet fâne... et jamais ne renait !"
-
     },    
-	  {
+    {
         "character": "Léodagan",
         "episode": "Livre I, 11 - Dîner Dansant",
         "file": "je-l-ai-pas-dit-fort.mp3",
         "title": "Je l'ai pas dit fort"
     },
-	  {
+    {
         "character": "Loth",
         "episode": "Livre V, 13 - Les Dauphins",
         "file": "votre_existence_est_merdique.mp3",
-        "title": "Parce que votre existence est merdique mon pauvre ami... Vous avez l'oeil qui brille à chaque fois qu'un oiseau pète, c'est triste à voir. Ca fait des années que vous menez un train de vie de noix de saint jacques, alors évidemment : un message qui annonce la visite d'un imbécile, porteur de bonne nouvelle, c'est déjà un petit festival pour vous ! Je suis sûr que vous vous êtes peignés pour l'occasion !"
+        "title": "Parce que votre existence est merdique mon pauvre ami, vous avez l'œil qui brille à chaque fois qu'un oiseau pète, c'est triste à voir. Ça fait des années que vous menez un train de vie de noix de Saint-Jacques, alors évidemment, un message qui annonce la visite d'un imbécile porteur de bonnes nouvelles, c'est déjà un petit festival pour vous ! J'suis sûr que vous vous êtes peigné pour l'occasion !"
     },
-	  {
+    {
         "character": "Anna",
         "episode": "Livre V, 30 - La Supplique",
         "file": "vous-etes-une-gigantesque-tarlouze.mp3",
         "title": "Vous êtes une gigantesque tarlouze"
     },
-	  {
+    {
         "character": "Appius Manilius",
         "episode": "Livre VI, 06 - Nuptiae",
         "file": "j-ai-cherche-la-merde.mp3",
         "title": "En fait j'en ai pris deux, mais euh... j'ai cherché la merde"
     },
-	  {
+    {
         "character": "Merlin",
         "episode": "Livre III, 04 - Le Renfort Magique",
         "file": "j-ai-tout-entendu.mp3",
         "title": "J'ai tout entendu et c'est honteux !"
     },
-	  {
+    {
         "character": "Perceval",
         "episode": "Livre II, 53 - L'Absent",
         "file": "remonte-ton-slibard.mp3",
-        "title": "Et toc ! Remonte ton slibard Lothard"
+        "title": "Et toc ! Remonte ton slibard Lothard !"
     },
-	  {
+    {
         "character": "Perceval",
         "episode": "Livre III, 08 - Morituri",
         "file": "faut-y-aller-a-la-zob.mp3",
         "title": "Quand on n'a pas de technique, faut y aller à la zob"
     },
-	  {
+    {
         "character": "Perceval",
         "episode": "Livre IV, 71 - Perceval Fait Raitournelle",
         "file": "c-est-les-autres-qui-sont-cons.mp3",
-        "title": "C'est pas moi qui explique mal : c'est les autres qui sont cons !"
+        "title": "C'est pas moi qui explique mal, c'est les autres qui sont cons !"
     }
 ]
