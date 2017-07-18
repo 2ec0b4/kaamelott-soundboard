@@ -8,7 +8,15 @@ Alors, c'est classe ou c'est pas classe ? Ou c'est classe ?
 
 ## Lancer le projet ##
 
-Pour faire fonctionner le projet sur votre machine, vous devrez tout d'abord, depuis la racine, exécuter la commande `bower install` puis accéder au fichier `index.html` via le serveur Web de votre choix (Apache pour moi, quand je ne suis pas sioux et que je ne m'y prends pas comme un commanche).
+Pour faire fonctionner le projet sur votre machine, vous devrez tout d'abord, depuis la racine, exécuter la commande `bower install` puis accéder au fichier `index.html` via le serveur Web de votre choix (Apache pour moi, quand je ne suis pas sioux et que je ne m'y prends pas comme un commanche). Pour cela vous pouvez utiliser [Docker](https://www.docker.com/) avec les 2 commandes suivantes :
+```bash
+docker build -t 2ec0b4/kaamelott-soundboard .
+docker run -it --rm --name kaamelott-soundboard -p 80:80 -t 2ec0b4/kaamelott-soundboard
+```
++ Pour les utilisateurs Windows 10 : Rendez-vous sur la page [http://localhost]()
++ Pour les utilisateurs Windows 7 : Rendez-vous sur la page [http://192.168.99.100]()
+
+Whoooohoooo woa c'est mortel !
 
 ## Contribuer ##
 
