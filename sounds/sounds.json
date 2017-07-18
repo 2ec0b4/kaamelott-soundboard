@@ -1105,7 +1105,7 @@
     },
     {
         "character": "Merlin",
-        "episode": "Livre II, 4 - Le Rassemblement du Corbeau",
+        "episode": "Livre II, 04 - Le Rassemblement du Corbeau",
         "file": "pas_dalcool.mp3",
         "title": "En plus il n'y a pas d'alcool"
     },
@@ -1183,224 +1183,218 @@
     },
     {
         "character": "Dame Seli",
-        "episode": "Livre I, Tome 1 - Les nouveaux frères",
+        "episode": "Livre I, 50 - Les Nouveaux Frères",
         "file": "cest_pas_des_fleches.mp3",
-        "title": "ah bah c’est pas des flèches"
+        "title": "Ah bah c'est pas des flèches"
     },    
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - Le cas Yvain",
+        "episode": "Livre I, 39 - Le Cas Yvain",
         "file": "ah_bravo_bah_vous_parlez_d_un_hero.mp3",
-        "title": "AH Bravo ! Alors vous parlez d’un héro !"
+        "title": "Ah bravo ! Alors vous parlez d'un héro !"
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, Tome 1 - La Dent de Requin",
+        "episode": "Livre I, 20 - La Dent de Requin",
         "file": "ah_non_ca_c_est_que_nous.mp3",
-        "title": "Ah non ça c’est que nous..."
+        "title": "Ah non, ça c'est que nous. Parce qu'il faut être capable de passer pour des cons en un temps record. Ah non, là dessus on a une avance considérable."
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, Tome 1 - Le cas Yvain",
+        "episode": "Livre I, 39 - Le Cas Yvain",
         "file": "ah_parce_que_c_est_la_seule_alternative_que_vous_me_proposez.mp3",
-        "title": "Parce que c’est la seule alternative que vous proposez ! Rien branler de la journée ou faire des concours de pets ?!"
+        "title": "Parce que c'est la seule alternative que vous me proposez ! Rien branler de la journée ou des concours de pets ?!"
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - Le Code de la chavelerie",
+        "episode": "Livre I, 46 - Le Code de Chevalerie",
         "file": "alors_des_qu_il_s_agit_d_aller_se_dorer_les_miches_en_armorique.mp3",
-        "title": "Alors dès qu’il s’agit d’aller se dorer les miches en Armorique..."
+        "title": "Alors dès qu'il s'agit d'aller s'dorer les miches en Armorique pour demander aux filles si elles ont pas vu le cul de Lulu alors là, là oui y a des volontaires !"
     },
     {
         "character": "Perceval",
-        "episode": "Livre I, Tome 1 - Heat",
+        "episode": "Livre I, 01 - Heat",
         "file": "animaux_de_la_foret.mp3",
         "title": "Animaux de la forêt !"
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - Le Banquet des chefs",
+        "episode": "Livre I, 16 - Le Banquet des Chefs",
         "file": "bohort_arreter_de_vous_vexer_sans_arret_comme_une_grosse_dinde.mp3",
-        "title": "Bohort, arrêtez de vous vexer sans arrêt comme une grosse dinde."
+        "title": "Bohort arrêtez de vous vexer sans arrêt comme une grosse dinde ! On vous dit qu'c'est politique !"
     },
     {
         "character": "Perceval",
-        "episode": "Livre I, Tome 1 - La Botte Secrète",
+        "episode": "Livre I, 28 - La Botte Secrète",
         "file": "c_est_cotelette_que_vous_comprenez_pas.mp3",
-        "title": "C’est côtelette que vous ne comprenez pas ?"
+        "title": "C'est côtelette que vous ne comprenez pas ?"
     },
     {
         "character": "Perceval",
-        "episode": "Livre I, Tome 1 - La coccinelle de Madenn",
+        "episode": "Livre I, 43 - La Coccinelle de Madenn",
         "file": "chaque_fois_que_je_vais_a_un_balloche_je_picole_je_discute.mp3",
-        "title": "à chaque fois que j’vais à un balloche, je picole je discute..."
+        "title": "À chaque fois qu'j'vais à un baloche, j'picole, j'discute, trois mois après y'a toujours un type qui débaroule avec sa fille enceinte."
     },
     {
         "character": "Perceval",
-        "episode": "Livre I, Tome 1 - Ambidextrie",
+        "episode": "Livre I, 35 - Ambidextrie",
         "file": "de_tout_facon_on_dit_le_nord_selon_comment_on_est_tourne_ca_change_tout.mp3",
         "title": "De tout façon on dit le Nord, selon comment on est tourné ça change tout !"
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - Arthur et les Ténèbres",
+        "episode": "Livre I, 41 - Arthur et les Ténèbres",
         "file": "dites_tout_de_suite_que_j_ai_des_idees_de_tocard.mp3",
-        "title": "Dites tout de suite que j’ai des idées de tocard."
+        "title": "Dites tout de suite que j'ai des idées de tocard."
     },
     {
         "character": "Perceval",
-        "episode": "Livre I, Tome 1 - Ambidextrie",
-        "file": "de_tout_facon_on_dit_le_nord_selon_comment_on_est_tourne_ca_change_tout.mp3",
-        "title": "De tout façon on dit le Nord, selon comment on est tourné ça change tout !"
-    },
-    {
-        "character": "Perceval",
-        "episode": "Livre I, Tome 1 - Le Code de la chavelerie",
+        "episode": "Livre I, 46 - Le Code de Chevalerie",
         "file": "faut_que_je_retourne_a_la_ferme_de_mes_vieux.mp3",
-        "title": "Faut que je retourne à la ferme de mes vieux..."
+        "title": "Faut qu'j'retourne à la ferme de mes vieux, y a ma grand-mère qu'à glissé sur une bouse, c'est l'vrai merdier !"
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - Le cas Yvain",
+        "episode": "Livre I, 39 - Le Cas Yvain",
         "file": "fier_je_vais_l_envoyer_trois_mois_a_poil_dans_la_foret.mp3",
-        "title": "FIER ! J’vais l’envoyer 3 mois dans la forêt à bouffer des asticots et des racines et je vous garantie qu’en il reviendra il fera moins de poème !"
+        "title": "Fier ?! J'vais l'envoyer trois mois à poil dans la forêt à bouffer des asticots et des racines, et puis j'vous garantis que quand il reviendra il fera moins de poêmes hein !"
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, Tome 1 - Le Maître d’arme",
+        "episode": "Livre I, 09 - Le Maître d'armes",
         "file": "fils_d_unijambiste.mp3",
-        "title": "Fils d’unijambiste"
+        "title": "Fils d'unijambiste"
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - Patience dans la plaine",
+        "episode": "Livre I, 44 - Patience dans la Plaine",
         "file": "il_ne_comprennent_jamais_le_code.mp3",
-        "title": "Ils comprennent jamais le code."
+        "title": "Non mais ils comprennent jamais le code"
     },
     {
         "character": "Bohort",
-        "episode": "Livre I, Tome 1 - Basidiomycètes",
+        "episode": "Livre I, 31 - Basidiomycètes",
         "file": "j_ai_pas_eu_le_temps_d_enlever_mon_armure.mp3",
-        "title": "J’ai pas eu le temps d’enlever mon armure."
+        "title": "J'ai pas eu le temps d'enlever mon armure."
     },
     {
-        "character": "Le barde (Didier Bénureau)",
-        "episode": "Livre I, Tome 1 - Des Nouvelles du Monde",
+        "character": "Le Barde",
+        "episode": "Livre I, 07 - Des Nouvelles du Monde",
         "file": "je_l_ai_perdu.mp3",
-        "title": "Je l’ai perdu !"
+        "title": "J'l'ai perdu. J'l'ai perdu, je, j'l'ai perdu"
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - En Forme de Graal",
+        "episode": "Livre I, 18 - En Forme de Graal",
         "file": "je_sens_que_ce_va_encore_etre_capital.mp3",
         "title": "Je sens que ça va encore être capital."
     },
     {
         "character": "Karadoc",
-        "episode": "Livre I, Tome 1 - La Dent de Requin",
+        "episode": "Livre I, 20 - La Dent de Requin",
         "file": "je_trouve_qu_on_nous_prend_un_peu_trop_pour_des_cons.mp3",
-        "title": "Je trouve qu’on nous trouve un peu trop pour des cons en ce moment !"
+        "title": "Je trouve qu'on nous prend un peu trop pour des cons en ce moment !"
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, Tome 1 - La Romance de Lancelot",
+        "episode": "Livre I, 37 - La Romance de Lancelot",
         "file": "mais_qu_est_ce_qui_vous_prend_ca_va_pas_vous_etes_dingue.mp3",
-        "title": "Mais qu’est-ce qui vous prend ? Ça va pas vous êtes dingue !"
+        "title": "Mais qu'est-ce qui vous prend, ça va pas, vous êtes dingue !?"
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, Tome 1 - Le Maître d’arme",
+        "episode": "Livre I, 09 - Le Maître d'armes",
         "file": "moi_depuis_ce_matin_je_me_fait_traiter_de_gonzesse.mp3",
-        "title": "Depuis ce matin j’me fais traiter de gonzesse j’en fait pas tout un cake !"
+        "title": "Moi depuis ce matin j'me fais traiter de gonzesse, j'en fais pas tout un cake !"
     },
     {
         "character": "Bohort",
-        "episode": "Livre I, Tome 1 - Basidiomycètes",
+        "episode": "Livre I, 31 - Basidiomycètes",
         "file": "moi_il_faut_que_j_enleve_mon_armure.mp3",
-        "title": "Moi il faut que j’enlève mon armure sinon il va s’passer quelque chose d’atroce !"
+        "title": "Moi il faut que j'enlève mon armure sinon il va s'passer quelque chose d'atroce"
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, Tome 1 - Le Maître d’arme",
+        "episode": "Livre I, 12 - Le Sixième Sens",
         "file": "non_taisez_vous.mp3",
-        "title": "Non taisez-vous !"
+        "title": "Non, taisez-vous. Pfff taisez-vous. Taisez vous parce que là ça… pfiut là ça chut vous voyez… voilà…"
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - Le Oud",
+        "episode": "Livre I, 45 - Le Oud",
         "file": "oh_et_puis_j_en_ai_marre.mp3",
-        "title": "Oh et puis j’en ai marre ! ET OH…"
+        "title": "Oh et puis j’en ai marre ! EH OH, ÇA VA PAS BIENTÔT FINIR NON ?"
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, Tome 1 - Les défis de Merlin",
+        "episode": "Livre I, 15 - Les Défis de Merlin",
         "file": "ok_on_va_arreter_le_tire_avec_les_defis.mp3",
-        "title": "Ok ! on va arrêter le tire avec les défis."
+        "title": "Ok, on va arrêter le tir avec les défis."
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - Mes tartes aux myrtilles",
+        "episode": "Livre I, 02 - La Tarte aux Myrtilles",
         "file": "on_plaisante_on_plaisante.mp3",
-        "title": "On plaisante on plaisante..."
+        "title": "On plaisante, on plaisante..."
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, Tome 1 - Le Chevalier Mystère",
+        "episode": "Livre I, 04 - Le Chevalier Mystère",
         "file": "pas_foutu_de_savoir_son_nom.mp3",
-        "title": "Pas foutu d’savoir son nom !"
+        "title": "Pas foutu d'savoir son nom !"
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, Tome 1 - Merlin et les Loups",
+        "episode": "Livre I, 38 - Merlin et les Loups",
         "file": "putain_faut_vraiment_qu_on_se_groulle.mp3",
-        "title": "Putain faut vraiment qu’on se grouille !"
+        "title": "Putain faut vraiment qu'on s'grouille !"
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, Tome 1 - Le Code de la chavelerie",
-        "file": "quies_a.mp3",
-        "title": "Quies…"
+        "episode": "Livre I, 46 - Le Code de Chevalerie",
+        "file": "quies.mp3",
+        "title": "Quies… (ancien Celte)"
     },
     {
         "character": "Arthur",
-        "episode": "Livre I, Tome 1 - Le Retour de Judée",
+        "episode": "Livre I, 27 - Le Retour de Judée",
         "file": "rangez_moi_ca_debile_la_table_ronde_c_est_pas_une_fete_de_l_artisanat.mp3",
-        "title": "Rangez-moi ça débile. La table ronde c’est pas une fête de l’artisanat"
+        "title": "Rangez-moi ça débile. La table ronde c'est pas une fête de l'artisanat"
     },
     {
         "character": "Azénor",
-        "episode": "Livre I, Tome 1 - Azénor",
+        "episode": "Livre I, 48 - Azénor",
         "file": "sans_etre_totalement_repoussant_il_n_y_a_pas_de_quoi_bousculer_une_charette.mp3",
-        "title": "Et puis physiquement sans être totalement repoussant il n’y a pas de quoi bousculer une charrette."
+        "title": "Sans être totalement repoussant il n'y a pas de quoi non plus bousculer une charrette."
     },
     {
         "character": "Perceval",
-        "episode": "Livre I, Tome 1 - Heat",
+        "episode": "Livre I, 01 - Heat",
         "file": "scorpion_entoure_par_le_feu.mp3",
-        "title": "Non ! Faut faire comme avec les scorpions quand ils sont entourés par le feu..."
+        "title": "Non ! Il faut faire comme avec les scorpions qui se suicident quand ils sont entourés par le feu ! Faut faire un feu en forme de cercle autour d’eux, comme ça ils se suicident, pendant que nous on fait l’tour, et on lance de la caillasse de l’autre côté, pour brouiller. Non ?"
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - Un bruit dans la nuit",
+        "episode": "Livre I, 61 - Un Bruit dans la Nuit",
         "file": "si_j_etais_tombe_sur_un_faisant.mp3",
-        "title": "Si j'étais tombé sur un faisant je serais pas en train de me la péter comme ça."
+        "title": "Si j'étais tombé sur un faisan je serais pas en train de me la péter comme ça."
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - L’étal",
+        "episode": "Livre I, 47 - Létal",
         "file": "sinon_ce_que_je_peux_vous_proposer_on_attache_le_condamne.mp3",
-        "title": "Sinon ce que je peux vous proposer, on attache le condamné…"
+        "title": "Sinon c'que j'peux vous proposer : on attache le condamné, et on le balance sur un nid d'frelons. C'est propre c'est sain. C'est rien qu'du naturel."
     },
     {
         "character": "Léodagan",
-        "episode": "Livre I, Tome 1 - Basidiomycètes",
+        "episode": "Livre I, 31 - Basidiomycètes",
         "file": "un_plan_d_attaque_minute_au_poil_de_fion.mp3",
-        "title": "Un plan d’attaque minuté au poil de fion. Le double de l’effectif de ceux d’en face..."
+        "title": "Un plan d'attaque minuté au poil de fion, le double d'effectif de ceux d'en face ! Manque de bol, les Seigneurs Perceval et Karadoc s'en mèlent et on rentre chez nous comme des clodos. Avec la chiasse en prime ! Qu'est-ce qu'ils sont cons !"
     },
     {
         "character": "Perceval",
-        "episode": "Livre I, Tome 1 - La coccinelle de Madenn",
+        "episode": "Livre I, 43 - La Coccinelle de Madenn",
         "file": "une_fois_a_une_execution_je_m_approche_d_une_fille.mp3",
-        "title": "Une fois à une execution je m'approche d'une fille..."
+        "title": "Une fois à une exécution j'm'approche d'une fille, pour rigoler j'lui fait \"vous êtes de la famille du pendu ?\". C'était sa soeur. Bonjour l'approche."
     }
 ]
