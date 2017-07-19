@@ -1396,5 +1396,377 @@
         "episode": "Livre I, 43 - La Coccinelle de Madenn",
         "file": "une_fois_a_une_execution_je_m_approche_d_une_fille.mp3",
         "title": "Une fois à une exécution j'm'approche d'une fille, pour rigoler j'lui fait \"vous êtes de la famille du pendu ?\". C'était sa soeur. Bonjour l'approche."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 54 - Le serpent géant",
+        "file": "ils_se_barrent_en_mission_pendant_trois_mois_et_ils_reviennent_avec_une_anguille.mp3",
+        "title": "Ils se barrent en mission pendant trois mois et ils reviennent avec une anguille ?"
+    },
+    {
+        "character": "Bohort",
+        "episode": "Livre I, 54 - Le serpent géant",
+        "file": "attendez_il_faut_que_ca_soit_vrai_tout_ce_qu_on_dit_la.mp3",
+        "title": "Attendez il faut que ca soit vrai tout ce qu on dit la ?"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre I, 55 - Guenièvre et les oiseaux",
+        "file": "bah_si_il_n_y_avait_que_les_oiseaux_elle_est_a_moitie_givree_de_toute_facon_on_ne_peut_pas_tout_relever_non_plus.mp3",
+        "title": "Bah si il n'y avait que les oiseaux elle est à moitié givrée de toute façon on ne peut pas tout relever non plus !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 56 - Le dernier empereur",
+        "file": "centurion_caius_camilus_lulululu.mp3",
+        "title": "Centurion Caius Camilus lulululu"
+    },
+    {
+        "character": "Caius",
+        "episode": "Livre I, 56 - Le dernier empereur",
+        "file": "mais_si_on_fait_marrer_tout_le_monde.mp3",
+        "title": "Mais si on fait marrer tout le monde avec nos chenilles à la purée de fraise, nos couilles d'oursin aux amandes, je sais pas quelles autres saloperies là."
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 57 - Perceval relance de quinze",
+        "file": "cest_facile_on_peut_jouer_soit_avec_des_haricots_soit_avec_des_lentilles.mp3",
+        "title": "C'est facile on peut jouer soit avec des haricots, soit avec des lentilles..."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 58 - Le coup d'épée",
+        "file": "au_gros_sel_qu_est_ce_que_c_est_ces_conneries_vous_me_prenez_pour_une_epaule_d_agneau.mp3",
+        "title": "Au gros sel ? Qu'est-ce que c'est ces conneries ? Vous me prenez pour une épaule d'agneau ?"
+    },
+    {
+        "character": "Calogrenant",
+        "episode": "Livre I, 59 - La jupe de Calogrenant",
+        "file": "mais_une_tenue_officielle_vous_n_avez_cas_considerer_que_je_suis_officiellement_cul_nue.mp3",
+        "title": "Mais une tenue officielle vous n'avez cas considérer que je suis officiellement cul nue !"
+    },
+    {
+        "character": "Gauvain",
+        "episode": "Livre I, 60 - Le prodige du fakir",
+        "file": "et_a_un_moment_le_sorcier_s_est_mis_a_nous_menacer_avec_ses_parties_genitales.mp3",
+        "title": "Et à un moment le sorcier s'est mis à nous menacer avec ses parties genitales"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre I, 60 - Le prodige du fakir",
+        "file": "il_avait_une_touffe_de_cheveux_comme_ca_un_vieux_moisi_tout_gueze_a_poil_dans_la_neige.mp3",
+        "title": "Il avait une touffe de cheveux comme ça, un vieux moisi tout gueze à poil dans la neige !"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre I, 60 - Le prodige du fakir",
+        "file": "avec_sa_couille.mp3",
+        "title": "Avec sa couille !"
+    },
+    {
+        "character": "Bohort",
+        "episode": "Livre I, 61 - Un bruit dans la nuit",
+        "file": "a_moi.mp3",
+        "title": "A MOI !"
+    },
+    {
+        "character": "Guethenoc",
+        "episode": "Livre I, 62 - Feu l'âne de Guethenoc",
+        "file": "attention_attention_a_un_moment_il_y_a_des_granges_qui_vont_se_mettre_a_flamber_il_faudra_pas_demander_d_ou_sa_vient.mp3",
+        "title": "Attention attention ! A un moment il y a des granges qui vont se mettre a flamber il faudra pas demander d'où sa vient !"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 64 - Le chaudron rutilant",
+        "file": "il_m_aura_fait_chier_jusqu_au_bout_celui_la.mp3",
+        "title": "Il m'aura fait chier jusqu'au bout celui-la !"
+    },
+    {
+        "character": "Guethenoc",
+        "episode": "Livre I, 68 - Le pain",
+        "file": "mais_c_est_une_honte_d_entendre_des_trucs_comme_ca.mp3",
+        "title": "Mais c'est une honte d'entendre des trucs comme ça !"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre I, 69 - La mort le roy artu",
+        "file": "cest_qui_tout_ces_cons.mp3",
+        "title": "C'est qui tout ces cons ?"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 71 - Un roi à la taverne",
+        "file": "dis_donc_machine_si_tu_allais_voir_a_la_table_du_fond_si_on_y_ait.mp3",
+        "title": "Dis donc machine si tu allais voir à la table du fond si on y ait ?"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 71 - Un roi à la taverne",
+        "file": "et_vous_bande_de_cons.mp3",
+        "title": "Et vous bande de cons !"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 72 - Les fesses de Guenièvre",
+        "file": "pfff_c_est_pour_ca_que_je_pane_rien_aux_livres_moi_ca_veut_pas_dire_ce_qu_il_y_a_marque.mp3",
+        "title": "Pfff ! C'est pour ça que je pane rien aux livres moi ça veut pas dire ce qu'il y a marqué."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 74 - Guenièvre et l'orage",
+        "file": "nan_mais_c_est_pas_possible_elle_me_foutra_pas_la_paix.mp3",
+        "title": "Nan mais c'est pas possible elle me foutra pas la paix !"
+    },
+    {
+        "character": "Narces",
+        "episode": "Livre I, 75 - Eunuques et chaud lapins",
+        "file": "rooo_bon_alors_on_fait_venir_les_poulettes_ou_quoi.mp3",
+        "title": "ROOO ! Bon alors on fait venir les poulettes ou quoi ?"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 77 - Le forage",
+        "file": "alors_si_j_ai_bien_resume_le_truc_vous_allez_creuser_trois_pieds_et_demi_sur_toute_la_bretagne.mp3",
+        "title": "Alors si j'ai bien résumé le truc vous allez creuser trois pieds et demi sur toute la Bretagne..."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 78 - Le discobole",
+        "file": "cest_tellement_facile_que_je_vais_peut_etre_systematise_le_processus.mp3",
+        "title": "C'est tellement facile que je vais peut-être systematisé le processus, parce qu'il n'y a pas que la statut qui m'emmerde."
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre I, 79 - L'expurgation de Merlin",
+        "file": "tais_toi_ta_gueule_tais_toi.mp3",
+        "title": "Tais toi ! Ta gueule ! Tais toi !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 82 - Décibels nocturnes",
+        "file": "ah_nan_mais_quand_on_est_pas_habitue_c_est_drolement_impressionnant_la_magie.mp3",
+        "title": "Ah nan mais quand on est pas habitué c'est drôlement impressionnant la magie !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 82 - Décibels nocturnes",
+        "file": "un_jour_je_vais_lui_fumer_sa_gueule_a_ce_connard.mp3",
+        "title": "Un jour je vais lui fumer sa gueule à ce connard."
+    },    
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 85 - La blessure mortelle",
+        "file": "ah_mais_arretez_de_gueuler_comme_un_con.mp3",
+        "title": "AH ! Mais arretez de gueuler comme un con !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 88 - L'escorte",
+        "file": "bon_bah_aller_on_demarre_et_ouvrez_les_echauguettes.mp3",
+        "title": "Bon bah aller on démarre. Et ouvrez les échauguettes j'ai pas envie de répéter."
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre I, 88 - L'escorte",
+        "file": "ah_qu_est_ce_que_vous_voulez_mon_petit_bohort.mp3",
+        "title": "Ah qu'est-ce que vous voulez mon petit Bohort, entre son épée qui fait de la lumière, son Merlin qui fait pleuvoir des grenouilles et sa dame du lac qui se prend pour une truite, il ne lui manque plus qu'un numéro de trapèze au roi des bretons."
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 89 - Tel un chevalier",
+        "file": "ah_non_la_aujourd_hui_ca_passera_pas.mp3",
+        "title": "Ah non moi là aujourd'hui ça passera pas."
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 89 - Tel un chevalier",
+        "file": "j_aimerais_bien_qu_on_commence_a_me_considerer_en_tant_que_tel.mp3",
+        "title": "J'aimerais bien qu'on commence à me considérer en tant que tel."
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 89 - Tel un chevalier",
+        "file": "je_vous_disais_que_j_etais_victime_des_colifiches.mp3",
+        "title": "Je vous disais que j'étais victime des colifichés et qu'il faudrait qu'on commence à me considérer en tant que tel."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 89 - Tel un chevalier",
+        "file": "non_mais_je_sens_bien_que_vous_essayer_de_me_dire_quelque_chose.mp3",
+        "title": "Non mais je sens bien que vous essayer de me dire quelque chose, mais c'est de vous la phrase ou vous l'avez entendu ça. \"colifiché\" par exemple qu'est-ce que c'est pour vous, comment vous vous le représenté colifiché ?"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 89 - Tel un chevalier",
+        "file": "nan_moi_je_crois_qu_il_faut_que_vous_arretiez_d_essayer_de_dire_des_trucs.mp3",
+        "title": "Nan moi je crois qu'il faut que vous arrêtiez d'essayer de dire des trucs, ça vous fatigue déjà et puis pour les autres vous ne vous rendez pas compte de ce que c'est. Moi quand vous faites ça ça me mets une angoisse, je pourais vous tuer je crois, de chagrin. J'vous jure c'est pas bien, il ne faut plus que vous parliez avec des gens !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 89 - Tel un chevalier",
+        "file": "bon_bah_je_vais_voir_ce_que_je_peux_faire.mp3",
+        "title": "Bon bah je vais voir ce que je peux faire."
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre I, 90 - La pâte d'amande",
+        "file": "ca_va_oui_ca_va_vous_etes_content.mp3",
+        "title": "ça va oui, ça va vous êtes CONTENT !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 90 - La pâte d'amande",
+        "file": "je_crois_pas_que_vous_soyez_le_symbole_de_la_nation_bretonne.mp3",
+        "title": "Je crois pas que vous soyez le symbole de la nation bretonne."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 90 - La pâte d'amande",
+        "file": "ah_ah_mais_vous_etes_marteau_et_regardez_ca_ca_pisse_le_sang.mp3",
+        "title": "Ah ! Ah ! Mais vous êtes marteau ?! Et regardez ça ça pisse le sang !"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre I, 91 - La fureur du dragon",
+        "file": "il_nous_a_chie_dessus.mp3",
+        "title": "Il nous a chié dessus."
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 91 - La fureur du dragon",
+        "file": "oui_enfin_je_me_comprends.mp3",
+        "title": "Oui enfin je me comprends."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 92 - Vox populi",
+        "file": "oui_oh_ca_va_je_connais_le_couplet_on_est_fatigue_on_est_fatigue_vous_me_le_cancane_depuis_midi.mp3",
+        "title": "Oui oh ça va je connais le couplet on est fatigué on est fatigué vous me le cancané depuis midi."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 93 - Unagi",
+        "file": "ca_vous_fait_pas_mal_a_la_tete_de_glandouiller_vingt_quatre_heure_sur_vingt_quatre.mp3",
+        "title": "ça vous fait pas mal à la tête de glandouiller vingt quatre heure sur vingt quatre ?"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 93 - Unagi",
+        "file": "non_psychologique_c_est_tout_ce_qui_est_a_la_campagne.mp3",
+        "title": "Non psychologique c'est tout ce qui est à la campagne non ?"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 93 - Unagi",
+        "file": "ah_ouais_je_l_ai_fait_trop_fulgurant_la_ca_va.mp3",
+        "title": "Ah ouais je l'ai fait trop fulgurant là. ça va ?"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 94 - L'éclaireur",
+        "file": "parce_que_la_quite_a_se_faire_reperer_on_prendrait_moins_de_risque_a_faire_venir_un_orchestre.mp3",
+        "title": "Parce que là quite à se faire repérer on prendrait moins de risque à faire venir un orchestre."
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 94 - L'éclaireur",
+        "file": "j_ai_fais_pile_comme_vous_avez_dis_tout_au_feu_de_bois.mp3",
+        "title": "J'ai fais pile comme vous avez dis tout au feu de bois."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 97 - Agnus Dei",
+        "file": "la_vache_ca_daube_la_dedans_il_y_a_un_chat_qui_est_creve_ou_quoi.mp3",
+        "title": "La vache ça daube la dedans ! Il y a un chat qui est crevé ou quoi ?"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "vous_allez_me_foutre_le_camp_espece_de_con.mp3",
+        "title": "Vous allez me foutre le camp espèce de con !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "mais_qu_est_ce_que_vous_voulez_que_ca_me_foute.mp3",
+        "title": "Mais qu'est-ce que vous voulez que ca me foute !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "me_parler_a_cette_heure_ci_vous_voulez_mon_pied_au_cul.mp3",
+        "title": "Me parler à cette heure-ci ? Vous voulez mon pied au cul ?"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "ah_si_moi_j_irai_me_recoucher_avant_de_prendre_un_pain.mp3",
+        "title": "Ah si moi j'irai me recoucher avant de prendre un pain."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "bah_je_sais_pas_me_lacher_la_grappe_par_exemple.mp3",
+        "title": "Bah je sais pas ? Me lacher la grappe par exemple ?"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "mais_qu_est_ce_que_vous_voulez_que_ca_me_foute_vos_conneries.mp3",
+        "title": "Mais qu'est-ce que vous voulez que ca me foute vos conneries !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "mais_mariez_vous_avec_qui_vous_voulez_et_allez_crever.mp3",
+        "title": "Mais mariez vous avec qui vous voulez et allez crever !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "mais_qu_est_ce_que_j_en_ai_a_foutre_vous_pourriez_bien_vous_marier_avec_une_chevre_si_ca_vous_chante.mp3",
+        "title": "Mais qu'est-ce que j'en ai a foutre vous pourriez bien vous marier avec une chèvre si ça vous chante !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "et_puis_alors_mon_petit_pote_si_vous_en_tenez_une_qui_veux_se_marier_avec_vous.mp3",
+        "title": "Et puis alors mon petit pôte si vous en tenez une qui veux se marier avec vous rappelez vous que c'est inespéré et sautez sur l'occasion avant qu'elle change d'avis !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "tout_le_monde_s_en_branle_moi_le_premier.mp3",
+        "title": "Tout le monde s'en branle moi le premier !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "j_en_ai_rien_a_foutre.mp3",
+        "title": "J'en ai rien à foutre !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 98 - Le tourment",
+        "file": "rien_a_carrer.mp3",
+        "title": "Rien à carrer !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 99 - La retraite",
+        "file": "mais_qu_est_ce_que_vous_me_bavez_encore.mp3",
+        "title": "Mais qu'est-ce que vous me bavez encore !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 99 - La retraite",
+        "file": "vous_devriez_commencer_par_organiser_le_merdier_que_vous_avez_la_dedans.mp3",
+        "title": "Vous devriez commencer par organiser le merdier que vous avez la dedans !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 99 - La retraite",
+        "file": "qu_est_ce_que_vous_voulez_savoir_allez_vous_vous_magner_le_tronc_maintenant.mp3",
+        "title": "Qu'est-ce que vous voulez savoir ? Allez vous vous magner le tronc maintenant ! Vous me dites ce que vous voulez et vous faites un effort pour que je pane au moins le sens de votre phrase. Je commence à en avoir plein le dos de choper des maux de tête à répétition à force de jamais piger un broque de ce que vous racontez ! ..."
     }
 ]
