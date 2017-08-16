@@ -1750,5 +1750,24 @@
         "episode": "Livre I, 99 - La Retraite",
         "file": "qu_est_ce_que_vous_voulez_savoir_allez_vous_vous_magner_le_tronc_maintenant.mp3",
         "title": "Qu'est-ce que vous voulez savoir ? Allez, vous vous magnez l'tronc mainenant ! Vous m'dites c'que vous voulez et vous faites un effort pour que j'pane au moins le sens de votre phrase ! Je commence à en avoir plein le dos et d'choper des maux de tête à répétition à force de jamais piger un broc de c'que vous racontez ! Alors vous reprenez d'puis l'début, avec une tournure simple et directe ou vous ramassez une tarte, c'est clair ça ?!"
+    },
+    {
+        "character": "Belt",
+        "episode": "Livre VI, 7 - Arturus Rex",
+        "file": "regardez_moi_cette_meule.mp3",
+        "title": "Regardez-moi cette meule ! J'ai affiné cette saloperie de frometon pendant des mois, résultat, il est dégueulasse. Pourquoi ? Parce que je suis nul en fromage ! Merde !"
+    },
+    {
+        "character": "Belt",
+        "episode": "Livre VI, 7 - Arturus Rex",
+        "file": "regardez_moi_ce_petit_navet.mp3",
+        "title": "Regardez moi ce petit navet ! A quelle heure on doit se lever nous le matin ? On nous en colle jusque là, ras la gueule ras la gueule ras la gueule ! Et un jour qu'est ce qu'il va se passer ? Patatrac !"
+    },
+    {
+        "character": "Roparzh",
+        "episode": "Livre VI, 7 - Arturus Rex",
+        "file": "c_est_maintenant_quil_faut_se_secouer.mp3",
+        "title": "C'est maintenant qu'il faut se secouer les rognons, sinon ça part tout à volo."
     }
+
 ]
