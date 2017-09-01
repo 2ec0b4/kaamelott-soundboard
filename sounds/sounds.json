@@ -1846,5 +1846,11 @@
         "episode": "Livre V, 32 - L'Odyssée d'Arthur",
         "file": "signe_de_vouloir_discuter.mp3",
         "title": "Excusez-moi, est-ce qu'à un seul moment j'aurais, par mégarde, donné le moindre signe de vouloir discuter avec vous ?"
+    },
+	{
+        "character": "Léodagan",
+        "episode": "Livre I, 02 - Les Tartes aux Myrtilles",
+        "file": "difference_concrete_avec_des_briques.mp3.mp3",
+        "title": "Sans vouloir la ramener, la seule différence concrète avec des briques, c'est que vous appelez ça des tartes !"
     }
 ]
