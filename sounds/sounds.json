@@ -1772,7 +1772,7 @@
 	{
         "character": "Loth",
         "episode": "Livre VI, 08 - Lacrimosa",
-        "file": "tsoin_tsoin.mp3",
+        "file": "tsoin-tsoin.mp3",
         "title": "Nan... mais pas vous ! Vous, vous pouvez rester tsoin-tsoin comme d'habitude."
     },
 	{
@@ -1785,13 +1785,13 @@
         "character": "Loth",
         "episode": "Livre VI, 08 - Lacrimosa",
         "file": "cuit_les_boules.mp3",
-        "title": "Ca m'a litéralement cuit les boules !"
+        "title": "Ça m'a littéralement cuit les boules !"
     },
 	{
         "character": "Loth",
         "episode": "Livre V, 02 - Miserere Noire",
         "file": "tres_en_colere.mp3",
-        "title": "Misa brevis et spiritus maxima. Ça veut rien dire, mais je suis très en colère contre moi même."
+        "title": "Misa brevis et spiritus maxima. Ça veut rien dire, mais je suis très en colère contre moi-même."
     },
 	{
         "character": "Loth",
@@ -1801,31 +1801,31 @@
     },
 	{
         "character": "Loth",
-        "episode": "Livre V, 01 - Les repentants",
+        "episode": "Livre V, 01 - Les Repentants",
         "file": "sur_de_son_coup.mp3",
         "title": "Quand on veut être sûr de son coup, Seigneur Dagonet… on plante des navets. On ne pratique pas le putsch."
     },
 	{
         "character": "Loth",
-        "episode": "Livre IV, 08 - Dagonet et le cadastre",
+        "episode": "Livre IV, 08 - Dagonet et le Cadastre",
         "file": "parfaitement_antipathique.mp3",
         "title": "Et vous êtes parfaitement antipathique. D'ailleurs j'vous aime pas moi non plus, comme quoi, voyez ?"
     },
 	{
         "character": "Loth",
-        "episode": "Livre IV, 08 - Dagonet et le cadastre",
+        "episode": "Livre IV, 08 - Dagonet et le Cadastre",
         "file": "demi_journee_vous_attend.mp3",
         "title": "C'est à dire qu'ça fait un peu une demi-journée qu'on vous attend, mais ça fait rien"
     },
 	{
         "character": "Loth",
-        "episode": "Livre IV, 08 - Dagonet et le cadastre",
+        "episode": "Livre IV, 08 - Dagonet et le Cadastre",
         "file": "ici_chez_les_salopards.mp3",
         "title": "Vous pouvez parler en toute franchise : pour faire court, vous êtes ici chez les salopards, hein, c'est admis. On n'a pas des idées bien jojo, et on a pas peur de le dire. On fomente, on rénégate, on laisse libre cours à notre fantaisie"
     },
 	{
         "character": "Loth",
-        "episode": "Livre IV, 08 - Dagonet et le cadastre",
+        "episode": "Livre IV, 08 - Dagonet et le Cadastre",
         "file": "peigne_zizi.mp3",
         "title": "Non, pour nous, c'est un peigne zizi, voilà"
     },
@@ -1833,18 +1833,18 @@
         "character": "Galessin",
         "episode": "Livre I, 51 - Enluminures",
         "file": "parle_de_travers_cureton.mp3",
-        "title": "Il nous parle bien de travers, le cureton, aujourd'hui !"
+        "title": "Moi il me semble qu'il nous parle bien de travers, le cureton, aujourd'hui !"
     },
 	{
         "character": "Galessin",
-        "episode": "Livre IV, 08 - Dagonet et le cadastre",
+        "episode": "Livre IV, 08 - Dagonet et le Cadastre",
         "file": "oui_ben_non.mp3",
         "title": "Oui... Ben non !"
     },
 	{
         "character": "Anna",
-        "episode": "Livre V, 32 - L'odyssée d'Arthur",
+        "episode": "Livre V, 32 - L'Odyssée d'Arthur",
         "file": "signe_de_vouloir_discuter.mp3",
-        "title": "Excusez-moi, est-ce qu'à un seul moment, j'aurais par mégarde donné le moindre signe de vouloir discuter avec vous?"
+        "title": "Excusez-moi, est-ce qu'à un seul moment j'aurais, par mégarde, donné le moindre signe de vouloir discuter avec vous ?"
     }
 ]
