@@ -1852,5 +1852,11 @@
         "episode": "Livre I, 02 - Les Tartes aux Myrtilles",
         "file": "difference_concrete_avec_des_briques.mp3",
         "title": "Sans vouloir la ramener, la seule différence concrète avec des briques, c'est que vous appelez ça des tartes !"
+    },
+	{
+        "character": "Merlin",
+        "episode": "Livre I, 67 - Les Défis de Merlin",
+        "file": "quest_ce_qui_est_petit_et_marron.mp3",
+        "title": "Qu'est ce qui est petit et marron ?"
     }
 ]
