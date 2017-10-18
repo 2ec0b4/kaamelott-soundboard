@@ -1861,31 +1861,31 @@
     },
     {
         "character": "Léodagan",
-        "episode": "Livre II - Le Complot",
+        "episode": "Livre II, 47 - Le Complot",
         "file": "tropgentil.mp3",
         "title": "Vous savez ce que c'est mon problème ? Trop gentil !"
     },
 	{
         "character": "Kadoc",
-        "episode": "Livre V - Le Destitué",
+        "episode": "Livre V, 42 - Le Destitué",
         "file": "compote.mp3",
         "title": "Faut pas respirer de la compote, ça fait tousser"
     },
 	{
         "character": "Kadoc",
-        "episode": "Livre V - Domi Nostrae",
+        "episode": "Livre V, 33 - Domi Nostrae",
         "file": "casuffit.mp3",
-        "title": "Ca suffit, ça suffit, ça suffit !!"
+        "title": "Ça suffit, ça suffit, ça suffit !!"
     },
 	{
         "character": "Perceval",
-        "episode": "Livre III - Les Suppléants",
+        "episode": "Livre III, 24 - Les Suppléants",
         "file": "incandescent.mp3",
-        "title": "Incandescente, c'est qui peut accaparer des objets sans ressurgir sur autrui"
+        "title": "Incandescente, c'est : qui peut accaparer des objets sans ressurgir sur autrui"
     },
 	{
         "character": "Arthur",
-        "episode": "Livre II - Unagi II",
+        "episode": "Livre II, 57 - Unagi II",
         "file": "inattendu.mp3",
         "title": "C'est systématiquement débile, mais c'est toujours inattendu !"
     },
@@ -1899,12 +1899,12 @@
         "character": "Bohort",
         "episode": "Livre II, 14 - Les Classes de Bohort",
         "file": "malademental.mp3",
-        "title": "Vous êtes un grad malade mental !"
+        "title": "Vous êtes un grand malade mental !"
     },
 	{
         "character": "Yvain",
-        "episode": "Livre V - Les Pionniers",
+        "episode": "Livre V, 40 - Les Pionniers",
         "file": "ebaubir.mp3",
-        "title": "Femme ! Cesse donc de nous ébaubir les oreilles !"
+        "title": "Femme ! Cesse donc de nous ébaubir les oreilles ! Ohlala, il suffit !"
     }
 ]
