@@ -1858,5 +1858,53 @@
         "episode": "Livre I, 15 - Les Défis de Merlin",
         "file": "quest_ce_qui_est_petit_et_marron.mp3",
         "title": "Qu'est ce qui est petit et marron ? Un marron"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II - Le Complot",
+        "file": "tropgentil.mp3",
+        "title": "Vous savez ce que c'est mon problème ? Trop gentil !"
+    },
+	{
+        "character": "Kadoc",
+        "episode": "Livre V - Le Destitué",
+        "file": "compote.mp3",
+        "title": "Faut pas respirer de la compote, ça fait tousser"
+    },
+	{
+        "character": "Kadoc",
+        "episode": "Livre V - Domi Nostrae",
+        "file": "casuffit.mp3",
+        "title": "Ca suffit, ça suffit, ça suffit !!"
+    },
+	{
+        "character": "Perceval",
+        "episode": "Livre III - Les Suppléants",
+        "file": "incandescent.mp3",
+        "title": "Incandescente, c'est qui peut accaparer des objets sans ressurgir sur autrui"
+    },
+	{
+        "character": "Arthur",
+        "episode": "Livre II - Unagi II",
+        "file": "inattendu.mp3",
+        "title": "C'est systématiquement débile, mais c'est toujours inattendu !"
+    },
+	{
+        "character": "Bohort",
+        "episode": "Livre III, 03 - L'Aveu de Bohort",
+        "file": "catastrophe.mp3",
+        "title": "C'est une catastrophe !"
+    },
+	{
+        "character": "Bohort",
+        "episode": "Livre II, 14 - Les Classes de Bohort",
+        "file": "malademental.mp3",
+        "title": "Vous êtes un grad malade mental !"
+    },
+	{
+        "character": "Yvain",
+        "episode": "Livre V - Les Pionniers",
+        "file": "ebaubir.mp3",
+        "title": "Femme ! Cesse donc de nous ébaubir les oreilles !"
     }
 ]
