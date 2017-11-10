@@ -1906,5 +1906,17 @@
         "episode": "Livre V, 40 - Les Pionniers",
         "file": "ebaubir.mp3",
         "title": "Femme ! Cesse donc de nous ébaubir les oreilles ! Ohlala, il suffit !"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre I, 01 - Heat",
+        "file": "je_connais_que_le_cri.mp3",
+        "title": "Ah non, moi j'connais que le cri. Piu piu piu papapapapapa"
+    }.
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 01 - Heat",
+        "file": "moi_non_plus_je_vois_rien.mp3",
+        "title": "Ah ben tourné vers là-bas c'est sûr, moi non plus je vois rien !"
     }
 ]
