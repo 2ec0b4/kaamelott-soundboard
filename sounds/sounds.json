@@ -1918,5 +1918,17 @@
         "episode": "Livre I, 01 - Heat",
         "file": "moi_non_plus_je_vois_rien.mp3",
         "title": "Ah ben tourné vers là-bas c'est sûr, moi non plus je vois rien !"
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre IV, 34 - Les Novices",
+        "file": "on_est_pas_sorti_du_sable.mp3",
+        "title": "Eh ben, on est pas sorti du sable !"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre I, 3 - La Table de Breccan",
+        "file": "buffet_a_vaisselle.mp3",
+        "title": "Encore une chance qu'on se soit pas fait construire un buffet à vaisselle, hein !"
     }
 ]
