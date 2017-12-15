@@ -1126,7 +1126,7 @@
         "episode": "Livre II, 44 - Le Dialogue de Paix",
         "file": "fleur_en_bouquet.mp3",
         "title": "La fleur en bouquet fâne... et jamais ne renait !"
-    },    
+    },
     {
         "character": "Léodagan",
         "episode": "Livre I, 11 - Dîner Dansant",
@@ -1180,7 +1180,7 @@
         "episode": "Livre I, 50 - Les Nouveaux Frères",
         "file": "cest_pas_des_fleches.mp3",
         "title": "Ah bah c'est pas des flèches"
-    },    
+    },
     {
         "character": "Léodagan",
         "episode": "Livre I, 39 - Le Cas Yvain",
@@ -1546,7 +1546,7 @@
         "episode": "Livre I, 82 - Décibels Nocturnes",
         "file": "un_jour_je_vais_lui_fumer_sa_gueule_a_ce_connard.mp3",
         "title": "Un jour j'vais lui fumer sa gueule à c'connard."
-    },    
+    },
     {
         "character": "Arthur",
         "episode": "Livre I, 85 - La Blessure Mortelle",
@@ -1930,5 +1930,11 @@
         "episode": "Livre I, 3 - La Table de Breccan",
         "file": "buffet_a_vaisselle.mp3",
         "title": "Encore une chance qu'on se soit pas fait construire un buffet à vaisselle, hein !"
+    },
+    {
+        "character": "Fearmac",
+        "episode": "Livre II, 09 - Le Terroriste",
+        "file": "hein_titi.mp3",
+        "title": "Hein Titi !"
     }
 ]
