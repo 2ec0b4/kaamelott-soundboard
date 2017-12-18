@@ -39,6 +39,9 @@ define("views/filter", function(require) {
 
             this.$el.find(this.ui.searchField).val('');
             this.$el.find(this.ui.searchForm).submit();
+        },
+        onShow: function() {
+            this.$el.find(this.ui.searchField).focus();
         }
     });
 
