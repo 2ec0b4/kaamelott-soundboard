@@ -1936,5 +1936,11 @@
         "episode": "Livre II, 09 - Le Terroriste",
         "file": "hein_titi.mp3",
         "title": "Hein Titi !"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre IV, 25 - L’Échelle de Perceval",
+        "file": "du_passé_faisons_table_en_marbre.mp3",
+        "title": "Du passé faisons table en marbre"
     }
 ]
