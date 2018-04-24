@@ -1948,5 +1948,23 @@
         "episode": "Livre II, 88 - Les Esclaves",
         "file": "ni_vu_ni_connu.mp3",
         "title": "Ni vu, ni connu"
+    },
+    {
+        "character": "Père Blaise",
+        "episode": "Livre II, 55 - La Quinte Juste",
+        "file": "ca_me_fait_gerber.mp3",
+        "title": "Ca me fait gerber"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 55 - La Quinte Juste",
+        "file": "et_si_vous_arretiez_de_gueuler.mp3",
+        "title": "Et si vous arrêtiez de gueuler, un peu ?"
+    },
+    {
+        "character": "Bohort",
+        "episode": "Livre II, 55 - La Quinte Juste",
+        "file": "ya_pas_de_mal.mp3",
+        "title": "Y'a pas d'mal"
     }
 ]
