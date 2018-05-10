@@ -1966,5 +1966,53 @@
         "episode": "Livre II, 55 - La Quinte Juste",
         "file": "ya_pas_de_mal.mp3",
         "title": "Y'a pas d'mal"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 54 - The Game",
+        "file": "ah_bah_alors_la_je_les_attends_les_mecs.mp3",
+        "title": "Ah bah alors là, je les attends les mecs"
+    },
+    {
+        "character": "Bohort",
+        "episode": "Livre II, 54 - The Game",
+        "file": "ah_oui_bravo_une_belle_lecon_de_sport.mp3",
+        "title": "Ah oui bravo. Une belle leçon de sport"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II, 54 - The Game",
+        "file": "des_pedales_ils_disent_sur_le_message.mp3",
+        "title": "Des pédales, ils disent, sur le message"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II, 54 - The Game",
+        "file": "fagot_fagot_fagot.mp3",
+        "title": "Fagot! Fagot! Fagot!"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II, 54 - The Game",
+        "file": "jsuis_a_mon_poste_cest_pas_le_cas_de_tout_le_monde.mp3",
+        "title": "J'suis à mon poste ! C'est pas le cas de tout le monde !"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre II, 54 - The Game",
+        "file": "nan_la_sans_deconner_cest_zero.mp3",
+        "title": "Nan là sans déconner, c’est zéro"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre II, 54 - The Game",
+        "file": "vous_allez_pas_commencer_avec_vos_termes_pourris.mp3",
+        "title": "Bah dîtes-le. Vous allez pas commencer avec vos termes pourris"
+    },
+    {
+        "character": "Bohort",
+        "episode": "Livre II, 54 - The Game",
+        "file": "vous_etes_des_damnes.mp3",
+        "title": "Vous êtes des damnés !"
     }
 ]
