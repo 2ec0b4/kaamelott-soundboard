@@ -2014,5 +2014,11 @@
         "episode": "Livre II, 54 - The Game",
         "file": "vous_etes_des_damnes.mp3",
         "title": "VOUS ÊTES DES DAMNÉS !"
+    },
+    {
+        "character": "Guethenoc",
+        "episode": "Livre I, 43 - La Coccinelle de Madenn",
+        "file": "les_premieres_oeillades.mp3",
+        "title": "Les premières œillades"
     }
 ]
