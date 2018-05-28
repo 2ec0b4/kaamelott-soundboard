@@ -1,3 +1,5 @@
 bower_components
 dist
 node_modules
+.gitconfig
+*.swp
