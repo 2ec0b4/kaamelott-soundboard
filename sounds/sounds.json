@@ -2060,7 +2060,19 @@
     {
         "character": "Léodagan",
         "episode": "Livre III, 70 - La potion de fécondité II",
-        "file": "ca_me_plait_qu_a_moitie.mp3.mp3",
+        "file": "ca_me_plait_qu_a_moitie.mp3",
         "title": "Euh… Si c'est d'moi qu'vous parlez, j'vous préviens que ça m'plaît qu'à moitié."
+    },
+    {
+        "character": "Dame Séli",
+        "episode": "Livre III, 70 - La potion de fécondité II",
+        "file": "une_claque_dans_le_museau_vous_repondez.mp3",
+        "title": "Et à une claque dans l'museau, vous répondez ?"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre III, 70 - La potion de fécondité II",
+        "file": "jy_vais_javoine.mp3",
+        "title": "J'y vais ? J'avoine ?"
     }
 ]
