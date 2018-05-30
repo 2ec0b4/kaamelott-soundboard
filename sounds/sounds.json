@@ -2026,5 +2026,18 @@
         "episode": "Livre I, 43 - La Coccinelle de Madenn",
         "file": "mes_endives.mp3",
         "title": "L'autre jour on s'entraînait dans un champ à la catapulte, y'en a un qui arrive : \"oh mes endives mes endives\". On lui a mis un rocher sur la tête, ça l'a calmé l'bouseux."
+    },
+    {
+        "character": "Dame Séli",
+        "episode": "Livre III, 52 - La cassette II",
+        "file": "tout_dans_le_furtif.mp3",
+        "title": "Pas un bruit, pas un mouvement, tout dans l'furtif. Vous avez glissé du pageot comme un pet sur une plaque de verglas !"
+    },
+    {
+        "character": "Dame Séli",
+        "episode": "Livre III, 52 - La cassette II",
+        "file": "arretez_immediatement_de_me_prendre_pour_une_truite.mp3",
+        "title": "Arrêtez immédiatement de m'prendre pour une truite !"
     }
+
 ]
