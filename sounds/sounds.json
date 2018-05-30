@@ -2038,6 +2038,29 @@
         "episode": "Livre III, 52 - La cassette II",
         "file": "arretez_immediatement_de_me_prendre_pour_une_truite.mp3",
         "title": "Arrêtez immédiatement de m'prendre pour une truite !"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre III, 60 - Les festivités",
+        "file": "gigoter_des_miches_ca_donne_faim.mp3",
+        "title": "Surtout que gigoter des miches, ça donne faim…"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre III, 60 - Les festivités",
+        "file": "on_essaie_de_catapulter_un_danseur.mp3",
+        "title": "Ou alors on essaie d'catapulter un danseur"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre III, 67 - La Baraka",
+        "file": "sans_blague_ya_pas_dla_gourdasse.mp3",
+        "title": "Sans blague, y'a pas d'la gourdasse !"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre III, 70 - La potion de fécondité II",
+        "file": "ca_me_plait_qu_a_moitie.mp3.mp3",
+        "title": "Euh… Si c'est d'moi qu'vous parlez, j'vous préviens que ça m'plaît qu'à moitié."
     }
-
 ]
