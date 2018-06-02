@@ -2074,5 +2074,23 @@
         "episode": "Livre III, 70 - La potion de fécondité II",
         "file": "jy_vais_javoine.mp3",
         "title": "J'y vais ? J'avoine ?"
+    },
+    {
+        "character": "Appius Manilius",
+        "episode": "Livre VI, 07 - Arturus Rex",
+        "file": "cest_bien_quon_reste_un_peu_dehors.mp3",
+        "title": "Ouais c'est bien qu'on reste un peu dehors, comme ça j'pourrais vous mettre une grosse tarte en plein air"
+    },
+    {
+        "character": "Dame Séli",
+        "episode": "Livre III, 72 - La restriction II",
+        "file": "alors_le_ratichon_on_a_un_ptit_creux.mp3",
+        "title": "Alors le ratichon, on a un p'tit creux ?"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre III, 72 - La restriction II",
+        "file": "faites_gaffe_aux_pieges_a_loups.mp3",
+        "title": "Faites gaffe aux pièges à loups j'en ai rajouté !"
     }
 ]
