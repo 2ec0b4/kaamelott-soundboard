@@ -1152,6 +1152,12 @@
         "title": "En fait j'en ai pris deux, mais euh... j'ai cherché la merde"
     },
     {
+        "character": "Spurius Cordius Frontiniu",
+        "episode": "Livre VI, 06 - Nuptiae",
+        "file": "comment_peut_on_arriver_a_un_grade_aussi_eleve.mp3",
+        "title": "Comment peut-on arriver à un grade aussi élevé en étant aussi naïf ?"
+    },
+    {
         "character": "Merlin",
         "episode": "Livre III, 04 - Le Renfort Magique",
         "file": "j-ai-tout-entendu.mp3",
@@ -1185,7 +1191,7 @@
         "character": "Léodagan",
         "episode": "Livre I, 39 - Le Cas Yvain",
         "file": "ah_bravo_bah_vous_parlez_d_un_hero.mp3",
-        "title": "Ah bravo ! Alors vous parlez d'un héro !"
+        "title": "Ah bravo ! Alors vous parlez d'un héro !"
     },
     {
         "character": "Arthur",
@@ -1197,7 +1203,7 @@
         "character": "Arthur",
         "episode": "Livre I, 39 - Le Cas Yvain",
         "file": "ah_parce_que_c_est_la_seule_alternative_que_vous_me_proposez.mp3",
-        "title": "Parce que c'est la seule alternative que vous me proposez ! Rien branler de la journée ou des concours de pets ?!"
+        "title": "Parce que c'est la seule alternative que vous me proposez ! Rien branler de la journée ou des concours de pets ?!"
     },
     {
         "character": "Léodagan",
@@ -1221,7 +1227,7 @@
         "character": "Perceval",
         "episode": "Livre I, 28 - La Botte Secrète",
         "file": "c_est_cotelette_que_vous_comprenez_pas.mp3",
-        "title": "C'est côtelette que vous ne comprenez pas ?"
+        "title": "C'est côtelette que vous ne comprenez pas ?"
     },
     {
         "character": "Perceval",
@@ -1233,7 +1239,7 @@
         "character": "Perceval",
         "episode": "Livre I, 35 - Ambidextrie",
         "file": "de_tout_facon_on_dit_le_nord_selon_comment_on_est_tourne_ca_change_tout.mp3",
-        "title": "De tout façon on dit le Nord, selon comment on est tourné ça change tout !"
+        "title": "De tout façon on dit le Nord, selon comment on est tourné ça change tout !"
     },
     {
         "character": "Léodagan",
@@ -1287,19 +1293,19 @@
         "character": "Karadoc",
         "episode": "Livre I, 20 - La Dent de Requin",
         "file": "je_trouve_qu_on_nous_prend_un_peu_trop_pour_des_cons.mp3",
-        "title": "Je trouve qu'on nous prend un peu trop pour des cons en ce moment !"
+        "title": "Je trouve qu'on nous prend un peu trop pour des cons en ce moment !"
     },
     {
         "character": "Arthur",
         "episode": "Livre I, 37 - La Romance de Lancelot",
         "file": "mais_qu_est_ce_qui_vous_prend_ca_va_pas_vous_etes_dingue.mp3",
-        "title": "Mais qu'est-ce qui vous prend, ça va pas, vous êtes dingue !?"
+        "title": "Mais qu'est-ce qui vous prend, ça va pas, vous êtes dingue !?"
     },
     {
         "character": "Arthur",
         "episode": "Livre I, 09 - Le Maître d'armes",
         "file": "moi_depuis_ce_matin_je_me_fait_traiter_de_gonzesse.mp3",
-        "title": "Moi depuis ce matin j'me fais traiter de gonzesse, j'en fais pas tout un cake !"
+        "title": "Moi depuis ce matin j'me fais traiter de gonzesse, j'en fais pas tout un cake !"
     },
     {
         "character": "Bohort",
@@ -1341,7 +1347,7 @@
         "character": "Arthur",
         "episode": "Livre I, 38 - Merlin et les Loups",
         "file": "putain_faut_vraiment_qu_on_se_groulle.mp3",
-        "title": "Putain faut vraiment qu'on s'grouille !"
+        "title": "Putain faut vraiment qu'on s'grouille !"
     },
     {
         "character": "Père Blaise",
@@ -2092,5 +2098,29 @@
         "episode": "Livre III, 72 - La restriction II",
         "file": "faites_gaffe_aux_pieges_a_loups.mp3",
         "title": "Faites gaffe aux pièges à loup j'en ai rajouté !"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre II, 19 - L'Absolution",
+        "file": "au_bucher_demon_expie_tes_fautes.mp3",
+        "title": "Au bûcher démon expie tes fautes !"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre II, 19 - L'Absolution",
+        "file": "ne_te_mets_pas_en_dehors_du_chemin_de_la_redemption.mp3",
+        "title": "Ne te mets pas en dehors du chemin de la rédemption, Satan !"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre II, 95 - Le Plat National",
+        "file": "Comment_ca_on_bute_Karadoc.mp3",
+        "title": "Comment ça, 'on bute Karadoc ?'"
+    },
+    {
+        "character": "Venec",
+        "episode": "Livre III, 95 - Le Professionnel",
+        "file": "Ren_dez_vous_a_la_ta_verne_incognito.mp3",
+        "title": "Ren...dez...vous... ce soir... à la ta-verne ! Et incognito !"
     }
 ]
