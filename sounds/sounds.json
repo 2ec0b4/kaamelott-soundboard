@@ -2134,5 +2134,23 @@
         "episode": "Livre VI, 06 - Nuptiae",
         "file": "on_fera_tintin_pour_le_clafoutis.mp3",
         "title": "Oui. Alors moi je pourrais vous dire que... Si on cueille pas les cerises quand elles sont sur l'arbre, on fera tintin pour le clafoutis. Mais on sera pas plus avancés."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 11 - Dîner dansant",
+        "file": "oh_putain_oui.mp3",
+        "title": "Oh putain oui !"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre I, 50 - Les Nouveaux Frères",
+        "file": "ce-serait-hyper.mp3.mp3",
+        "title": "Ce serait hyper whoooo"
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre I, 14 - Monogame",
+        "file": "tu-sais-pour-moi-les-femmes-j_aime-pas-ca-c_est-de-la-saloperie.mp3",
+        "title": "Tu sais pour moi les femmes j'aime pas ca c'est de la saloperie"
     }
 ]
