@@ -2152,5 +2152,35 @@
         "episode": "Livre I, 14 - Monogame",
         "file": "les-femmes-jaime-pas-ca-c'est-de-la-saloperie.mp3",
         "title": "Tu sais moi pour moi les femmes j'aime pas ça c'est de la saloperie"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 40 - L'Adoubement",
+        "file": "a_mon_epoque_ca_se_faisait_pas.mp3",
+        "title": "Moi à mon époque, ça se faisait pas"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 40 - L'Adoubement",
+        "file": "ca_me_ferait_mal.mp3",
+        "title": "Ah bah ça m'ferait mal"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 40 - L'Adoubement",
+        "file": "cest_beau_quand_meme.mp3",
+        "title": "C'est beau quand même"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 40 - L'Adoubement",
+        "file": "chevalierisation.mp3",
+        "title": "Ils auraient pu se creuser la tronche pour trouver un autre nom. Je sais pas moi... Chevalierisation! Quoi, déjà pris?"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 40 - L'Adoubement",
+        "file": "on_a_pas_regarde_ dans_les_f.mp3",
+        "title": "Bah je sais pas, on a pas regardé dans les F, si?"
     }
 ]
