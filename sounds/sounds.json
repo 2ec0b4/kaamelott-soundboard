@@ -2182,5 +2182,29 @@
         "episode": "Livre I, 40 - L'Adoubement",
         "file": "on_a_pas_regarde_dans_les_f.mp3",
         "title": "Bah j'sais pas, on a pas regardé dans les F, si ?"
+    },
+    {
+        "character": "Hervé De Rinel",
+        "episode": "Livre III, 91 - L'Espion",
+        "file": "de_quoi_desole_excusez_moi_j_ecoutais_pas.mp3",
+        "title": "De quoi... Désolé... Excusez-moi... J'écoutais pas !"
+    },
+    {
+        "character": "Guethenoc",
+        "episode": "Livre III, 91 - L'Espion",
+        "file": "et_puis_y_a_toujours_une_proportion_de_secoues.mp3",
+        "title": "Et puis y'a toujours une proportion de secoués dans tous les métiers de toute façon hein"
+    },
+    {
+        "character": "Guethenoc",
+        "episode": "Livre III, 91 - L'Espion",
+        "file": "lui_on_comprend_ni_ce_qu_il_dit_ni_ce_qu_il_fait.mp3",
+        "title": "Lui, on comprend ni ce qu'il dit, ni ce qu'il fait... C'est rare !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre III, 91 - L'Espion",
+        "file": "allez_vous_reposer_vous_l_avez_bien_merite.mp3",
+        "title": "Allez vous reposer, vous l'avez bien mérité"
     }
 ]
