@@ -2206,5 +2206,11 @@
         "episode": "Livre III, 91 - L'Espion",
         "file": "allez_vous_reposer_vous_l_avez_bien_merite.mp3",
         "title": "Allez vous reposer, vous l'avez bien mérité"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre IV, 63 - Le Jeu de la guerre",
+        "file": "j_apprecie_les_fruits_au_sirop.mp3",
+        "title": "J'apprécie les fruits au sirop !"
     }
 ]
