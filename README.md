@@ -32,6 +32,5 @@ Whoooohoooo woa c'est mortel !
 
 * Reddit : https://www.reddit.com/r/france/comments/5orvyf/kaamelott_soundboard_3/
 * Application iOS : https://github.com/tnducrocq/kaamelott-sound-board-ios
-* Application Android : https://play.google.com/store/apps/details?id=fr.androdev.kaamelottsounds
 
 Merci, de rien, au revoir m'sieur dame
