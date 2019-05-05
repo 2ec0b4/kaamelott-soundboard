@@ -2244,6 +2244,30 @@
         "title": "Allez vous reposer, vous l'avez bien mérité"
     },
     {
+        "character": "Kadoc",
+        "episode": "Livre IV, 70 - Le Paladin",
+        "file": "out/final/dans_trois_jours_cest_les_vacances.mp3",
+        "title": "Dans trois jours c'est les vacances."
+    },
+    {
+        "character": "Kadoc",
+        "episode": "Livre IV, 70 - Le Paladin",
+        "file": "out/final/dans_trois_jours_ma_tata_qui_menmne_la_mer_pour_me_noyer.mp3.mp3",
+        "title": "Dans trois jours ma tata qui m'enmène à la mer pour me noyer."
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre IV, 70 - Le Paladin",
+        "file": "out/final/je_vais_devenir_paladin.mp3",
+        "title": "Je vais devenir... Paladin !"
+    },
+    {
+        "character": "Le Maître d'armes",
+        "episode": "Livre IV, 70 - Le Paladin",
+        "file": "out/final/sire_vous_me_flattez.mp3",
+        "title": "Sire, vous me flattez…"
+    },
+    {
         "character": "Le Roi Burgonde",
         "episode": "Livre IV, 63 - Le Jeu de la guerre",
         "file": "j_apprecie_les_fruits_au_sirop.mp3",
