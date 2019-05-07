@@ -807,7 +807,7 @@
         "character": "Dame Séli",
         "episode": "Livre II, 05 - Silbury Hill",
         "file": "ils_sortent_bien_de_quelques_part.mp3",
-        "title": "Enfin mais… Ils sortent bien de quelques part, ils sont pas tombés du ciel, si ?"
+        "title": "Enfin mais… Ils sortent bien de quelque part, ils sont pas tombés du ciel, si ?"
     },
     {
         "character": "Léodagan",
@@ -2246,25 +2246,25 @@
     {
         "character": "Kadoc",
         "episode": "Livre IV, 70 - Le Paladin",
-        "file": "out/final/dans_trois_jours_cest_les_vacances.mp3",
+        "file": "dans_trois_jours_cest_les_vacances.mp3",
         "title": "Dans trois jours c'est les vacances."
     },
     {
         "character": "Kadoc",
         "episode": "Livre IV, 70 - Le Paladin",
-        "file": "out/final/dans_trois_jours_ma_tata_qui_menmne_la_mer_pour_me_noyer.mp3.mp3",
-        "title": "Dans trois jours ma tata qui m'enmène à la mer pour me noyer."
+        "file": "dans_trois_jours_ma_tata_elle_menmene_a_la_mer_pour_me_noyer.mp3",
+        "title": "Dans trois jours ma tata elle m'enmène à la mer pour me noyer."
     },
     {
         "character": "Le Répurgateur",
         "episode": "Livre IV, 70 - Le Paladin",
-        "file": "out/final/je_vais_devenir_paladin.mp3",
+        "file": "je_vais_devenir_paladin.mp3",
         "title": "Je vais devenir... Paladin !"
     },
     {
         "character": "Le Maître d'armes",
         "episode": "Livre IV, 70 - Le Paladin",
-        "file": "out/final/sire_vous_me_flattez.mp3",
+        "file": "sire_vous_me_flattez.mp3",
         "title": "Sire, vous me flattez…"
     },
     {
