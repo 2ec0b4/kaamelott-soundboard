@@ -786,6 +786,36 @@
         "title": "Je gueule, je gueule, j'pourrais gueuler dans le cul d'un poney, qu'ce serait pareil !"
     },
     {
+        "character": "Guenièvre",
+        "episode": "Livre II, 05 - Silbury Hill",
+        "file": "ben_nous_on_a_cru_que_cetait_la_pour_faire_joli.mp3",
+        "title": "Ben nous on a cru que c'était là pour faire joli…"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 05 - Silbury Hill",
+        "file": "bon_je_peux_pas_penser_a_tout_la.mp3",
+        "title": "Bon, je peux pas penser à tout, là !"
+    },
+    {
+        "character": "Guethenoc",
+        "episode": "Livre II, 05 - Silbury Hill",
+        "file": "cest_interessant.mp3",
+        "title": "C'est intéressant !"
+    },
+    {
+        "character": "Dame Séli",
+        "episode": "Livre II, 05 - Silbury Hill",
+        "file": "ils_sortent_bien_de_quelques_part.mp3",
+        "title": "Enfin mais… Ils sortent bien de quelque part, ils sont pas tombés du ciel, si ?"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II, 05 - Silbury Hill",
+        "file": "mais_evidemment_que_si.mp3",
+        "title": "Mais évidemment que si !"
+    },
+    {
         "character": "Léodagan",
         "episode": "Livre II, 05 - Silbury Hill",
         "file": "je_vais_vous_passer_le_gout_du_plein_air_moi.mp3",
@@ -2212,6 +2242,30 @@
         "episode": "Livre III, 91 - L'Espion",
         "file": "allez_vous_reposer_vous_l_avez_bien_merite.mp3",
         "title": "Allez vous reposer, vous l'avez bien mérité"
+    },
+    {
+        "character": "Kadoc",
+        "episode": "Livre IV, 70 - Le Paladin",
+        "file": "dans_trois_jours_cest_les_vacances.mp3",
+        "title": "Dans trois jours c'est les vacances."
+    },
+    {
+        "character": "Kadoc",
+        "episode": "Livre IV, 70 - Le Paladin",
+        "file": "dans_trois_jours_ma_tata_elle_menmene_a_la_mer_pour_me_noyer.mp3",
+        "title": "Dans trois jours ma tata elle m'enmène à la mer pour me noyer."
+    },
+    {
+        "character": "Le Répurgateur",
+        "episode": "Livre IV, 70 - Le Paladin",
+        "file": "je_vais_devenir_paladin.mp3",
+        "title": "Je vais devenir... Paladin !"
+    },
+    {
+        "character": "Le Maître d'armes",
+        "episode": "Livre IV, 70 - Le Paladin",
+        "file": "sire_vous_me_flattez.mp3",
+        "title": "Sire, vous me flattez…"
     },
     {
         "character": "Le Roi Burgonde",
