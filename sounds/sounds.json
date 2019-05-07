@@ -359,8 +359,8 @@
         "file": "venir_foutre_votre_merde.mp3",
         "title": "Faut toujours que vous veniez foutre votre merde"
     },
-    {
         "character": "Guenièvre",
+    {
         "episode": "Livre I, 42 - Le Zoomorphe",
         "file": "lair_idiote.mp3",
         "title": "Je vais avoir l'air d'une idiote"
@@ -2259,7 +2259,7 @@
         "character": "Arthur",
         "episode": "Livre III, 81 - Le Vulgarisateur",
         "file": "quand_je_comprends_pas_je_reponds_pas.mp3",
-        "title": "Quand je comprends pas, je réponds pas."
+        "title": "Non, quand je comprends pas, je réponds pas."
     },
     {
         "character": "Arthur",
