@@ -2218,5 +2218,41 @@
         "episode": "Livre IV, 63 - Le Jeu de la guerre",
         "file": "j_apprecie_les_fruits_au_sirop.mp3",
         "title": "J'apprécie les fruits au sirop !"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "vous_laissez_pas_embobiner_ils_cherchent_a_vous_rembobiner.mp3",
+        "title": "Vous laissez pas embobiner... Ils cherchent à vous rembobiner !"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "il_pige_rien_a_rien.mp3",
+        "title": "Il pige rien à rien !"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "c_est_pas_parce_qu_ils_ont_trahi_que_c_est_plus_des_allies.mp3",
+        "title": "C'est pas parce qu'ils ont trahi que c'est plus des alliés"
+    },
+    {
+        "character": "Gauvain",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "simple_deduction_mon_oncle.mp3",
+        "title": "Simple déduction mon oncle"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "embobinage_dans_l_air.mp3",
+        "title": "Embobinage dans l'air..."
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "ah_ouais_vous_seriez_une_sorte_de_bi_taupe_en_fait.mp3",
+        "title": "Ah ouais ! Vous seriez une sorte de bi-taupe en fait !"
     }
 ]
