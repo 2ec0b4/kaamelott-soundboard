@@ -2160,6 +2160,96 @@
         "title": "Comment ça, 'on bute Karadoc ?'"
     },
     {
+        "character": "Arthur",
+        "episode": "Livre IV, 09 - La Faute (2ème Partie)",
+        "file": "allez_vous_preparer_mousaillon_on_largue_les_amarres_dans_une_heure.mp3",
+        "title": "Allez vous préparer mousaillon, on largue les amarres dans une heure !"
+    },
+    {
+        "character": "Mévanoui",
+        "episode": "Livre IV, 09 - La Faute (2ème Partie)",
+        "file": "ecoutez_je_comprend_rien_a_ce_que_vous_faites.mp3",
+        "title": "Écoutez, je comprend rien à ce que vous faites"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre IV, 09 - La Faute (2ème Partie)",
+        "file": "est_ce_quil_sait_nager_deja.mp3",
+        "title": "Est-ce qu'il sait nager, déjà ?"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre IV, 09 - La Faute (2ème Partie)",
+        "file": "voila_passez_moi_la_canne_a_peche.mp3",
+        "title": "Voilà, passez moi la… canne à pêche."
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre IV, 48 - Les Tacticiens (2ème Partie)",
+        "file": "mais_moi_je_vous_previens_jy_connais_rien_en_champignon.mp3",
+        "title": "Mais moi je vous préviens, j'y connais rien en champignon !"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre IV, 48 - Les Tacticiens (2ème Partie)",
+        "file": "ca_va_si_faut_sonner_lalerte_vous_pouvez_bien_attendre_que_je_revienne_nan.mp3",
+        "title": "Ça va, si faut sonner l'alerte, vous pouvez bien attendre que je revienne, nan ?"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre IV, 48 - Les Tacticiens (2ème Partie)",
+        "file": "oui_et_ben_moi_je_vous_donne_lordre_de_lui_preter_votre_corne_parce_que_quand_on_est_gentil_on_prete.mp3",
+        "title": "Oui, et ben moi je vous donne l'ordre de lui prêter votre corne, parce que quand on est gentil, on prête !"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre IV, 48 - Les Tacticiens (2ème Partie)",
+        "file": "ca_vous_regarde_pas_cest_secret_ok.mp3",
+        "title": "Ça vous regarde pas, c'est secret, ok ?"
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre IV, 03 - Raison Et Sentiments",
+        "file": "ah__enfin_vous_voila_mon_ami__mais_que_se_passe_t_il_jentends_crier.mp3",
+        "title": "Ah ! Enfin vous voilà mon ami ! Mais que se passe-t-il, j'entends crier ?"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre IV, 49 - Drakkars !",
+        "file": "ouais_cest_mortel_ouais.mp3",
+        "title": "Ouais, c'est mortel, ouais"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre IV, 49 - Drakkars !",
+        "file": "ya_pas_un_pigeon_pour_envoyer_un_message.mp3",
+        "title": "Ya pas UN pigeon pour envoyer un message ?"
+    },
+    {
+        "character": "Bohort",
+        "episode": "Livre IV, 49 - Drakkars !",
+        "file": "cest_une_catastrophe_souffle.mp3",
+        "title": "C'est une catastrophe… (soufflé)"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre II, 86 - Les Félicitations",
+        "file": "ben_oui_cest_une_rime_triple__blanche_et_seche_poitrine_et_prairie_de_notre_enfance.mp3",
+        "title": "Ben oui, c'est une rime triple ! Blanche et sèche, poitrine et praiRIE, de notre enfance !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 86 - Les Félicitations",
+        "file": "alors_moi_jai_un_petit_probleme__jai_pas_pige_un_broc_de_ce_que_vous_bavez.mp3",
+        "title": "Alors, moi j'ai un petit problème : j'ai pas pigé UN BROC de ce que vous bavez."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 10 - La Chambre",
+        "file": "vous_avez_pas_limpression_que_je_suis_dans_une_baignoire.mp3",
+        "title": "Vous avez pas l'impression que je suis dans une baignoire ?"
+    },
+    {
         "character": "Venec",
         "episode": "Livre III, 95 - Le Professionnel",
         "file": "Ren_dez_vous_a_la_ta_verne_incognito.mp3",
