@@ -2244,6 +2244,42 @@
         "title": "Allez vous reposer, vous l'avez bien mérité"
     },
     {
+        "character": "Guenièvre",
+        "episode": "Livre IV, 03 - Raison et Sentiments",
+        "file": "je_veux_mhabiller_de_lierre_et_me_coiffer_de_roseaux.mp3",
+        "title": "Je veux m'habiller de lierre, et me coiffer de roseaux !"
+    },
+    {
+        "character": "Lancelot",
+        "episode": "Livre IV, 03 - Raison et Sentiments",
+        "file": "vous_allez_me_lacher_les_noyaux_oui.mp3",
+        "title": "Vous allez me lâcher les noyaux, oui ?!"
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre IV, 03 - Raison et Sentiments",
+        "file": "je_crois_quil_faut_nous_diriger_petit_a_petit_vers_plus_dautonomie_plus_de_responsabilites.mp3",
+        "title": "Je crois qu'il faut nous diriger petit à petit vers plus d'autonomie, plus de responsabilités."
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre IV, 03 - Raison et Sentiments",
+        "file": "vous_comprenez_le_principe.mp3",
+        "title": "Vous comprenez le principe ?"
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre IV, 03 - Raison Et Sentiments",
+        "file": "oui.mp3",
+        "title": "Oui ?"
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre IV, 03 - Raison et Sentiments",
+        "file": "excusez_moi_hein_je_ne_connais_pas_encore_bien_vos_noms.mp3",
+        "title": "Excusez-moi, hein, je ne connais pas encore bien vos noms !"
+    },
+    {
         "character": "Kadoc",
         "episode": "Livre IV, 70 - Le Paladin",
         "file": "out/final/dans_trois_jours_cest_les_vacances.mp3",
