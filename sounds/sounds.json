@@ -2169,7 +2169,7 @@
         "character": "Mévanoui",
         "episode": "Livre IV, 09 - La Faute (2ème Partie)",
         "file": "ecoutez_je_comprend_rien_a_ce_que_vous_faites.mp3",
-        "title": "Écoutez, je comprend rien à ce que vous faites"
+        "title": "Écoutez, je comprends rien à ce que vous faites"
     },
     {
         "character": "Arthur",
@@ -2241,7 +2241,7 @@
         "character": "Arthur",
         "episode": "Livre II, 86 - Les Félicitations",
         "file": "alors_moi_jai_un_petit_probleme__jai_pas_pige_un_broc_de_ce_que_vous_bavez.mp3",
-        "title": "Alors, moi j'ai un petit problème : j'ai pas pigé UN BROC de ce que vous bavez."
+        "title": "Alors, moi j'ai un petit problème : c'est que j'ai pas pigé UN BROC de ce que vous bavez."
     },
     {
         "character": "Arthur",
@@ -2348,8 +2348,8 @@
     {
         "character": "Guenièvre",
         "episode": "Livre IV, 03 - Raison et Sentiments",
-        "file": "je_crois_quil_faut_nous_diriger_petit_a_petit_vers_plus_dautonomie_plus_de_responsabilites.mp3",
-        "title": "Je crois qu'il faut nous diriger petit à petit vers plus d'autonomie, plus de responsabilités."
+        "file": "petit_a_petit_vers_plus_dautonomie.mp3",
+        "title": "Je crois qu'il faut se diriger petit à petit vers plus d'autonomie, plus de responsabilités."
     },
     {
         "character": "Guenièvre",
