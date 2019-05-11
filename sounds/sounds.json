@@ -807,7 +807,7 @@
         "character": "Dame Séli",
         "episode": "Livre II, 05 - Silbury Hill",
         "file": "ils_sortent_bien_de_quelques_part.mp3",
-        "title": "Enfin mais… Ils sortent bien de quelques part, ils sont pas tombés du ciel, si ?"
+        "title": "Enfin mais… Ils sortent bien de quelque part, ils sont pas tombés du ciel, si ?"
     },
     {
         "character": "Léodagan",
@@ -1224,7 +1224,7 @@
         "title": "C'est pas moi qui explique mal, c'est les autres qui sont cons !"
     },
     {
-        "character": "Dame Seli",
+        "character": "Dame Séli",
         "episode": "Livre I, 50 - Les Nouveaux Frères",
         "file": "cest_pas_des_fleches.mp3",
         "title": "Ah bah c'est pas des flèches"
@@ -2169,7 +2169,7 @@
         "character": "Mévanoui",
         "episode": "Livre IV, 09 - La Faute (2ème Partie)",
         "file": "ecoutez_je_comprend_rien_a_ce_que_vous_faites.mp3",
-        "title": "Écoutez, je comprend rien à ce que vous faites"
+        "title": "Écoutez, je comprends rien à ce que vous faites"
     },
     {
         "character": "Arthur",
@@ -2241,7 +2241,7 @@
         "character": "Arthur",
         "episode": "Livre II, 86 - Les Félicitations",
         "file": "alors_moi_jai_un_petit_probleme__jai_pas_pige_un_broc_de_ce_que_vous_bavez.mp3",
-        "title": "Alors, moi j'ai un petit problème : j'ai pas pigé UN BROC de ce que vous bavez."
+        "title": "Alors, moi j'ai un petit problème : c'est que j'ai pas pigé UN BROC de ce que vous bavez."
     },
     {
         "character": "Arthur",
@@ -2348,8 +2348,8 @@
     {
         "character": "Guenièvre",
         "episode": "Livre IV, 03 - Raison et Sentiments",
-        "file": "je_crois_quil_faut_nous_diriger_petit_a_petit_vers_plus_dautonomie_plus_de_responsabilites.mp3",
-        "title": "Je crois qu'il faut nous diriger petit à petit vers plus d'autonomie, plus de responsabilités."
+        "file": "petit_a_petit_vers_plus_dautonomie.mp3",
+        "title": "Je crois qu'il faut se diriger petit à petit vers plus d'autonomie, plus de responsabilités."
     },
     {
         "character": "Guenièvre",
@@ -2372,25 +2372,25 @@
     {
         "character": "Kadoc",
         "episode": "Livre IV, 70 - Le Paladin",
-        "file": "out/final/dans_trois_jours_cest_les_vacances.mp3",
+        "file": "dans_trois_jours_cest_les_vacances.mp3",
         "title": "Dans trois jours c'est les vacances."
     },
     {
         "character": "Kadoc",
         "episode": "Livre IV, 70 - Le Paladin",
-        "file": "out/final/dans_trois_jours_ma_tata_qui_menmne_la_mer_pour_me_noyer.mp3.mp3",
-        "title": "Dans trois jours ma tata qui m'enmène à la mer pour me noyer."
+        "file": "dans_trois_jours_ma_tata_elle_menmene_a_la_mer_pour_me_noyer.mp3",
+        "title": "Dans trois jours ma tata elle m'enmène à la mer pour me noyer."
     },
     {
         "character": "Le Répurgateur",
         "episode": "Livre IV, 70 - Le Paladin",
-        "file": "out/final/je_vais_devenir_paladin.mp3",
+        "file": "je_vais_devenir_paladin.mp3",
         "title": "Je vais devenir... Paladin !"
     },
     {
         "character": "Le Maître d'armes",
         "episode": "Livre IV, 70 - Le Paladin",
-        "file": "out/final/sire_vous_me_flattez.mp3",
+        "file": "sire_vous_me_flattez.mp3",
         "title": "Sire, vous me flattez…"
     },
     {
@@ -2398,5 +2398,77 @@
         "episode": "Livre IV, 63 - Le Jeu de la guerre",
         "file": "j_apprecie_les_fruits_au_sirop.mp3",
         "title": "J'apprécie les fruits au sirop !"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "vous_laissez_pas_embobiner_ils_cherchent_a_vous_rembobiner.mp3",
+        "title": "Vous laissez pas embobiner... Ils cherchent à vous rembobiner !"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "il_pige_rien_a_rien.mp3",
+        "title": "Il pige rien à rien !"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "c_est_pas_parce_qu_ils_ont_trahi_que_c_est_plus_des_allies.mp3",
+        "title": "C'est pas parce qu'ils ont trahi que c'est plus des alliés"
+    },
+    {
+        "character": "Gauvain",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "simple_deduction_mon_oncle.mp3",
+        "title": "Simple déduction mon oncle"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "embobinage_dans_l_air.mp3",
+        "title": "Embobinage dans l'air..."
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "ah_ouais_vous_seriez_une_sorte_de_bi_taupe_en_fait.mp3",
+        "title": "Ah ouais ! Vous seriez une sorte de bi-taupe en fait !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre III, 81 - Le Vulgarisateur",
+        "file": "quand_je_comprends_pas_je_reponds_pas.mp3",
+        "title": "Non, quand je comprends pas, je réponds pas."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre III, 81 - Le Vulgarisateur",
+        "file": "essayez_de_faire_des_phrases_pour_vous_deja.mp3",
+        "title": "Essayez de faire des phrases pour vous déjà, on verra après le reste."
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre III, 81 - Le Vulgarisateur",
+        "file": "cest_chaud_quand_meme.mp3",
+        "title": "C'est chaud quand même."
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre III, 81 - Le Vulgarisateur",
+        "file": "ah_bah_ouais_mais_apres_il_faut_un_peu_de_technique.mp3",
+        "title": "Ah bah ouais mais après il faut un peu de technique."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre III, 81 - Le Vulgarisateur",
+        "file": "cest_toujours_un_peu_delicat_de_parler_damour_aux_cons.mp3",
+        "title": "Bah c'est toujours un peu délicat de parler d'amour aux cons."
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre III, 81 - Le Vulgarisateur",
+        "file": "heu_cest_plutot_des_cons.mp3",
+        "title": "Heu... C'est plutôt des cons."
     }
 ]
