@@ -348,6 +348,54 @@
         "title": "Super, bonjour la pédagogie"
     },
     {
+        "character": "Arthur",
+        "episode": "Livre II, 70 - Les Vœux",
+        "file": "mais_vous_savez_ce_que_ca_veux_dire_au_moins.mp3",
+        "title": "Mais vous savez ce que ça veux dire, au moins ?"
+    },
+    {
+        "character": "Arthur - Galessin",
+        "episode": "Livre II, 70 - Les Vœux",
+        "file": "voeux_de_pauvrete_jarrivais_pas_a_concilier.mp3",
+        "title": "Moi à une époque, je voulais faire vœux de pauvreté — Et alors ? — Ben avec le pognon que je rentrais, j'arrivais pas à concilier les deux"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II, 81 - L'Enragé",
+        "file": "il_est_coince_ce_con_la.mp3",
+        "title": "Oh hé, merde hé ! C'est pas vrai, il est coincé ce con-là !"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II, 81 - L'Enragé",
+        "file": "je_vais_pas_faire_des_aller_retours_3_fois_par_jours.mp3",
+        "title": "Après vous vous démerdez, hein, je vais pas faire des aller-retours 3 fois par jours, je vous préviens !"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II, 81 - L'Enragé",
+        "file": "jai_arrete_les_pronostics.mp3",
+        "title": "Avec celui-là vous savez, ça fait un moment que j'ai arrêté les pronostics !"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 41 - Arthur et les Ténèbres",
+        "file": "nempeche_que_cetait_moi_qui_avait_propose.mp3",
+        "title": "N'empêche que c'était moi qui avait proposé"
+    },
+    {
+        "character": "Calogrenant",
+        "episode": "Livre I, 41 - Arthur et les Ténèbres",
+        "file": "ouais_ca_aussi.mp3",
+        "title": "Ouais, Ouais… Ouais ça aussi"
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre I, 59 - La Jupe de Calogrenant",
+        "file": "cest_le_genre_dendroit_ou_il_faut_parler_fort.mp3",
+        "title": "Je vois ! Je suppose que c'est le genre d'endroit où il faut parler fort et se taper dans le dos !"
+    },
+    {
         "character": "Perceval",
         "episode": "Livre I, 40 - L'Adoubement",
         "file": "je_vois_pas_le_rapport_avec_bretagne.mp3",
@@ -2434,6 +2482,84 @@
         "episode": "Livre IV, 78 - Le Choix de Gauvain",
         "file": "ah_ouais_vous_seriez_une_sorte_de_bi_taupe_en_fait.mp3",
         "title": "Ah ouais ! Vous seriez une sorte de bi-taupe en fait !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 69 - Feue La Vache De Roparzh",
+        "file": "alors__a_qui_cest_quelle_est_morte_la_va_vache.mp3",
+        "title": "Alors ? À qui c'est qu'elle est morte, la va-vache ?"
+    },
+    {
+        "character": "Dame Séli",
+        "episode": "Livre I, 02 - La Tarte aux Myrtilles",
+        "file": "quest_ce_que_vous_attendez_pour_la_couper.mp3",
+        "title": "Eh ben, qu'est-ce que vous attendez pour la couper ? Qu'il fasse nuit ?"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre I, 02 - La Tarte aux Myrtilles",
+        "file": "oui_ou_une_fissure_a_colmater_dans_un_muret.mp3",
+        "title": "Oui… Ou une fissure à colmater dans un muret !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 02 - La Tarte aux Myrtilles",
+        "file": "bon_ba_ca_va_on_plaisante.mp3",
+        "title": "Bon ba ça va, on plaisante !"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 12 - Le Sixième Sens",
+        "file": "au_bout_dun_moment_on_a_prefere_plus_rien_dire.mp3",
+        "title": "Ah bah nous au bout d'un moment on a préféré plus rien dire !"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 91 - La Fureur du Dragon",
+        "file": "sils_sont_equidistants_on_peut_reperer_le_dragon.mp3",
+        "title": "S'ils sont équidistants en même temps que nous, on peut repérer le dragon par rapport à une certaine distance"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 69 - Feue La Vache De Roparzh",
+        "file": "kaamelott_cest_pas_une_cooperative_bovine.mp3",
+        "title": "Nan mais Kaamelott c'est pas une coopérative bovine ! On a pas de vaches !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 69 - Feue La Vache De Roparzh",
+        "file": "jai_toujours_ete_fascine_par_le_monde_paysan_2.mp3",
+        "title": "J'ai toujours été fasciné par le monde paysan"
+    },
+    {
+        "character": "Guethenoc",
+        "episode": "Livre II, 69 - Feue La Vache De Roparzh",
+        "file": "elle_avait_rien_a_y_foutre_deja_pour_commencer.mp3",
+        "title": "Elle avait rien à y foutre déjà pour commencer"
+    },
+    {
+        "character": "Roparzh",
+        "episode": "Livre II, 69 - Feue La Vache De Roparzh",
+        "file": "elle_avait_choppe_toutes_les_maladies.mp3",
+        "title": "Et puis quand elle est revenue, elle avait choppé toutes les maladies qu'existes"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 12 - Le Sixième Sens",
+        "file": "jai_rien_compris.mp3",
+        "title": "J'ai rien compris !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 40 - L'Adoubement",
+        "file": "vous_balader_avec_une_cuillere_a_soupe_ca_changerait_rien.mp3",
+        "title": "Nan mais on s'en fout, c'est pas une question d'armure ou d'épée, vous pourriez vous balader avec une cuillère à soupe ça changerait rien ! L'adoubement c'est une CONDITION pour être chevalier !"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 40 - L'Adoubement",
+        "file": "vous_cassez_pas_la_nenette_pour_moi.mp3",
+        "title": "C'est gentil, mais ne vous cassez pas la nénette pour moi !"
     },
     {
         "character": "Arthur",
