@@ -357,7 +357,7 @@
         "character": "Arthur - Galessin",
         "episode": "Livre II, 70 - Les Vœux",
         "file": "voeux_de_pauvrete_jarrivais_pas_a_concilier.mp3",
-        "title": "Moi à une époque, je voulais faire vœux de pauvreté — Et alors ? — Ben avec le pognon que je rentrais, j'arrivais pas à concilier les deux"
+        "title": "Moi à une époque, je voulais faire vœux de pauvreté — Et alors ? — Ben avec le blé que je rentrais, j'arrivais pas à concilier les deux"
     },
     {
         "character": "Léodagan",
@@ -369,7 +369,7 @@
         "character": "Léodagan",
         "episode": "Livre II, 81 - L'Enragé",
         "file": "je_vais_pas_faire_des_aller_retours_3_fois_par_jours.mp3",
-        "title": "Après vous vous démerdez, hein, je vais pas faire des aller-retours 3 fois par jours, je vous préviens !"
+        "title": "Après vous vous démerdez, hein, je vais pas faire des aller-retours 3 fois par jour, je vous préviens !"
     },
     {
         "character": "Léodagan",
@@ -380,8 +380,8 @@
     {
         "character": "Perceval",
         "episode": "Livre I, 41 - Arthur et les Ténèbres",
-        "file": "nempeche_que_cetait_moi_qui_avait_propose.mp3",
-        "title": "N'empêche que c'était moi qui avait proposé"
+        "file": "nempeche_que_cest_moi_qui_avait_propose.mp3",
+        "title": "N'empêche que c'est moi qui avait proposé"
     },
     {
         "character": "Calogrenant",
@@ -2504,8 +2504,8 @@
     {
         "character": "Arthur",
         "episode": "Livre I, 02 - La Tarte aux Myrtilles",
-        "file": "bon_ba_ca_va_on_plaisante.mp3",
-        "title": "Bon ba ça va, on plaisante !"
+        "file": "bon_bah_ca_va_on_plaisante.mp3",
+        "title": "Bon bah ça va, on plaisante !"
     },
     {
         "character": "Perceval",
@@ -2526,12 +2526,6 @@
         "title": "Nan mais Kaamelott c'est pas une coopérative bovine ! On a pas de vaches !"
     },
     {
-        "character": "Arthur",
-        "episode": "Livre II, 69 - Feue La Vache De Roparzh",
-        "file": "jai_toujours_ete_fascine_par_le_monde_paysan_2.mp3",
-        "title": "J'ai toujours été fasciné par le monde paysan"
-    },
-    {
         "character": "Guethenoc",
         "episode": "Livre II, 69 - Feue La Vache De Roparzh",
         "file": "elle_avait_rien_a_y_foutre_deja_pour_commencer.mp3",
@@ -2541,7 +2535,7 @@
         "character": "Roparzh",
         "episode": "Livre II, 69 - Feue La Vache De Roparzh",
         "file": "elle_avait_choppe_toutes_les_maladies.mp3",
-        "title": "Et puis quand elle est revenue, elle avait choppé toutes les maladies qu'existes"
+        "title": "Et puis quand elle est revenue, elle avait choppé toutes les maladies qu'existent"
     },
     {
         "character": "Perceval",
