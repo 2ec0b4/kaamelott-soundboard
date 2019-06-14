@@ -2254,5 +2254,11 @@
         "episode": "Livre IV, 78 - Le Choix de Gauvain",
         "file": "ah_ouais_vous_seriez_une_sorte_de_bi_taupe_en_fait.mp3",
         "title": "Ah ouais ! Vous seriez une sorte de bi-taupe en fait !"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "oh_ca_fait_rien.mp3",
+        "title": "Oh ça fait rien..."
     }
 ]
