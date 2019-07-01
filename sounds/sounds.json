@@ -2590,5 +2590,11 @@
         "episode": "Livre III, 81 - Le Vulgarisateur",
         "file": "heu_cest_plutot_des_cons.mp3",
         "title": "Heu... C'est plutôt des cons."
+    },
+    {
+        "character": "Attila",
+        "episode": "Livre III, 17 - Le Fléau de Dieu II",
+        "file": "elle_vomit.mp3",
+        "title": "Elle vomit ?"
     }
 ]
