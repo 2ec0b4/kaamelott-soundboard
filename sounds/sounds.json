@@ -2597,4 +2597,40 @@
         "file": "elle_vomit.mp3",
         "title": "Elle vomit ?"
     }
+	{
+        "character": "Urgan",
+        "episode": "Livre III, 23 - Le professionnel",
+        "file": "sire-je-ne-suis-pas-homme.mp3",
+        "title": "Sire, je ne suis pas homme a me méprendre sur le gaillard d'en face..."
+    }
+	{
+        "character": "Urgan",
+        "episode": "Livre III, 23 - Le professionnel",
+        "file": "urgan-lhomme-goujon.mp3",
+        "title": "Urgan, l'homme goujon"
+    }
+	{
+        "character": "Urgan",
+        "episode": "Livre III, 23 - Le professionnel",
+        "file": "Tout-travail-merite-salaire.mp3",
+        "title": "Au même titre que le bar est fermé, sauf si c'est un poisson, tout travail, mérite salaire !"
+    }
+	{
+        "character": "Urgan",
+        "episode": "Livre III, 23 - Le professionnel",
+        "file": "Homme-sans-metier.mp3",
+        "title": "Homme sans métier, n'est plus apte a exercer une activité professionnelle"
+    }
+	{
+        "character": "Urgan", "Arthur",
+        "episode": "Livre III, 23 - Le professionnel",
+        "file": "Au-service-de-votre-cul.mp3",
+        "title": "Chevalier des mers, vous êtes au service de la flotte ?"
+    }
+	{
+        "character": "Arthur",
+        "episode": "Livre III, 23 - Le professionnel",
+        "file": "A-titre-purement-informatif.mp3",
+        "title": "A titre purement informatif, vous prendriez combien ?"
+    }
 ]
