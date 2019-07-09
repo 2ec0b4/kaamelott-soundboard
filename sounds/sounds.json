@@ -2633,4 +2633,46 @@
         "file": "A-titre-purement-informatif.mp3",
         "title": "A titre purement informatif, vous prendriez combien ?"
     }
+	{
+        "character": "Léodagan",
+        "episode": "Livre IV, 39 - Le Grand Départ",
+        "file": "Soyez-souple-un-peu.mp3",
+        "title": "Soyez souple un peu"
+    }
+	{
+        "character": "Yvain",
+        "episode": "Livre IV, 39 - Le Grand Départ",
+        "file": "Les-petits-pedestres-dont-un-au-lion.mp3",
+        "title": "Les petits pedestres dont un au lion"
+    }
+	{
+        "character": "Gauvain",
+        "episode": "Livre IV, 39 - Le Grand Départ",
+        "file": "Les-petits-pedestres.mp3",
+        "title": "Les petits pedestres"
+    }
+	{
+        "character": "Séli",
+        "episode": "Livre IV, 39 - Le Grand Départ",
+        "file": "ils-se-sont-pas-leve-1.mp3",
+        "title": "Ils se sont pas levés 1"
+    }
+	{
+        "character": "Séli",
+        "episode": "Livre IV, 39 - Le Grand Départ",
+        "file": "ils-se-sont-pas-leve-2.mp3",
+        "title": "Ils se sont pas levés 2"
+    }
+	{
+        "character": "Séli",
+        "episode": "Livre IV, 39 - Le Grand Départ",
+        "file": "ils-se-sont-pas-leve-3.mp3",
+        "title": "Ils se sont pas levés 3"
+    }
+	{
+        "character": "Séli",
+        "episode": "Livre IV, 39 - Le Grand Départ",
+        "file": "Admirez-nous-un-peu-apres-30-ans-de-souplesse.mp3",
+        "title": "Admirez-nous un peu après 30 ans de souplesse..."
+    }
 ]
