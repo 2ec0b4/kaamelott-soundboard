@@ -2596,5 +2596,11 @@
         "episode": "Livre III, 17 - Le Fléau de Dieu II",
         "file": "elle_vomit.mp3",
         "title": "Elle vomit ?"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "oh_ca_fait_rien.mp3",
+        "title": "Oh ça fait rien"
     }
 ]
