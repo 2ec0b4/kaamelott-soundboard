@@ -2668,5 +2668,101 @@
         "episode": "Livre II, 44 - Le Dialogue de Paix",
         "file": "oh_ca_fait_rien.mp3",
         "title": "Oh ça fait rien"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 12 - La Délégation Maure",
+        "file": "fer-a-cheval.mp3",
+        "title": "Si vous dites fer à cheval, je vous colle aux travaux forcés pendant 6 mois."
+    },
+    {
+        "character": "La Duchesse d'Aquitaine",
+        "episode": "Livre V, 16 - Les Fruits d’hiver",
+        "file": "bibelots-mongol-parthenon.mp3",
+        "title": "Ça fait une heure que vous admirez des bibelots en souriant comme un mongol ; vous êtes dans la salle à manger du roi pour un déjeuner protocolaire, vous visitez pas le parthénon !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre V, 16 - Les Fruits d’hiver",
+        "file": "gerber-mourir.mp3",
+        "title": "Non, la seule chose que vous risquez c'est de gerber et éventuellement de mourir."
+    },
+    {
+        "character": "La Duchesse d'Aquitaine",
+        "episode": "Livre V, 16 - Les Fruits d’hiver",
+        "file": "quicher-tete.mp3",
+        "title": "Je viens de me faire quicher la tête et il me semble que vous étiez là, ça vous inspire là ou il y a rien qui vient ?"
+    },
+    {
+        "character": "La Duchesse d'Aquitaine",
+        "episode": "Livre V, 16 - Les Fruits d’hiver",
+        "file": "tape-la-honte.mp3",
+        "title": "Alors là je cherche... mais je me souviens pas m'être autant tapé la honte comme ça."
+    },
+    {
+        "character": "Le Duc d'Aquitaine",
+        "episode": "Livre V, 19 - Les Nocturnales",
+        "file": "blaireau-peignecul-tarlouze.mp3",
+        "title": "C'est-à-dire que là nous sommes avec une personne qui ne va pas hésiter si vous voulez à... à aller piocher dans un lexique très intuitif, donc on va être sur du blaireau, sur du peigne-cul heu... sur de la tarlouze. Voilà c'est pour ça que je vous demande, heu, qu'est-ce que vous dites vous à votre épouse pour désamorcer, quoi, le conflit."
+    },
+    {
+        "character": "Le Duc d'Aquitaine",
+        "episode": "Livre V, 19 - Les Nocturnales",
+        "file": "bled-natal-fion.mp3",
+        "title": "Et à partir de maintenant si j'entends un mot plus haut que l'autre je vous renvoie dans votre bled d'att... natal à coup de pied dans... dans le fion."
+    },
+    {
+        "character": "La Duchesse d'Aquitaine",
+        "episode": "Livre V, 19 - Les Nocturnales",
+        "file": "fiotte-tatie.mp3",
+        "title": "Non mais je crois que c'est plus simple que ça : vous êtes une fiotte. J'ai épousé une grosse tatie voilà... mais quand on le formule ça pose pas de problème en fait."
+    },
+    {
+        "character": "La Duchesse d'Aquitaine",
+        "episode": "Livre V, 19 - Les Nocturnales",
+        "file": "pires-trucs-reparation.mp3",
+        "title": "Si on lui met là une chaise dans le coin là bas... ou non mieux, ici, on l'asseoit là, pendant qu'on fait les pires trucs, il demandera pas réparation. C'est un style, voyez ?"
+    },
+    {
+        "character": "La Duchesse d'Aquitaine",
+        "episode": "Livre V, 19 - Les Nocturnales",
+        "file": "plus-trop-parler.mp3",
+        "title": "Ce que vous allez faire c'est que vous allez plus trop parler vers ici."
+    },
+    {
+        "character": "Le Duc d'Aquitaine",
+        "episode": "Livre V, 19 - Les Nocturnales",
+        "file": "ratisser-bouse-torcher-cul-poules.mp3",
+        "title": "Comme ça vous pourrez aller ratisser la bouse et torcher le cul des poules ça vous fera prendre l'air."
+    },
+    {
+        "character": "Le Duc d'Aquitaine",
+        "episode": "Livre V, 19 - Les Nocturnales",
+        "file": "tete-roupiller-couloir.mp3",
+        "title": "Si c'est ma tête qui vous revient pas vous pouvez toujours aller roupiller dans le couloir !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre V, 23 - Le Forfait",
+        "file": "bateau-nage.mp3",
+        "title": "Vous lui dites : OK, d'accord heu... vous partez quand vous voulez. Et dans un second temps, quand elle se demande ce qu'il se passe, vous enchaînez : seulement comme c'est moi qui prend le bateau vous rentrez à la nage."
+    },
+    {
+        "character": "Le Duc d'Aquitaine",
+        "episode": "Livre V, 23 - Le Forfait",
+        "file": "degaine-crevette-merou.mp3",
+        "title": "Avec votre dégaine de crevette faites gaffe à pas vous faire bouffer par un mérou !"
+    },
+    {
+        "character": "Le Duc d'Aquitaine",
+        "episode": "Livre V, 23 - Le Forfait",
+        "file": "demain-cest-demain.mp3",
+        "title": "Demain c'est demain, si j'ai besoin de votre avis je vous le demande."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre V, 23 - Le Forfait",
+        "file": "gras-sur-le-cul.mp3",
+        "title": "Comme ça, ça vous fera perdre un peu le gras que vous avez sur le cul !"
     }
 ]
