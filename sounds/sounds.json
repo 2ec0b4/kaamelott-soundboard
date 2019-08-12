@@ -2596,83 +2596,71 @@
         "episode": "Livre III, 17 - Le Fléau de Dieu II",
         "file": "elle_vomit.mp3",
         "title": "Elle vomit ?"
-    }
+    },
 	{
         "character": "Urgan",
         "episode": "Livre III, 23 - Le professionnel",
         "file": "sire-je-ne-suis-pas-homme.mp3",
-        "title": "Sire, je ne suis pas homme a me méprendre sur le gaillard d'en face..."
-    }
+        "title": "Sire, sachez déjà que je ne suis pas homme à me méprendre sur le gaillard d'en face. Mon petit doigt me dit que vous n'en êtes pas la moitié d'un."
+    },
 	{
         "character": "Urgan",
         "episode": "Livre III, 23 - Le professionnel",
         "file": "urgan-lhomme-goujon.mp3",
-        "title": "Urgan, l'homme goujon"
-    }
+        "title": "Je suis Urgan, dit l'homme goujon, chevalier des mers au service de votre seigneurie."
+    },
 	{
         "character": "Urgan",
         "episode": "Livre III, 23 - Le professionnel",
         "file": "Tout-travail-merite-salaire.mp3",
-        "title": "Au même titre que le bar est fermé, sauf si c'est un poisson, tout travail, mérite salaire !"
-    }
+        "title": "Au même titre que le bar est fermé, sauf si c'est un poisson, tout travail mérite salaire."
+    },
 	{
         "character": "Urgan",
         "episode": "Livre III, 23 - Le professionnel",
         "file": "Homme-sans-metier.mp3",
-        "title": "Homme sans métier, n'est plus apte a exercer une activité professionnelle"
-    }
-	{
-        "character": "Urgan - Arthur",
-        "episode": "Livre III, 23 - Le professionnel",
-        "file": "Au-service-de-votre-cul.mp3",
-        "title": "Chevalier des mers, vous êtes au service de la flotte ?"
-    }
+        "title": "Homme sans métier n'est plus apte à exercer une activité professionnelle"
+    },
 	{
         "character": "Arthur",
         "episode": "Livre III, 23 - Le professionnel",
         "file": "A-titre-purement-informatif.mp3",
-        "title": "A titre purement informatif, vous prendriez combien ?"
-    }
+        "title": "Mais, à titre purement informatif, vous prendriez combien ?"
+    },
 	{
         "character": "Léodagan",
         "episode": "Livre IV, 39 - Le Grand Départ",
         "file": "Soyez-souple-un-peu.mp3",
         "title": "Soyez souple un peu"
-    }
+    },
+    {
+        "character": "Gauvain",
+        "episode": "Livre IV, 39 - Le Grand Départ",
+        "file": "Les-petits-pedestres.mp3",
+        "title": "Nous sommes jeunes, nous marchons à pieds... J’opterai donc pour un surnom en rapport : \"les Petits Pédestres\"."
+    },
 	{
         "character": "Yvain",
         "episode": "Livre IV, 39 - Le Grand Départ",
         "file": "Les-petits-pedestres-dont-un-au-lion.mp3",
-        "title": "Les petits pedestres dont un au lion"
-    }
-	{
-        "character": "Gauvain",
-        "episode": "Livre IV, 39 - Le Grand Départ",
-        "file": "Les-petits-pedestres.mp3",
-        "title": "Les petits pedestres"
-    }
+        "title": "On pourrait pas plutôt dire : \"Les Petits Pédestres dont un au lion ?\""
+    },
 	{
         "character": "Séli",
         "episode": "Livre IV, 39 - Le Grand Départ",
         "file": "ils-se-sont-pas-leve-1.mp3",
         "title": "Ils se sont pas levés 1"
-    }
+    },
 	{
         "character": "Séli",
         "episode": "Livre IV, 39 - Le Grand Départ",
         "file": "ils-se-sont-pas-leve-2.mp3",
         "title": "Ils se sont pas levés 2"
-    }
+    },
 	{
         "character": "Séli",
         "episode": "Livre IV, 39 - Le Grand Départ",
         "file": "ils-se-sont-pas-leve-3.mp3",
         "title": "Ils se sont pas levés 3"
-    }
-	{
-        "character": "Séli",
-        "episode": "Livre IV, 39 - Le Grand Départ",
-        "file": "Admirez-nous-un-peu-apres-30-ans-de-souplesse.mp3",
-        "title": "Admirez-nous un peu après 30 ans de souplesse..."
     }
 ]
