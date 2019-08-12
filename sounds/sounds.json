@@ -2662,5 +2662,11 @@
         "episode": "Livre IV, 39 - Le Grand Départ",
         "file": "ils-se-sont-pas-leve-3.mp3",
         "title": "Ils se sont pas levés 3"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre II, 44 - Le Dialogue de Paix",
+        "file": "oh_ca_fait_rien.mp3",
+        "title": "Oh ça fait rien"
     }
 ]
