@@ -28,6 +28,7 @@ define("views/sounds", function(require) {
             this.channel    = Radio.channel("Sounds");
             this.channel.request("getSounds").then(this.initCollection.bind(this));
             this.channel.on("sounds:filter", this.filterCollection.bind(this));
+            this.channel.on("sounds:random", this.randomSound.bind(this));
         },
         onBeforeRender: function() {
             var sound;
@@ -56,6 +57,13 @@ define("views/sounds", function(require) {
             this.stopPlayingSound();
 
             Radio.channel("Sounds").trigger("sound:play", args.model.getSlug());
+        },
+        randomSound: function() {
+            var index = Math.floor(Math.random() * Math.floor(this.collection.length));
+            var sound = this.collection.models[index];
+
+            Radio.channel("Sounds").trigger("sound:play", sound.getSlug());
+            // sound.play();
         },
         stopPlayingSound: function() {
             var playingSound    = this.collection.findWhere({playing: true});

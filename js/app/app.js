@@ -43,7 +43,7 @@ define("app", function(require) {
         },
 
         changeUrl: function(slug) {
-            this.router.navigate("son/"+slug);
+            this.router.navigate("son/"+slug, {trigger: true});
         },
 
         showRegion: function showRegion(params) {
