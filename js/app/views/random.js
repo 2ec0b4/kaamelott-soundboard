@@ -9,16 +9,21 @@ define("views/random", function(require) {
     RandomView = Marionette.LayoutView.extend({
         template: RandomTemplate,
         ui: {
-            randomButton: "button"
+            randomButton: "#random",
+            resetButton: "#reset"
         },
         events: {
-            "click @ui.randomButton": "random"
+            "click @ui.randomButton": "random",
+            "click @ui.resetButton": "reset"
         },
         initialize: function() {
             this.channel    = Radio.channel("Sounds");
         },
         random: function() {
             this.channel.trigger("sounds:random");
+        },
+        reset: function() {
+            this.channel.trigger("sounds:reset");
         }
     });
 
