@@ -65,6 +65,8 @@ define("views/sounds", function(require) {
             Radio.channel("Sounds").trigger("sound:play", args.model.getSlug());
         },
         randomSound: function() {
+            this.stopPlayingSound();
+
             this.filterCollection("");
             var index = Math.floor(Math.random() * Math.floor(this.collection.length));
             var sound = this.collection.models[index];

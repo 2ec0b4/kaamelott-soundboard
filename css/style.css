@@ -497,6 +497,10 @@ textarea {
 input[type="text"] {
     height: 34px;
 }
+span {
+    display: flex;
+    justify-content: center;
+}
 .btn, .btn:hover, .btn:focus,
 a.btn, a.btn:hover, a.btn:focus {
     background-color: #CB4D59;
@@ -560,6 +564,50 @@ a.btn-share:before {
 a.btn:active {
     top:3px;
     border-bottom: 0;
+}
+.random, .random:hover, .random:focus,
+a.random, a.random:hover, a.random:focus {
+    background-color: #18AE90;
+    background-image: none;
+    border: 0;
+    border-bottom: 3px solid #017F66;
+    border-radius: 0;
+    color: #FEFDFD;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    outline: none;
+    padding: 5px 20px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    -moz-user-select: none;
+    -webkit-appearance: none;
+}
+.reset, .reset:hover, .reset:focus,
+a.reset, a.reset:hover, a.reset:focus {
+    background-color: #CB4D59;
+    background-image: none;
+    border: 0;
+    border-bottom: 3px solid #8B121E;
+    border-radius: 0;
+    color: #FEFDFD;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    outline: none;
+    padding: 5px 20px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    -moz-user-select: none;
+    -webkit-appearance: none;
 }
 /**
 * GENERAL
