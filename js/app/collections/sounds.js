@@ -14,6 +14,15 @@ define("collections/sounds", function(require) {
 
             return str1.localeCompare(str2);
         },
+        filterByCid: function(cid) {
+            if(cid == "") {
+                return this;
+            }
+
+            return new Sounds(this.filter(function(data) {
+                return data.cid == cid;
+            }));
+        },
         filterByTitle: function(search){
             var that    = this,
                 pattern;
@@ -25,7 +34,7 @@ define("collections/sounds", function(require) {
             pattern     = new RegExp(this.removeDiacritics(search), "gi");
             return new Sounds(this.filter(function(data) {
                 pattern.lastIndex = 0;
-                
+
                 return pattern.test(that.removeDiacritics(data.get("title")))
                     || pattern.test(that.removeDiacritics(data.get("character")))
                     || pattern.test(that.removeDiacritics(data.get("episode")));
