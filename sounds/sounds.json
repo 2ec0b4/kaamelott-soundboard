@@ -495,7 +495,7 @@
         "character": "Karadoc",
         "episode": "Livre I, 68 - Le Pain",
         "file": "mais_ya_rien_a_developper_cest_de_la_merde_cest_tout.mp3",
-        "title": "C'est de la merde 2"
+        "title": "Mais y a rien à développer c'est de la merde c'est tout "
     },
     {
         "character": "Le tavernier",
@@ -1195,7 +1195,7 @@
     },
     {
         "character": "Merlin",
-        "episode": "Livre II, 04 - Le Rassemblement du Corbeau",
+        "episode": "Livre II, 07 - Le Rassemblement du Corbeau",
         "file": "pas_dalcool.mp3",
         "title": "En plus il n'y a pas d'alcool"
     },
@@ -2799,13 +2799,7 @@
         "character": "Arthur",
         "episode": "Livre II, 01 - Spangenhelm",
         "file": "bon-de-toute-facon.mp3",
-        "title": "Bon de toute façon on vous demande de prier vous priez !"
-    },
-    {
-        "character": "Arthur",
-        "episode": "Livre II, 46 - Le Cadeau",
-        "file": "ferme-ta-gueule.mp3",
-        "title": "Ferme-ta gueule"
+        "title": "Bon de toute façon on vous demande de prier, vous priez, vous discutaillez pas des plombes du pourquoi du comment ! Commence à me gonfler léger ça aussi !"
     },
     {
         "character": "Perceval",
@@ -2823,19 +2817,19 @@
         "character": "Arthur",
         "episode": "Livre II, 50 - Always",
         "file": "le-seigneur-perceval-ne-se-met-jamais-en-situation-dangeureuse.mp3",
-        "title": "Le seigneur perceval ne se met jamais en situation dangeureuse"
+        "title": "Le seigneur Perceval ne se met jamais en situation dangeureuse. Pour ça il fait preuve d'une intelligence redoutable"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 46 - Le Cadeau",
         "file": "la-chevre-a-beler-5-min.mp3",
-        "title": "La chèvre à beler 5 minutes, vous vous gueuler depuis 2h pensez-y"
+        "title": "La chèvre elle a bêlé 5 minutes. Vous, vous râlez depuis 3h. Pensez-y"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 45 - Amen",
         "file": "tu-ne-tuera-point.mp3",
-        "title": "Tu ne tueras point"
+        "title": "Tu ne tueras point, comment on fait nous derrière ? Non c’est comme ça. C’est, voilà, c’est un peu, tu ne tueras point, voilà. Bon allez on y va."
     },
     {
         "character": "Père Blaise",
@@ -2847,7 +2841,7 @@
         "character": "Bohort",
         "episode": "Livre II, 44 - L’Invincible",
         "file": "notre-enchanteur-minforme-que-dhabitude-il-y-arrive-tres-bien.mp3",
-        "title": "Notre enchanteur m'informe que d'habitude il y arrive très bien mais que là manifestement ça marche pas !"
+        "title": "Notre enchanteur m'informe que d'habitude il y arrive très bien mais que là, visiblement, ça marche pas !"
     },
     {
         "character": "Merlin",
@@ -2871,25 +2865,25 @@
         "character": "Arthur",
         "episode": "Livre II, 43 - La Voix Céleste",
         "file": "merde-la-ca-vous-va-ca.mp3",
-        "title": "Merde là ! ça vous va ça ?"
+        "title": "Merde, là ! Ça vous va ça ?"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 43 - La Voix Céleste",
         "file": "mais-vous-guidez-que-dalle.mp3",
-        "title": "Mais vous guidez que dalle !"
+        "title": "Mais vous guidez que dalle alors, vous êtes encore plus paumée que moi, venez pas me la jouer !"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 42 - La Fête du Printemps",
         "file": "mais-cest-incroyable-jai-limpression-de-bouffer-de-la-terre.mp3",
-        "title": "Mais c'est incroyable ! J'ai l'impression de bouffer de la terre, de la bouse et du gravier"
+        "title": "Non mais c’est incroyable. J’ai l’impression de bouffer de la terre avec de la bouse et du gravier, ça sent le poulailler, mais c’est du céleri et des oignons, c’est prodigieux."
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 42 - La Fête du Printemps",
         "file": "le-plus-interessant-cest-comment-vous-arrivez-a-faire-un-truc-aussi-immonde.mp3",
-        "title": "Le plus intéressant c'est, comment vous arrivez à faire un truc aussi immonde avec des ingrédients normaux ?"
+        "title": "Le plus intéressant c’est : comment est-ce que vous arrivez à faire un truc aussi immonde avec des ingrédients normaux ?"
     },
     {
         "character": "Léodagan",
@@ -2919,19 +2913,19 @@
         "character": "Kadoc",
         "episode": "Livre II, 41 - O'Brother",
         "file": "jai-le-droit-detre-4-jours-pas-chez-moi.mp3",
-        "title": "J'ai le droit d'être 4 jours pas chez moi"
+        "title": "J’ai le droit d’être 4 jours pas chez moi... et après chez moi. Mais y a du voyage qui se prépare et euh, pour soigner les bêtes, y a pas que ma tante, y a moi aussi"
     },
     {
         "character": "Perceval",
         "episode": "Livre II, 41 - O'Brother",
         "file": "karadoc-cest-le-gars-brillant.mp3",
-        "title": "Karadoc c'est le gars brillant"
+        "title": "Bah, Karadoc c’est le gars brillant, quoi... le frère à côté c’est sûr, euh... c’est vraiment un gros con"
     },
     {
         "character": "Léodagan",
         "episode": "Livre II, 40 - Les Pigeons",
         "file": "vous-pouvez-aller-vous-gratter.mp3",
-        "title": "Vous pouvez aller vous gratter"
+        "title": "Vous pouvez aller vous gratter. C'est signé... ah non mais c'est moi ça !"
     },
     {
         "character": "Dame Séli",
@@ -2943,13 +2937,13 @@
         "character": "Arthur",
         "episode": "Livre II, 39 - La Rencontre",
         "file": "la-cest-sur-vu-les-tronche-que-vous-tirez.mp3",
-        "title": "Là c'est sûr, vu la tronche que vous tirez ça donne pas tellement envie de faire la fiesta"
+        "title": "Là c'est sûr que vu les tronches que vous tirez ça file pas tellement envie de faire la fiesta"
     },
     {
         "character": "Dame Séli",
         "episode": "Livre II, 39 - La Rencontre",
         "file": "oh-non-mais-il-y-a-des-jours-vous-deconnez-sec.mp3",
-        "title": "Oh non mais il y a des jours vous déconnez sec"
+        "title": "Oh non mais il y a vraiment des jours où vous déconnez sec"
     },
     {
         "character": "Ygerne de Tintagel",
@@ -2961,7 +2955,7 @@
         "character": "Arthur",
         "episode": "Livre II, 38 - Le Larcin",
         "file": "cest-de-la-daube.mp3",
-        "title": "C'est de la daube quoi"
+        "title": "C'est plutôt du... c'est du... c'est, c'est de la daube quoi"
     },
     {
         "character": "Bohort",
@@ -2979,19 +2973,19 @@
         "character": "Guenièvre",
         "episode": "Livre II, 37 - L’Escorte II",
         "file": "quest-ce-que-cest-ce-nouveau-genre-seigneur-lancelot.mp3",
-        "title": "Qu'est ce que c'est ce nouveau genre seigneur Lancelot, vous oubliez peut-être que vous avez à faire à des GROSSES BOURGES !"
+        "title": "Qu'est ce que c'est ce nouveau genre seigneur Lancelot, vous oubliez peut-être que vous parlez à des GROSSES BOURGES !"
     },
     {
         "character": "Le tavernier",
         "episode": "Livre II, 37 - L’Escorte II",
         "file": "entre-le-roi-arthur-quest-pas-capable-de-denicher-son-graal.mp3",
-        "title": "Entre le roi Arthur qu'est pas capable de dénicher son graal, et la reine qu'est con comme une chaise !"
+        "title": "Entre le roi Arthur qu'est pas capable de dénicher son Graal et la reine qu'est con comme une chaise !"
     },
     {
         "character": "Le tavernier",
         "episode": "Livre II, 37 - L’Escorte II",
         "file": "la-vue-du-bourgeois-ca-me-fait-de-laerophagie.mp3",
-        "title": "La vue du bourgeois, ça me fait de l'aérophagie"
+        "title": "J'sais pas si c'est d'naissance ou quoi mais moi, la vue du bourgeois, ça m'fait d'l'aérophagie."
     },
     {
         "character": "Perceval",
@@ -3003,7 +2997,7 @@
         "character": "Perceval",
         "episode": "Livre II, 36 - Les Exploités",
         "file": "non-mais-franchement-je-serais-nous-je-vous-ecouterais.mp3",
-        "title": "Non mais franchement je serais nous ? Je vous écouterais"
+        "title": "Ah mais moi franchement, je serais nous. Non. Je serais vous, j’vous écouterais."
     },
     {
         "character": "Perceval",
@@ -3015,31 +3009,31 @@
         "character": "Perceval",
         "episode": "Livre II, 36 - Les Exploités",
         "file": "moi-je-serais-vous-je-vous-ecouterais.mp3",
-        "title": "Mois je serais vous ? Je vous écouterais"
+        "title": "Moi, j'serais vous, je vous écouterais"
     },
     {
         "character": "Perceval",
         "episode": "Livre II, 36 - Les Exploités",
         "file": "faites-pas-le-con-sire-ouvrez.mp3",
-        "title": "Faites pas le con sire ! Ouvrez !"
+        "title": "Faites pas le con sire, ouvrez !"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 35 - Merlin l'Archaïque",
         "file": "bah-alors-884-charrettes-de-bouses.mp3",
-        "title": "Bah alors 884 charrettes de bouses"
+        "title": "Bah alors 884 charrettes de bouse"
     },
     {
         "character": "Guenièvre",
         "episode": "Livre II, 35 - Merlin l'Archaïque",
         "file": "je-moccupe-de-tout-dite-oui.mp3",
-        "title": "Je m'occupe de tout, Dites oui ! Dites oui ! Dites oui !"
+        "title": "Allez, je m'occupe de tout. Dites oui ! Dites oui ! Dites oui !"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 35 - Merlin l'Archaïque",
         "file": "rien-ca-fait-rien-cassez-vous.mp3",
-        "title": "Rien ça fait rien cassez-vous"
+        "title": "Rien, ça fait rien, cassez-vous"
     },
     {
         "character": "Arthur",
@@ -3056,20 +3050,14 @@
     {
         "character": "Arthur",
         "episode": "Livre II, 34 - La Ronde",
-        "file": "merde.mp3",
-        "title": "MERDE !"
-    },
-    {
-        "character": "Arthur",
-        "episode": "Livre II, 34 - La Ronde",
         "file": "qu-est-ce-que-cest-cette-tisane.mp3",
-        "title": "Qu'est-ce que c'est cette tisane ?"
+        "title": "Qu'est-ce que c'est qu'cette tisane ?"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 34 - La Ronde",
         "file": "pourquoi-voulez-vous-que-je-pense-a-la-reine.mp3",
-        "title": "Pourquoi voulez-vous que je pense à la reine ? Je suis déjà à moitié crevé, j'ai assez de soucis comme ça"
+        "title": "À la reine ? Pourquoi voulez-vous que je pense à la reine ? Je suis déjà à moitié crevé, j'ai assez de soucis comme ça"
     },
     {
         "character": "Belt le vigneron",
@@ -3081,37 +3069,37 @@
         "character": "Karadoc",
         "episode": "Livre II, 33 - Spiritueux",
         "file": "le-votre-aussi-cest-de-la-merde.mp3",
-        "title": "Le votre aussi c'est de la merde"
+        "title": "Le vôtre aussi c'est de la merde"
     },
     {
         "character": "Karadoc",
         "episode": "Livre II, 33 - Spiritueux",
         "file": "cest-de-la-merde.mp3",
-        "title": "C'est de la merde"
+        "title": "C'est de la merde 2"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 33 - Spiritueux",
         "file": "cest-de-la-merde-merci-messieurs.mp3",
-        "title": "C'est de la merde. Merci messieurs."
+        "title": "Eh ben ? Eh ben voilà ! C’est bien pour la peine de rester huit jours. C’est alors donc : y en a pas un pour racheter l’autre, c’est d’la merde, merci messieurs."
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 33 - Spiritueux",
         "file": "non-il-est-degueulasse-celui-la.mp3",
-        "title": "Non il est dégeulasse celui là"
+        "title": "Non, il est dégueulasse celui là"
     },
     {
         "character": "Belt le vigneron",
         "episode": "Livre II, 33 - Spiritueux",
         "file": "mais-cest-de-la-merde.mp3",
-        "title": "Mais c'est de la merde !"
+        "title": "Mais c’est d’l… d’la merde ! Enfin euh… Sire, est-ce qu’on est obligés de perdre du temps avec tous les pignoufs d’la région qui s’prennent pour des exploitants ?"
     },
     {
         "character": "Guethenoc",
         "episode": "Livre II, 33 - Spiritueux",
         "file": "nan-mais-quand-meme.mp3",
-        "title": "Nan mais quand même on vient pour montrer quelque chose de sérieux, vous venez avec du jus de pieds"
+        "title": "Nan mais quand même, non quand même, on vient pour essayer montrer quelque chose de sérieux, vous arrivez avec du jus de pieds, faut pas exagérer non plus"
     },
     {
         "character": "Belt le vigneron",
@@ -3141,13 +3129,13 @@
         "character": "Léodagan",
         "episode": "Livre II, 31 - L’Ivresse",
         "file": "en-fait-jetais-dans-un-paturage.mp3",
-        "title": "En fait j'étais dans un pâturage"
+        "title": "En fait, j'étais dans un pâturage, j'ai tué 76 chèvres"
     },
     {
         "character": "Lancelot",
         "episode": "Livre II, 30 - La Garde Royale",
-        "file": "mais-qu-est-ce-que-vous-voulez-quon-en-foute-de-vos-peignes-culs.mp3",
-        "title": "Mais qu'est-ce que vous voulez qu'on en foute de vos peignes-culs ?"
+        "file": "mais-qu-est-ce-que-vous-voulez-quon-en-foute-de-vos-peigne-culs.mp3",
+        "title": "Mais qu'est-ce que vous voulez qu'on en foute de vos peigne-culs ?"
     },
     {
         "character": "Père Blaise",
@@ -3159,13 +3147,13 @@
         "character": "Perceval",
         "episode": "Livre II, 30 - La Garde Royale",
         "file": "nan-mais-par-contre-ils-sont-super-cons.mp3",
-        "title": "Nan mais par contre ils sont super cons !"
+        "title": "Nan mais par contre, ils sont super cons !"
     },
     {
         "character": "Perceval",
         "episode": "Livre II, 29 - Les Mauvaises Graines",
         "file": "ils-commencent-par-apprendre-a-lire.mp3",
-        "title": "Ils commencent par apprendre à lire, comme ils savent pas s'arrêter toc ils apprennent à écrire"
+        "title": "Ils commencent par apprendre à lire, comme ils savent pas s'arrêter crac, ils apprennent à écrire, et voilà"
     },
     {
         "character": "Perceval",
@@ -3177,13 +3165,13 @@
         "character": "Arthur",
         "episode": "Livre II, 28 - Le Passage Secret",
         "file": "non-on-a-fait-3-bornes-sil-vous-plait.mp3",
-        "title": "Non. On a fait 3 bornes s'il vous plait. Venez pas me parler de bout du monde."
+        "title": "Non, on a fait 3 bornes. S'il vous plait, venez pas me parler de bout du monde"
     },
     {
         "character": "Léodagan",
         "episode": "Livre II, 28 - Le Passage Secret",
-        "file": "vous-savez-cest-pas-parce-quun-vieu-moisi.mp3",
-        "title": "Vous savez c'est pas parce qu'un vieu moisi vient vous baver dans les étagère que ça vaut forcément quelque chose !"
+        "file": "vous-savez-cest-pas-parce-quun-vieux-moisi.mp3",
+        "title": "Vous savez c'est pas parce qu'un vieux moisi vient vous baver dans les étagère que ça vaut forcément quelque chose !"
     },
     {
         "character": "Arthur",
@@ -3194,26 +3182,26 @@
     {
         "character": "Arthur",
         "episode": "Livre II, 27 - L’Ancien Temps",
-        "file": "bon-alors-combien-il-faut-que-casque-pour-la-fete-aux-pecors.mp3",
-        "title": "Bon alors ? Combien il faut que je casque pour la fête aux pécors ?"
+        "file": "bon-alors-combien-il-faut-que-casque-pour-la-fete-aux-pecores.mp3",
+        "title": "Bon alors ? Combien il faut que je casque pour la fête aux pécores ?"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 27 - L’Ancien Temps",
         "file": "mais-non-qu-est-ce-que-jen-ai-a-carrer.mp3",
-        "title": "Mais non qu'est-ce que j'en ai à carrer"
+        "title": "Mais non, qu'est-ce que j'en ai à carrer"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 27 - L’Ancien Temps",
-        "file": "ah-ouais-vous-madressez-carrement-plus-la-parole-en-faite.mp3",
-        "title": "Ah ouais ! Vous m'adressez carrément plus la parole en faite ?"
+        "file": "ah-ouais-vous-madressez-carrement-plus-la-parole-en-fait.mp3",
+        "title": "Ah ouais ! Vous m'adressez carrément plus la parole en fait ?"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 27 - L’Ancien Temps",
         "file": "elle-me-fixe-avec-ses-yeux-de-serpent.mp3",
-        "title": "Elle me fixe aves ses yeux de serpent"
+        "title": "Elle me fixe aves ses yeux de serpent là"
     },
     {
         "character": "Perceval",
@@ -3231,7 +3219,7 @@
         "character": "Léodagan",
         "episode": "Livre II, 25 - Séli et les Rongeurs",
         "file": "non-mais-biensur-donc-vous-vous-degommez-les-souris-au-maillet.mp3",
-        "title": "Non mais biensûr. Donc vous vous dégommez les souris au maillet ?"
+        "title": "Non mais biensûr. Donc vous, vous dégommez les souris au maillet ?"
     },
     {
         "character": "Dame Séli",
@@ -3249,7 +3237,7 @@
         "character": "Arthur",
         "episode": "Livre II, 24 - Sous les Verrous",
         "file": "mais-je-le-sais-bien-que-vous-avez-pas-les-cles-andouille.mp3",
-        "title": "Mais je le sais bien que vous avez pas les clés ANDOUILLES !"
+        "title": "Mais je le sais bien que vous avez pas les clés ANDOUILLES ! Allez me chercher le geôlier"
     },
     {
         "character": "Arthur",
@@ -3261,13 +3249,13 @@
         "character": "Arthur",
         "episode": "Livre II, 24 - Sous les Verrous",
         "file": "allez-bon-dieu-mais-magnez-vous-ca-pue-la-dedans.mp3",
-        "title": "Allez bon Dieu maus magnez-vous ça pue là dedans !"
+        "title": "Allez bon Dieu mais magnez-vous ça pue là dedans !"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 24 - Sous les Verrous",
         "file": "parce-que-vous-etes-en-train-de-faire-une-connerie-la-quand-meme.mp3",
-        "title": "Parce que vous êtes en train de faire une connerie là quand même"
+        "title": "Parce que vous êtes en train de faire une connerie là quand même, moi je serais vous j'y penserais"
     },
     {
         "character": "Arthur",
@@ -3285,77 +3273,77 @@
         "character": "Perceval",
         "episode": "Livre II, 20 - Les Misanthropes",
         "file": "nan-nan-nous-on-est-pas-fixe.mp3",
-        "title": "Nan nan nous on est pas fixé"
+        "title": "Ah non, mais nous, on n’est pas fixé ! On propose ça, c’qui compte c’est que ce soit un peu marrant, quoi ! Et pis pour vous, ça va vous faire rigoler un peu ! C’est pas bon d’rester enfermé dans votre cagibi à glander toute la journée"
     },
     {
         "character": "Merlin",
         "episode": "Livre II, 20 - Les Misanthropes",
         "file": "franchement-une-potion-pour-faire-pisser-bleu.mp3",
-        "title": "Franchement une potion pour faire pisser bleu ça pressait forcément la minute là ?"
+        "title": "Franchement, une potion pour faire pisser bleu ça pressait à la minute là ?"
     },
     {
         "character": "Dame Séli",
         "episode": "Livre II, 20 - Les Misanthropes",
         "file": "il-n-y-a-pas-dequivoque-vous-etes-franchement-un-bourrin.mp3",
-        "title": "Il n'y a pas d'équivoque vous êtes franchement un bourrin en toute circonstance"
+        "title": "Il n'y a pas d'équivoque, vous êtes franchement un bourrin en toute circonstance"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 19 - L'absolution",
         "file": "attendez-que-je-me-suis-jamais-quoi.mp3",
-        "title": "Attendez que je me suis jamais quoi ?"
+        "title": "Attendez, que je me suis jamais quoi ? J'ai pas compris"
     },
     {
         "character": "Karadoc",
-        "episode": "Livre II, 18 - Sept Cent Quarante Quatre",
+        "episode": "Livre II, 18 - Sept Cent Quarante-Quatre",
         "file": "ah-une-vache-pres-cest-pas-une-science-exacte.mp3",
-        "title": "Ah une vache près, c'est pas une science exacte"
+        "title": "Ah une vache près hein, c'est pas une science exacte"
     },
     {
         "character": "Arthur",
-        "episode": "Livre II, 18 - Sept Cent Quarante Quatre",
+        "episode": "Livre II, 18 - Sept Cent Quarante-Quatre",
         "file": "nan-cest-nimporte-quoi.mp3",
-        "title": "Nan c'est nimporte quoi"
+        "title": "Nan c'est n'importe quoi"
     },
     {
         "character": "Perceval",
-        "episode": "Livre II, 18 - Sept Cent Quarante Quatre",
+        "episode": "Livre II, 18 - Sept Cent Quarante-Quatre",
         "file": "de-toute-facon-les-reunions-cest-2-fois-par-mois.mp3",
-        "title": "De toute façon les réunions c'est 2 fois par mois"
+        "title": "De toutes façons les réunions de la table ronde, c’est deux fois par mois ! Donc si le mec il dit : après-demain, à partir de dans deux jours, suivant s’il le dit à la fin du mois ça reporte."
     },
     {
         "character": "Perceval",
-        "episode": "Livre II, 18 - Sept Cent Quarante Quatre",
+        "episode": "Livre II, 18 - Sept Cent Quarante-Quatre",
         "file": "bah-ca-depend-a-partir-de-quand.mp3",
-        "title": "Bah ça dépend à partir de quand"
+        "title": "Bah ça dépend à partir de quand. Après-demain à partir d'aujourd'hui ?"
     },
     {
         "character": "Karadoc",
-        "episode": "Livre II, 18 - Sept Cent Quarante Quatre",
+        "episode": "Livre II, 18 - Sept Cent Quarante-Quatre",
         "file": "je-vous-ai-toujours-dit-ce-que-vous-faites-avec-les-chiffres.mp3",
-        "title": "Je vous ai toujours dit ce que vous faites avec les chiffres"
+        "title": "Je vous ai toujours dit : ce que vous faites avec les chiffres, même moi j'arrive pas à l'faire"
     },
     {
         "character": "Arthur",
-        "episode": "Livre II, 18 - Sept Cent Quarante Quatre",
+        "episode": "Livre II, 18 - Sept Cent Quarante-Quatre",
         "file": "cest-pour-voir-si-vous-avez-un-don.mp3",
         "title": "C'est pour voir si vous avez un don ou si vous êtes définitivement un nullos"
     },
     {
         "character": "Perceval",
-        "episode": "Livre II, 18 - Sept Cent Quarante Quatre",
+        "episode": "Livre II, 18 - Sept Cent Quarante-Quatre",
         "file": "nan-mais-en-vrai-pas-sur-la-carte.mp3",
-        "title": "Nan mais en vrai pas sur la carte, je comprends rien aux cartes"
+        "title": "Nan nan mais en vrai, pas sur la carte, je comprends rien aux cartes"
     },
     {
         "character": "Arthur",
-        "episode": "Livre II, 18 - Sept Cent Quarante Quatre",
+        "episode": "Livre II, 18 - Sept Cent Quarante-Quatre",
         "file": "qu-est-ce-que-je-suis-en-train-de-faire-avec-mon-doigt.mp3",
-        "title": "Qu'est-ce que je suis en train de faire avec mon doigt là"
+        "title": "Qu'est-ce que je suis en train de faire avec mon doigt là ?"
     },
     {
         "character": "Karadoc",
-        "episode": "Livre II, 18 - Sept Cent Quarante Quatre",
+        "episode": "Livre II, 18 - Sept Cent Quarante-Quatre",
         "file": "il-est-fort-le-salaud.mp3",
         "title": "Il est fort le salaud"
     },
@@ -3363,7 +3351,7 @@
         "character": "Léodagan",
         "episode": "Livre II, 16 - Les Tuteurs",
         "file": "peut-etre-meme-que-je-mette-une-armure.mp3",
-        "title": "Peut-être même que je mette une armure"
+        "title": "Peut-être même qu'il faut que je mette une armure, ils sont capables de pas me reconnaître et d'essayer de me buter !"
     },
     {
         "character": "Léodagan",
@@ -3393,7 +3381,7 @@
         "character": "Le Maître d'armes",
         "episode": "Livre II, 14 - Les Classes de Bohort",
         "file": "seigneur-bohort-je-commence-a-en-avoir-plein-le-dos.mp3",
-        "title": "Seigneur Bohort ! Je commence a en avoir plein le dos de votre comportement de péteux"
+        "title": "Seigneur Bohort, je commence à en avoir plein le dos de votre comportement de péteux ! Vous allez me faire le plaisir de me faire une bonne insulte et de vous foutre en rogne une bonne fois pour toutes !"
     },
     {
         "character": "Bohort",
@@ -3405,19 +3393,19 @@
         "character": "Le Maître d'armes",
         "episode": "Livre II, 14 - Les Classes de Bohort",
         "file": "mais-allez-y-magnez-vous-le-fion-espece-de-grosse-dinde.mp3",
-        "title": "Mais allez-u magnez-vous le fion espèce de grosse dinde !"
+        "title": "Mais allez-y bon sang, magnez-vous le fion espèce de grosse dinde !"
     },
     {
         "character": "Le Maître d'armes",
         "episode": "Livre II, 14 - Les Classes de Bohort",
         "file": "mais-allez-y-cest-pour-vous-stimuler-bon-dieu.mp3",
-        "title": "Mais allez-y c'est pour vous stimuler bon Dieu !"
+        "title": "Mais allez-y c'est pour vous stimuler, bon Dieu !"
     },
     {
         "character": "Le Maître d'armes",
         "episode": "Livre II, 14 - Les Classes de Bohort",
         "file": "vous-allez-me-montrer-ce-que-vous-avez-un-peu-dans-le-froc.mp3",
-        "title": "Vous allez me montrer ce que vous avez un peu dans le froc ma mignonne !"
+        "title": "Vous allez me montrer un peu ce que vous avez dans l'froc, ma mignonne !"
     },
     {
         "character": "Le Maître d'armes",
@@ -3429,7 +3417,7 @@
         "character": "Arthur",
         "episode": "Livre II, 13 - L'Enlèvement de Guenièvre",
         "file": "quest-ce-que-vous-voulez-que-ca-me-foute.mp3",
-        "title": "Qu'est-ce que vous voulez que ça me foute"
+        "title": "Qu'est-ce que vous voulez que ça me foute ?"
     },
     {
         "character": "Arthur",
@@ -3441,19 +3429,19 @@
         "character": "Arthur",
         "episode": "Livre II, 12 - La Délégation Maure",
         "file": "euh-si-il-lache-une-caisse-ca-le-fait-ou-pas.mp3",
-        "title": "Euh si il lâche une caisse ça le fait ou pas ?"
+        "title": "Euh... si il lâche une caisse ça l'fait ou pas ?"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 12 - La Délégation Maure",
         "file": "cest-personne-un-connard.mp3",
-        "title": "C'est personne un connard"
+        "title": "C'est... personne, c'est... un connard. Asseyez-vous, je suis sûr qu'on va pouvoir trouver un accord"
     },
     {
         "character": "Le tavernier",
         "episode": "Livre II, 11 - Le Message Codé",
         "file": "ca-ca-doit-etre-du-code-parce-que-ca-veut-rien-dire.mp3",
-        "title": "ça ça doit être du code parce que ça veut rien dire"
+        "title": "Ça ça doit être du code parce que ça veut rien dire"
     },
     {
         "character": "Arthur",
@@ -3471,7 +3459,7 @@
         "character": "Léodagan",
         "episode": "Livre II, 10 - La Chambre",
         "file": "ah-cest-regle-hein-je-confirme.mp3",
-        "title": "Ah c'est réglé hein je confirme ! En ce moment il range ses slibards dans ma commode"
+        "title": "Ah c'est réglé hein, je confirme ! En ce moment, il range ses slibards dans ma commode"
     },
     {
         "character": "Léodagan",
@@ -3483,19 +3471,13 @@
         "character": "Perceval",
         "episode": "Livre II, 08 - Les Volontaires II",
         "file": "par-contre-il-est-hyper-con-je-sais-pas-pourquoi.mp3",
-        "title": "Par contre il est hyper con je sais pas pourquoi"
+        "title": "Par contre il est hyper con, j'sais pas pourquoi"
     },
     {
         "character": "Perceval",
         "episode": "Livre II, 08 - Les Volontaires II",
         "file": "salut-sire-je-trouve-quil-fait-beau-mais-encore-frais-mais-beau.mp3",
-        "title": "Salut sire je trouve qu'il fait beau mais encore frais mais beau"
-    },
-    {
-        "character": "Merlin",
-        "episode": "Livre II, 07 - Le Rassemblement du Corbeau",
-        "file": "en-plus-il-n-y-a-pas-dalcool.mp3",
-        "title": "En plus il n'y a pas d'alcool"
+        "title": "Salut sire ! Je trouve qu'il fait beau mais encore frais, mais beau"
     },
     {
         "character": "Arthur",
@@ -3525,55 +3507,49 @@
         "character": "Arthur",
         "episode": "Livre II, 07 - Le Rassemblement du Corbeau",
         "file": "oh-la-vache-mais-cest-nul.mp3",
-        "title": "Oh la vache mais c'est nul"
+        "title": "Oh la vache, mais c'est nul !"
     },
     {
         "character": "Léodagan",
         "episode": "Livre II, 06 - Le Reclassement",
         "file": "ah-ca-quand-on-connait-pas-il-faut-se-mefier-avec-les-champignons.mp3",
-        "title": "Ah ça quand on connait pas ! Il faut se méfier avec les champignons"
+        "title": "Ah ça, quand on connait pas, il faut se méfier avec les champignons"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 06 - Le Reclassement",
         "file": "quest-ce-que-vous-racontez-cest-pas-ca.mp3",
-        "title": "Qu'est-ce que vous racontez c'est pas ça"
+        "title": "Qu'est-ce que vous racontez ? C'est pas ça ! Simplement parce qu'on vous a vu de dos. Alors on s'est dit : \"qu'est-ce que c'est ? Tiens, on dirait un viking\""
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 06 - Le Reclassement",
         "file": "si-on-peut-sen-farcir-un-cest-toujours-ca-de-pris-quoi.mp3",
-        "title": "Si on peut s'en farcir un c'est toujours ça de pris quoi"
-    },
-    {
-        "character": "Léodagan",
-        "episode": "Livre II, 05 - Silbury Hill",
-        "file": "je-vais-vous-passer-le-gout-du-plein-air-moi.mp3",
-        "title": "Je vais vous passer le goût du plein air moi"
+        "title": "Si on peut s'en farcir un ni vu ni connu, c'est toujours ça d'pris quoi... Oh pis on dira qu'c'est pas nous, allez !"
     },
     {
         "character": "Léodagan",
         "episode": "Livre II, 05 - Silbury Hill",
         "file": "biensur-ils-ont-que-ca-a-foutre-les-paysans.mp3",
-        "title": "Biensûr ! Ils ont que ça à foutre les paysans, bousiller les champs de blés pour dessiner des cercles"
+        "title": "Biensûr ! Ils ont qu'ça à foutre les paysans ! Bousiller les champs de blés pour dessiner des cercles !"
     },
     {
         "character": "Léodagan",
         "episode": "Livre II, 05 - Silbury Hill",
         "file": "oh-bah-oui-vous-en-etes-une-belle-forme-durticaire.mp3",
-        "title": "Oh bah oui vous en êtes une belle vous forme d'urticaire"
+        "title": "Oh bah oui vous en êtes une belle vous d'forme d'urticaire"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 05 - Silbury Hill",
         "file": "mais-cest-pas-complique-quand-vous-voyez-des-gadins.mp3",
-        "title": "Mais c'est pas compliqué quand vous voyez des gadins de 12 pieds de haut planté en rond"
+        "title": "Mais c'est pas compliqué : quand vous voyez des gadins de 12 pieds de haut plantés en rond, figurez-vous qu'ils n'ont pas poussé dans la nuit"
     },
     {
         "character": "Arthur",
         "episode": "Livre II, 04 - Le Portrait",
         "file": "vous-vous-devriez-arreter-de-sourire.mp3",
-        "title": "Vous vous devriez arrêter de sourire parce que je vous promet ça devient vraiment malsain"
+        "title": "Vous vous devriez arrêter de sourire parce que je vous promets ça devient vraiment malsain"
     },
     {
         "character": "Léodagan",
@@ -3585,13 +3561,13 @@
         "character": "Arthur",
         "episode": "Livre II, 04 - Le Portrait",
         "file": "ah-bah-voila-cherchez-pas-cest-hyper-flippant.mp3",
-        "title": "Ah bah voilà cherchez pas c'est hyper flippant"
+        "title": "Ah bah voilà, nan mais cherchez pas. Nan mais j'vous assure c'est hyper flippant"
     },
     {
         "character": "Léodagan",
         "episode": "Livre II, 04 - Le Portrait",
         "file": "cest-l-autre-con-avec-ses-pinceaux.mp3",
-        "title": "C'est l'autre con avec ses pinceaux"
+        "title": "C'est l'autre con là avec ses pinceaux"
     },
     {
         "character": "Léodagan",
@@ -3621,13 +3597,13 @@
         "character": "Arthur",
         "episode": "Livre II, 03 - Le Dialogue de Paix",
         "file": "decarre-tes-troupes-de-chez-moi-ou-je-crame-ton-pays.mp3",
-        "title": "Décarre tes troupes de chez moi ou je crame ton pays"
+        "title": "Décarre tes troupes de chez moi ou je crame ton pays. C'est assez simple comme vocabulaire ça ?"
     },
     {
         "character": "Perceval",
         "episode": "Livre II, 02 - Les Alchimistes",
         "file": "arretez-cest-pour-deconner.mp3",
-        "title": "Arrêtez c'est pour déconner !"
+        "title": "Arrêtez, c'est pour déconner !"
     },
     {
         "character": "Karadoc",
@@ -3639,19 +3615,13 @@
         "character": "Perceval",
         "episode": "Livre II, 02 - Les Alchimistes",
         "file": "ouais-cest-grace-a-notre-arme-secrete.mp3",
-        "title": "Ouais c'est grâce à notre arme secrète !"
+        "title": "Ouais, c'est grâce à notre arme secrète !"
     },
     {
         "character": "Perceval",
         "episode": "Livre II, 02 - Les Alchimistes",
         "file": "bah-on-a-pas-de-technique-mais-cest-comme-tout.mp3",
-        "title": "Bah on a pas de technique mais c'est comme tout, faut avoir du..."
-    },
-    {
-        "character": "Perceval",
-        "episode": "Livre II, 02 - Les Alchimistes",
-        "file": "bon-il-faut-tout-recommencer.mp3",
-        "title": "Bon il faut tout recommencer"
+        "title": "Bah on a pas de technique mais c'est comme tout, faut avoir du... voyez"
     },
     {
         "character": "Perceval",
