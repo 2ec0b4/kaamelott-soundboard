@@ -1,0 +1,15 @@
+{
+  "short_name": "KSB",
+  "name": "Kaamelott Soundboard",
+  "icons": [
+    {
+      "src":"img/ks.jpg",
+      "sizes": "200x200",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#fff",
+  "theme_color": "#18ae90",
+  "display": "standalone"
+}
