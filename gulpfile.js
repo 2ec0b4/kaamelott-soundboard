@@ -96,7 +96,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('sync', function() {
-    syncy(['.htaccess', './bower_components/**', './css/**', './favicons/**', './img/**', './js/**', '*.html', 'robots.txt', './sounds/**'], 'dist', {
+    syncy(['.htaccess', './bower_components/**', './css/**', './favicons/**', './img/**', './js/**', '*.html', 'manifest.json', 'robots.txt', './sounds/**'], 'dist', {
         updateAndDelete: true,
     }).on('error', console.error).end();
 });
