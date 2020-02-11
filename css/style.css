@@ -583,6 +583,11 @@ a.reset, a.reset:hover, a.reset:focus {
     -moz-user-select: none;
     -webkit-appearance: none;
 }
+.btn[disabled], .btn[disabled]:hover, .btn[disabled]:focus {
+    background-color: #CCCCCC;
+    border-bottom: 3px solid #777777;
+    color: #777777;
+}
 /**
 * GENERAL
 * -----------------------------------------------------------------------------

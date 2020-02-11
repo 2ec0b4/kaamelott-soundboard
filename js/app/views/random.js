@@ -17,15 +17,25 @@ define("views/random", function(require) {
             "click @ui.resetButton": "reset"
         },
         initialize: function() {
+            var that = this;
             this.channel    = Radio.channel("Sounds");
+            this.channel.on("sounds:filter", function (value) {
+                if (value == "") {
+                    return;
+                }
+                that.enableButton();
+            });
         },
         random: function() {
-            this.$el.find(this.ui.resetButton).removeClass('hidden');
+            this.enableButton();
             this.channel.trigger("sounds:random");
         },
         reset: function() {
-            this.$el.find(this.ui.resetButton).addClass('hidden');
+            this.$el.find(this.ui.resetButton).attr('disabled', 'disabled');
             this.channel.trigger("sounds:reset");
+        },
+        enableButton: function() {
+            this.$el.find(this.ui.resetButton).removeAttr('disabled');
         }
     });
 
