@@ -20,9 +20,11 @@ define("views/random", function(require) {
             this.channel    = Radio.channel("Sounds");
         },
         random: function() {
+            this.$el.find(this.ui.resetButton).removeClass('hidden');
             this.channel.trigger("sounds:random");
         },
         reset: function() {
+            this.$el.find(this.ui.resetButton).addClass('hidden');
             this.channel.trigger("sounds:reset");
         }
     });
