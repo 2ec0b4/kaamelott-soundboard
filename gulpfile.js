@@ -21,9 +21,9 @@ function referenceToRegexs(reference) {
         regExp;
 
     if (isJSReference) {
-        regExp = '('+ qoutes +')(' + escapedRefPathBase + ')()('+ qoutes + '|$)';
+        regExp = '(data-main=(?:'+ qoutes +'))(' + escapedRefPathBase + ')()('+ qoutes + '|$)';
         regExps.push(new RegExp(regExp, 'g'));
-        regExp = '(require\\\(['+ qoutes +'])(' + escapedRefPathBase.replace(/\\\/js\\\/app\\\//ig, '') + ')()(['+ qoutes +']\\\))';
+        regExp = '((?:define|require)\\\(['+ qoutes +'])(' + escapedRefPathBase.replace(/\\\/js\\\/app\\\//ig, '') + ')()(['+ qoutes +'](?:\\\)|,))';
         regExps.push(new RegExp(regExp, 'g'));
     } else if(isHBSReference) {
         regExp = '(require\\\(['+ qoutes +']hbs!)(' + escapedRefPathBase.replace(/\\\/js\\\/app\\\//ig, '') + ')()(['+ qoutes +']\\\))';
