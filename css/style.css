@@ -561,6 +561,33 @@ a.btn:active {
     top:3px;
     border-bottom: 0;
 }
+.reset, .reset:hover, .reset:focus,
+a.reset, a.reset:hover, a.reset:focus {
+    background-color: #CB4D59;
+    background-image: none;
+    border: 0;
+    border-bottom: 3px solid #8B121E;
+    border-radius: 0;
+    color: #FEFDFD;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    outline: none;
+    padding: 5px 20px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    -moz-user-select: none;
+    -webkit-appearance: none;
+}
+.btn[disabled], .btn[disabled]:hover, .btn[disabled]:focus {
+    background-color: #CCCCCC;
+    border-bottom: 3px solid #777777;
+    color: #777777;
+}
 /**
 * GENERAL
 * -----------------------------------------------------------------------------
@@ -584,6 +611,9 @@ noscript p {
     font-size: 12px;
     margin: 0;
     padding: 0;
+}
+.hidden {
+    display: none !important;
 }
 .invisible {
     visibility: hidden;
@@ -610,6 +640,21 @@ noscript p {
     top: 0;
     width: 100%;
     z-index: 10000;
+}
+#random > div {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#random > div > .btn {
+    margin: 0;
+    text-align: center;
+    width: 120px;
+}
+#random > div > .btn + .btn {
+    margin-left: 20px;
 }
 #filter {
     text-align: center;
