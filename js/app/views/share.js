@@ -5,8 +5,6 @@ define("views/share", function(require) {
         ShareTemplate    = require("hbs!templates/share"),
         ShareView;
 
-    require("likely");
-
     ShareView = Marionette.LayoutView.extend({
         template: ShareTemplate,
         templateHelpers: function () {
@@ -38,8 +36,6 @@ define("views/share", function(require) {
         },
         onShow: function() {
             var that    = this;
-
-            likely.initiate();
 
             this.center();
 

@@ -24,7 +24,6 @@
     "backbone.radio": "^1.0.5",
     "handlebars": "^4.0.5",
     "jquery": "^2.2.4",
-    "ilyabirman-likely": "^2.1.0",
     "require-css": "^0.1.8",
     "require-handlebars-plugin": "^1.0.0",
     "requirejs": "^2.2.0",

@@ -7,7 +7,6 @@ require.config({
         handlebars: "../../bower_components/handlebars/handlebars.min",
         hbs: "../../bower_components/require-handlebars-plugin/hbs",
         jquery: "../../bower_components/jquery/dist/jquery.min",
-        likely: "../../bower_components/ilyabirman-likely/release/likely",
         marionette: "../../bower_components/backbone.marionette/lib/backbone.marionette.min",
         text: "../../bower_components/requirejs-text/text",
         underscore: "../../bower_components/underscore/underscore-min"

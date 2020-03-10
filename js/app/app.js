@@ -5,10 +5,7 @@ define("app", function(require) {
         Marionette              = require("marionette"),
         Radio                   = require("backbone.radio"),
         SoundboardController    = require("controllers/soundboard"),
-        Likely                  = require("likely"),
         app;
-
-    require("css!../../bower_components/ilyabirman-likely/release/likely.css");
 
     app = Marionette.Application.extend({
         initialize: function intialize() {
@@ -39,8 +36,6 @@ define("app", function(require) {
                 Backbone.history.start();
                 this.trigger("backbone:history:start");
             }
-
-            likely.initiate();
         },
 
         changeUrl: function(slug) {
