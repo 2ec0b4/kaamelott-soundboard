@@ -2040,6 +2040,12 @@
         "title": "Hein Titi !"
     },
     {
+        "character": "Fearmac",
+        "episode": "Livre II, 09 - Le Terroriste",
+        "file": "fumier.mp3",
+        "title": "Fumier !"
+    },
+    {
         "character": "Karadoc",
         "episode": "Livre IV, 25 - L’Échelle de Perceval",
         "file": "faisons_table_en_marbre.mp3",
@@ -2314,6 +2320,18 @@
         "episode": "Livre VI, 06 - Nuptiae",
         "file": "on_fera_tintin_pour_le_clafoutis.mp3",
         "title": "Oui. Alors moi je pourrais vous dire que... Si on cueille pas les cerises quand elles sont sur l'arbre, on fera tintin pour le clafoutis. Mais on sera pas plus avancés."
+    },
+    {
+        "character": "Loth",
+        "episode": "Livre III, 27 - L’Assemblée des Rois",
+        "file": "tempora_mori.mp3",
+        "title": "Tempora mori, tempora mundis recorda. Voilà, eh ben ça par exemple, ça ne veut absolument rien dire, mais l’effet reste le même..."
+    },
+    {
+        "character": "Loth",
+        "episode": "Livre IV, 49 - Le désordre et la nuit",
+        "file": "victoriae_mundis.mp3",
+        "title": "Victoriae mundis et mundis lacrima. Bon, ça ne veut absolument rien dire, mais je trouve que c’est assez dans le ton."
     },
     {
         "character": "Arthur",
