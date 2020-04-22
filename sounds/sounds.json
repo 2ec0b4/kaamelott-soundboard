@@ -3688,5 +3688,11 @@
         "episode": "Livre II, 55 - La Quinte Juste",
         "file": "oh-mais-vous-etes-des-malades.mp3",
         "title": "Oh mais vous êtes des malades !"
+    },
+    {
+        "character": "Père Blaise",
+        "episode": "Livre II, 55 - La Quinte Juste",
+        "file": "cest_de_la_merde_2.mp3",
+        "title": "C'est de la merde !"
     }
 ]
