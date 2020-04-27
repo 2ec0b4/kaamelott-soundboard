@@ -3694,5 +3694,11 @@
         "episode": "Livre III, 37 - Le Repos du guerrier II",
         "file": "j_en_ai_rien_a_foutre_je_dors_dans_la_tente_du_roi.mp3",
         "title": "J'en ai rien à foutre, je dors dans la tente du roi !"
+    },
+    {
+        "character": "Père Blaise",
+        "episode": "Livre II, 55 - La Quinte Juste",
+        "file": "cest_de_la_merde_2.mp3",
+        "title": "C'est de la merde !"
     }
 ]
