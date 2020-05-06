@@ -33,5 +33,6 @@ Whoooohoooo woa c'est mortel !
 * [Reddit](https://www.reddit.com/r/france/comments/5orvyf/kaamelott_soundboard_3/)
 * [Application iOS](https://github.com/tnducrocq/kaamelott-sound-board-ios)
 * [Visualisation graphique des répliques du _soundboard_](https://github.com/aluriak/kaamelott-soundboard-viz)
+* [Application Android](https://gitlab.com/astran/kaamelottsb) pas encore sur le store mais il y a un [lien pour l'apk de dev](https://gitlab.com/astran/kaamelottsb/-/jobs/artifacts/master/raw/app/build/outputs/apk/debug/app-debug.apk?job=assembleDebug) 
 
 Merci, de rien, au revoir m'sieur dame
