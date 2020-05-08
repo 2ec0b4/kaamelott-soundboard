@@ -34,13 +34,13 @@ cleanup () {
 cleanup
 
 # Normalize the file
-# Due to an issue with ffmpeg-normalize, file shorter than 3s cannot be normalize
-# The followin use a solution from https://github.com/slhck/ffmpeg-normalize/issues/87#issuecomment-488944192
+# Due to an issue with ffmpeg-normalize, file shorter than 3s cannot be normalized
+# The following use a solution from https://github.com/slhck/ffmpeg-normalize/issues/87#issuecomment-488944192
 ffmpeg -i $inputFile -af "adelay=10000|10000" $TEMP_FILE
 
 ffmpeg-normalize $TEMP_FILE -o $PADDED_FILE -c:a libmp3lame
 
-ffmpeg -i $PADDED_FILE -ss 00:00:10.000 -acodec copy $inputFile.copy.mp3 -y
+ffmpeg -i $PADDED_FILE -ss 00:00:10.000 -acodec copy $inputFile -y
 
 cleanup
 
