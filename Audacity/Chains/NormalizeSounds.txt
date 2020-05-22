@@ -1,3 +1,0 @@
-TrimSilence: threshold=-48.000000 min-start-silence=0.000000 min-end-silence=0.000000
-Normalize: ApplyGain=yes RemoveDcOffset=yes Level=-1.000000 StereoIndependent=no
-ExportMp3:
