@@ -3706,5 +3706,53 @@
         "episode": "Livre II, 79 - La Botte secrète II",
         "file": "C_est_pas_comme_si_on_passait_pour_des_glands_tous_les_jours.mp3",
         "title": "Ouais remarquez ça va, c'est pas comme si on passait pour des glands tous les jours"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 6 - Le Garde du Corps",
+        "file": "allez-y-mollo-avec-la-joie.mp3",
+        "title": "Allez-y mollo avec la joie"
+    },
+    {
+        "character": "Elias de Kelliwic'h",
+        "episode": "Livre I, 15 - Les Défis de Merlin",
+        "file": "cest-pas-pour-rien-quon-mappelle-le-fourbe.mp3",
+        "title": "C'est pas pour rien qu'on m'appelle le fourbe"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 39 - Le Cas Yvain",
+        "file": "il-parle-pas-il-bouge-pas-il-fait-la-gueule-tout-le-temps.mp3",
+        "title": "Il parle pas, il bouge pas, il fait la gueule tout le temps ! Dès qu'on lui fait une remarque, il lève les yeux au ciel ! Tiens, voilà !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 39 - Le Cas Yvain",
+        "file": "jai-jamais-entendu-le-son-de-sa-voix.mp3",
+        "title": "Première nouvelle ! J'ai jamais entendu le son de sa voix ! Hum... Si, là, voilà..."
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre I, 39 - Le Cas Yvain",
+        "file": "quand-il-a-rien-a-dire-il-dit-rien.mp3",
+        "title": "Quand il a rien à dire, il dit rien. Il a pas été élevé chez les porcs, excusez-nous, hein"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II 48 - La Vigilance d'Arthur",
+        "file": "ils-commencent-a-doucement-me-faire-chier-ceux-la-aussi.mp3",
+        "title": "Commencent doucement à m'faire chier ceux là aussi"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I 97 - Agnus Dei",
+        "file": "les-gars-me-regardent-avec-des-billes-comme-ca-et-ils-decrochent.mp3",
+        "title": "Les gars me regardent avec des billes comme ça et puis ils décrochent hein... Ah rideau"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I 97 - Agnus Dei",
+        "file": "je-suis-desole-jai-pas-eu-le-temps-de-potasser-les-formules.mp3",
+        "title": "Donc heu Amen, 'fin Deu gracia j'sais plus quoi... J'suis désolé, j'ai pas eu le temps de potasser les formules"
     }
 ]
