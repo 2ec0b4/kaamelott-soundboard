@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  base:
+    image: ks-base
+    volumes:
+      - .:/usr/src/service/
+    working_dir: /usr/src/service/
+  install:
+    extends:
+      service: base
+    command: bash -c "npm install && bower install --allow-root"
+  build:
+    extends:
+      service: base
+    command: bash -c "gulp init && gulp build"
