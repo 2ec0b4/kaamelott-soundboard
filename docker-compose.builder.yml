@@ -4,8 +4,8 @@ services:
   base:
     image: ks-base
     volumes:
-      - .:/usr/src/service/
-    working_dir: /usr/src/service/
+      - .:/app/
+    working_dir: /app/
   install:
     extends:
       service: base
