@@ -1,5 +1,7 @@
-install:
+init:
 	docker build -t ks-base .docker/base
+
+install:
 	docker-compose -f docker-compose.builder.yml run --rm install
 
 start:
