@@ -3754,5 +3754,17 @@
         "episode": "Livre I 97 - Agnus Dei",
         "file": "je-suis-desole-jai-pas-eu-le-temps-de-potasser-les-formules.mp3",
         "title": "Donc heu Amen, 'fin Deu gracia j'sais plus quoi... J'suis désolé, j'ai pas eu le temps de potasser les formules"
+    },
+    {
+	"character": "Kadoc",
+	"episode": "Livre III 82 - Witness",
+	"file": "des_fois_on_a_pas_le_choix_faut_sacrifier_les_jeunes.mp3",
+	"title": "Des fois on n'a pas le choix faut sacrifier les jeunes"
+    },
+    {
+	"character": "Kadoc",
+	"episode": "Livre III 82 - Witness",
+	"file": "cest_le_grand_qui_a_dit.mp3",
+	"title": "C'est le grand qui a dit"
     }
 ]
