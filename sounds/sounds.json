@@ -24,6 +24,12 @@
         "title": "Mais je vous emmerde mon p'tit pote"
     },
     {
+        "character": "Arthur",
+        "episode": "Livre IV, 62 - Le Jeu de la Guerre",
+        "file": "pas_la_moindre_idee.mp3",
+        "title": "Attendez, on est bien d'accord que j'ai pas la moindre idée de ce que je fous avec mes oeufs... J'ai jamais joué à ça je sais même pas ce qu'il faut faire."
+    },
+    {
         "character": "Breccan",
         "episode": "Livre I, 03 - La Table de Breccan",
         "file": "apres_pour_le_detail_je_sais_pas.mp3",
@@ -682,6 +688,24 @@
         "episode": "Livre II, 03 - Le Dialogue de Paix",
         "file": "arthour.mp3",
         "title": "Arthour"
+    },
+    {
+        "character": "Le Roi Burgonde",
+        "episode": "Livre IV, 62 - Le Jeu de la Guerre",
+        "file": "arthour_cest_la_guerre.mp3",
+        "title": "Arthour c'est la guerre !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre IV, 62 - Le Jeu de la Guerre",
+        "file": "bon_on_va_commencer_les_negociations.mp3",
+        "title": "Bon ! On va commencer les négociations."
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre IV, 62 - Le Jeu de la Guerre",
+        "file": "comprend_jamais_un_broc_de_ce_quon_dit.mp3",
+        "title": "Je sais c'est trompeur parce qu'il arrive sans interprète et tout, mais il comprend jamais un broc de ce qu'on dit."
     },
     {
         "character": "Karadoc",
