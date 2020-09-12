@@ -3802,5 +3802,11 @@
         "episode": "Livre V, 05 - Le Royaume Sans Tête",
         "file": "voila_zut.mp3",
         "title": "Voilà... zut !"
+    },
+    {
+        "character": "Le Maître d'armes",
+        "episode": "Livre V, 05 - Le Royaume Sans Tête",
+        "file": "deja_que_ca_me_gonfle_de_porter_des_messages.mp3",
+        "title": "Déjà que ça me gonfle de porter des messages..."
     }
 ]
