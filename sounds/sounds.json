@@ -528,7 +528,7 @@
         "title": "J'EN AI RIEN À CARER"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre III, 72 - La restriction II",
         "file": "la_bouffe_est_interdite.mp3",
         "title": "La bouffe est interdite en dehors des heures des repas !"
@@ -594,7 +594,7 @@
         "title": "De l'humilité ? L'humilité c'est pas quand il y a des infiltrations ?"
     },
     {
-        "character": "Élias",
+        "character": "Elias de Kelliwic'h",
         "episode": "Livre IV, 12 - Le Privilégié",
         "file": "mais_allez_chier_dans_une_fiolle.mp3",
         "title": "Mais allez chier dans une fiole, on verra après"
@@ -882,7 +882,7 @@
         "title": "C'est intéressant !"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre II, 05 - Silbury Hill",
         "file": "ils_sortent_bien_de_quelques_part.mp3",
         "title": "Enfin mais… Ils sortent bien de quelque part, ils sont pas tombés du ciel, si ?"
@@ -930,7 +930,7 @@
         "title": "TRUUU-uuuut !"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre II, 25 - Séli et les Rongeurs",
         "file": "restez_pas_plante_la_comme_un_cepe.mp3",
         "title": "Ne restez pas planté là comme un cèpe, pointez-vous !"
@@ -1050,7 +1050,7 @@
         "title": "Je sens qu'ça va encore être épique"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre I, 02 - La Tarte aux Myrtilles",
         "file": "et_alors_faut_un_permis.mp3",
         "title": "Et alors faut un permis ?"
@@ -1302,7 +1302,7 @@
         "title": "C'est pas moi qui explique mal, c'est les autres qui sont cons !"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre I, 50 - Les Nouveaux Frères",
         "file": "cest_pas_des_fleches.mp3",
         "title": "Ah bah c'est pas des flèches"
@@ -2160,13 +2160,13 @@
         "title": "L'autre jour on s'entraînait dans un champ à la catapulte, y'en a un qui arrive : \"oh mes endives mes endives\". On lui a mis un rocher sur la tête, ça l'a calmé l'bouseux."
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre III, 52 - La cassette II",
         "file": "tout_dans_le_furtif.mp3",
         "title": "Pas un bruit, pas un mouvement, tout dans l'furtif. Vous avez glissé du pageot comme un pet sur une plaque de verglas !"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre III, 52 - La cassette II",
         "file": "arretez_immediatement_de_me_prendre_pour_une_truite.mp3",
         "title": "Arrêtez immédiatement de m'prendre pour une truite !"
@@ -2196,7 +2196,7 @@
         "title": "Euh… Si c'est d'moi qu'vous parlez, j'vous préviens que ça m'plaît qu'à moitié."
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre III, 70 - La potion de fécondité II",
         "file": "une_claque_dans_le_museau_vous_repondez.mp3",
         "title": "Et à une claque dans l'museau, vous répondez ?"
@@ -2214,7 +2214,7 @@
         "title": "Ouais c'est bien qu'on reste un peu dehors, comme ça j'pourrais vous mettre une grosse tarte en plein air"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre III, 72 - La restriction II",
         "file": "alors_le_ratichon_on_a_un_ptit_creux.mp3",
         "title": "Alors le ratichon, on a un p'tit creux ?"
@@ -2538,7 +2538,7 @@
         "title": "Alors ? À qui c'est qu'elle est morte, la va-vache ?"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre I, 02 - La Tarte aux Myrtilles",
         "file": "quest_ce_que_vous_attendez_pour_la_couper.mp3",
         "title": "Eh ben, qu'est-ce que vous attendez pour la couper ? Qu'il fasse nuit ?"
@@ -2970,7 +2970,7 @@
         "title": "Vous pouvez aller vous gratter. C'est signé... ah non mais c'est moi ça !"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre II, 39 - La Rencontre",
         "file": "alors-oisif-obese-autant-dire-des-gros-cons.mp3",
         "title": "Alors oisif, obèse, autant dire des gros cons"
@@ -2982,7 +2982,7 @@
         "title": "Là c'est sûr que vu les tronches que vous tirez ça file pas tellement envie de faire la fiesta"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre II, 39 - La Rencontre",
         "file": "oh-non-mais-il-y-a-des-jours-vous-deconnez-sec.mp3",
         "title": "Oh non mais il y a vraiment des jours où vous déconnez sec"
@@ -3102,7 +3102,7 @@
         "title": "À la reine ? Pourquoi voulez-vous que je pense à la reine ? Je suis déjà à moitié crevé, j'ai assez de soucis comme ça"
     },
     {
-        "character": "Belt le vigneron",
+        "character": "Belt",
         "episode": "Livre II, 33 - Spiritueux",
         "file": "nous-on-foule-le-fruit-avec-nos-propres-pieds.mp3",
         "title": "Nous on foule le fruit avec nos propres pieds"
@@ -3132,7 +3132,7 @@
         "title": "Non, il est dégueulasse celui là"
     },
     {
-        "character": "Belt le vigneron",
+        "character": "Belt",
         "episode": "Livre II, 33 - Spiritueux",
         "file": "mais-cest-de-la-merde.mp3",
         "title": "Mais c’est d’l… d’la merde ! Enfin euh… Sire, est-ce qu’on est obligés de perdre du temps avec tous les pignoufs d’la région qui s’prennent pour des exploitants ?"
@@ -3144,7 +3144,7 @@
         "title": "Nan mais quand même, non quand même, on vient pour essayer montrer quelque chose de sérieux, vous arrivez avec du jus de pieds, faut pas exagérer non plus"
     },
     {
-        "character": "Belt le vigneron",
+        "character": "Belt",
         "episode": "Livre II, 33 - Spiritueux",
         "file": "vous-avez-pas-pris-le-temps-de-vous-habituer-au-fruit.mp3",
         "title": "Vous avez pas pris le temps de vous habituer au fruit"
@@ -3264,7 +3264,7 @@
         "title": "Non mais biensûr. Donc vous, vous dégommez les souris au maillet ?"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre II, 25 - Séli et les Rongeurs",
         "file": "et-celle-la-jirai-pas-me-coucher-avant-de-lavoir-bousillee.mp3",
         "title": "Et celle-là j'irai pas me coucher avant de l'avoir BOU-SI-LLÉE"
@@ -3324,7 +3324,7 @@
         "title": "Franchement, une potion pour faire pisser bleu ça pressait à la minute là ?"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre II, 20 - Les Misanthropes",
         "file": "il-n-y-a-pas-dequivoque-vous-etes-franchement-un-bourrin.mp3",
         "title": "Il n'y a pas d'équivoque, vous êtes franchement un bourrin en toute circonstance"
@@ -3630,7 +3630,7 @@
         "title": "Vous faites pas la gueule là ?"
     },
     {
-        "character": "Dame Séli",
+        "character": "Séli",
         "episode": "Livre II, 03 - Le Dialogue de Paix",
         "file": "cest-pas-du-burgonde-ca.mp3",
         "title": "C'est pas du Burgonde ça"
