@@ -3820,5 +3820,29 @@
         "episode": "Livre V, 29 - Le Substitut",
         "file": "deja_que_ca_me_gonfle_de_porter_des_messages.mp3",
         "title": "Déjà que ça me gonfle de porter des messages, faisons en sorte que ça dure pas vingt ans !"
+    },
+    {
+        "character": "Seli",
+        "episode": "Livre I, 2 - Les tartes aux myrtilles",
+        "file": "aujourdhui_ya_du_dessert.mp3",
+        "title": "Aujourd'hui y'a du dessert!"
+    },
+    {
+        "character": "Seli",
+        "episode": "Livre I, 2 - Les tartes aux myrtilles",
+        "file": "y_en_a_marre_de_se_comporter_comme_des_sagouins.mp3",
+        "title": "Y'en a marre de se comporter comme des sagouins sous prétexte qu'on a des responsabilités!"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre IV, 76 - Le choix de Gauvain",
+        "file": "euh_donc_pour_le_moment_on_le_crame_pas.mp3",
+        "title": "Euh donc pour le moment on le came pas ?"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre IV, 10 - L'Ascension du Lion",
+        "file": "ah_il_tape_la_où_ca_fait_mal_hein.mp3",
+        "title": "Ah il tape là où ça fait mal hein ! Tout le portrait de son père !"
     }
 ]
