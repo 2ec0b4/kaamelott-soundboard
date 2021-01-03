@@ -3844,5 +3844,11 @@
         "episode": "Livre IV, 10 - L'Ascension du Lion",
         "file": "ah_il_tape_la_ou_ca_fait_mal_hein.mp3",
         "title": "Ah il tape là où ça fait mal hein ! Tout le portrait de son père !"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre V, 11 - Hurlements",
+        "file": "malediction_tout_petits_pets.mp3",
+        "title": "Quand vous avez dit malédiction j'ai fait une série de tout petits pets"
     }
 ]
