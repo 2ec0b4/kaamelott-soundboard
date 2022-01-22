@@ -3862,5 +3862,11 @@
         "episode": "Livre III, 56 - Les Tourelles",
         "file": "peur_justifiee.mp3",
         "title": "Ah bah ouais... Peur justifiée."
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre I, 99 - La retraite",
+        "file": "trois_jours_voyages_trois_jours_chez_vous.mp3",
+        "title": "Trois jours quête du Graal, trois jours de voyages, trois jours chez vous..."
     }
 ]
