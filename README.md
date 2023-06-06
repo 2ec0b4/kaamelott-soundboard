@@ -37,5 +37,6 @@ Whoooohoooo woa c'est mortel !
 * [Application Android](https://gitlab.com/astran/kaamelottsb) pas encore sur le store mais il y a un [lien pour l'apk de dev](https://gitlab.com/astran/kaamelottsb/-/jobs/artifacts/master/raw/app/build/outputs/apk/debug/app-debug.apk?job=assembleDebug) 
 * [Bot Telegram](https://github.com/klmp200/kaamelott-soundboard-telegram-bot)
 * [VoiceBot](https://github.com/scastrec/kaamelottvoice) Pour l'instant, uniquement Alexa, mais déclinable rapidement en Google Assistant si demandes
+* [KaamelottBot](https://github.com/pumbaa666/KaamelottBot) est un bot [Discord](https://discord.com) rigolo qui joue des sons ou affiche des gifs animés dans votre channel Discord `# Bon ben révolte ! TUUUUUUUUT !!`
 
 Merci, de rien, au revoir m'sieur dame
