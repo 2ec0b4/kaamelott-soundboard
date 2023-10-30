@@ -1,6 +1,6 @@
 bower_components
 !docs/bower_components
-dist
+/dist
 node_modules
 .gitconfig
 *.swp
