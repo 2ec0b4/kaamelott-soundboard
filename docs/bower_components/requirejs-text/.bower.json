@@ -1,0 +1,16 @@
+{
+  "name": "text",
+  "version": "2.0.16",
+  "main": "text.js",
+  "license": "MIT",
+  "homepage": "https://github.com/requirejs/text",
+  "_release": "2.0.16",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.0.16",
+    "commit": "4fdd3585dd6f33837bce944a5c26ceb6e34b8060"
+  },
+  "_source": "https://github.com/requirejs/text.git",
+  "_target": "^2.0.12",
+  "_originalSource": "requirejs-text"
+}

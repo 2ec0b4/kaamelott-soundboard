@@ -1,0 +1,53 @@
+{
+  "name": "backbone.marionette",
+  "description": "Make your Backbone.js apps dance with a composite application architecture!",
+  "homepage": "http://marionettejs.org",
+  "main": "./lib/core/backbone.marionette.js",
+  "version": "2.4.7",
+  "keywords": [
+    "backbone",
+    "framework",
+    "client",
+    "browser",
+    "composite"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Derick Bailey",
+    "email": "derickbailey@gmail.com"
+  },
+  "ignore": [
+    "api",
+    "docs",
+    "jsdoc",
+    "src",
+    "tasks",
+    "test",
+    ".editorconfig",
+    ".gitignore",
+    ".jscsrc",
+    ".jshintrc",
+    ".npmignore",
+    ".travis.yml",
+    "component.json",
+    "CONTRIBUTING.md",
+    "Gruntfile.js",
+    "SpecRunner.html",
+    "upgradeGuide.md"
+  ],
+  "dependencies": {
+    "backbone": "1.0.0 - 1.3.x",
+    "underscore": "1.4.4 - 1.8.3",
+    "backbone.babysitter": "^0.1.0",
+    "backbone.wreqr": "^1.0.0"
+  },
+  "_release": "2.4.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.4.7",
+    "commit": "e1a512a2f44fadfebe5c01e8966bdbe4fa5f9e51"
+  },
+  "_source": "https://github.com/marionettejs/backbone.marionette.git",
+  "_target": "^2.4.6",
+  "_originalSource": "backbone.marionette"
+}
