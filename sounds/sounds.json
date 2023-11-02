@@ -3868,5 +3868,113 @@
         "episode": "Livre I, 99 - La retraite",
         "file": "trois_jours_voyages_trois_jours_chez_vous.mp3",
         "title": "Trois jours quête du Graal, trois jours de voyages, trois jours chez vous..."
+    },
+    {
+        "character": "Lancelot",
+        "episode": "Livre IV, 34 - Les Novices",
+        "file": "grosse_pucelle.mp3",
+        "title": "Pour tout vous dire, je crois pas que ce soit bon pour mon autorité que mes soldats apprennent que je suis une grosse pucelle !"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre III, - Chante Sloubi",
+        "file": "sloubi.mp3",
+        "title": "Quand on remporte le tour à Sloubi, on a quatorze solutions possibles"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre x, - inconnu",
+        "file": "vos_aventures.mp3",
+        "title": "Ouais bah vous de toutes façons vos aventures c'est de la merde"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre III, - La poétique",
+        "file": "mi_taupe_mi_deesse.mp3",
+        "title": "Les 3 actes, c'est les bonnes femmes qui sont mi-taupes mi-déesses, et qui ont forcé les mecs de Bethléem à construire les pyramides."
+    },
+    {
+        "character": "Le Maître d'armes",
+        "episode": "Livre IV, 82 - Corpore sano II",
+        "file": "zizi_en_pointe.mp3",
+        "title": "Du nerf, mon lapinou !… Vous allez vous faire tailler le zizi en pointe !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 92 - Excalibur et le Destin",
+        "file": "belle_vie_et_con.mp3",
+        "title": "Est-ce que vous croyez qu'on peut être complètement con et avoir quand même une belle vie ?"
+    },
+    {
+        "character": "Le Maître d'armes",
+        "episode": "Livre II, 52 - Excalibur et le Destin",
+        "file": "en_garde_ma_biquette.mp3",
+        "title": "En garde, ma biquette ! Je vais vous découper le gras du cul, ça vous fera ça de moins à trimbaler !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, - Les Défis de Merlin",
+        "file": "ce_que_cest_votre_truc.mp3",
+        "title": "Un jour faudra vraiment que vous me disiez ce que c'est votre truc"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, - Les Défis de Merlin",
+        "file": "vous_avez_plus_pris_de_la_pucelle.mp3",
+        "title": "Vous avez plus pris de la pucelle."
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre IV, 34 - Les Novices",
+        "file": "sorti_du_sable.mp3",
+        "title": "Eh ben, on est pas sortie du sable !"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre IV, 71 - Perceval Fait Raitournelle",
+        "file": "pellican.mp3",
+        "title": "Donc, on est d'accord : artichette, tichette de deux, tichette de trois, tichette de vingt et un, michette, chedec, mik, zganadabarlane, raisiné et raitournelle."
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre IV, 71 - Perceval Fait Raitournelle",
+        "file": "pellican.mp3",
+        "title": "Donc, on est d'accord : artichette, tichette de deux, tichette de trois, tichette de vingt et un, michette, chedec, mik, zganadabarlane, raisiné et raitournelle."
+    },
+    {
+        "character": "Le Maître d'armes",
+        "episode": "Livre II, 31 - Ivresse",
+        "file": "tatouer.mp3",
+        "title": "Moi, une fois, j'étais soûl comme cochon, je me suis fait tatouer J'aime le raisin de table sur la miche droite, et ça y est toujours ! Moi une fois j'ai pissé par la fenêtre"
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre II, 31 - Ivresse",
+        "file": "tatouer.mp3",
+        "title": "Moi, une fois, j'étais soûl comme cochon, je me suis fait tatouer J'aime le raisin de table sur la miche droite, et ça y est toujours ! Moi une fois j'ai pissé par la fenêtre"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre III, 50 - Chante Sloubi",
+        "file": "chante_sloubi.mp3",
+        "title": "Comme vous êtes second, vous avez plus que dix-neuf solutions possibles : soit vous passez ; soit vous sciez en deux les cinquante poutrelles de trente pieds, mais ça c'est quand on joue avec les bouts de bois. Sinon c'est les relances : doublette ; jeu carré ; jeu de piste ; jeu gagnant ; jeu moulin ; jeu-jeu ; joue-jeu ; joue-joue ; joue-jié ; joue-ganou ; gagnar ; catakt ; tacat ; cacatac ; cagat-cata et ratacat-mic. Ou : chante Sloubi. Nous, on va faire que chante Sloubi."
+    },
+    {
+        "character": "Gauvain",
+        "episode": "Livre III, 77 - Arthur In Love",
+        "file": "je_cligne_de_loeil.mp3",
+        "title": "Qu'est-ce que c'est que ça ? Je cligne de l'oeil mon oncle. Rendez-vous compte hier encore j'en étais incapable."
+    },
+    {
+        "character": "Le roi burgonde",
+        "episode": "Livre IV, 63 - Le Jeu de la guerre",
+        "file": "jouer_guerre_salsifi.mp3",
+        "title": "Jouer ! Guerre ! Salsifis !"
+    },
+    {
+        "character": "Le roi burgonde",
+        "episode": "Livre IV, 63 - Le Jeu de la guerre",
+        "file": "fruit_au_sirop.mp3",
+        "title": "j apprécie les fruits au sirop !"
     }
 ]
